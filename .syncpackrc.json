@@ -6,8 +6,6 @@
     "packages/*/package.json",
     "tooling/*/package.json"
   ],
-  "lintFormatting": false,
-  "lintVersions": false,
   "versionGroups": [
     {
       "label": "Pin React ecosystem versions",
@@ -18,19 +16,13 @@
         "@types/react-dom"
       ],
       "dependencyTypes": ["prod", "dev"],
-      "pinVersion": true
+      "policy": "sameRange"
     },
     {
       "label": "Ensure Next.js versions are consistent",
       "dependencies": ["next", "@next/*"],
       "dependencyTypes": ["prod", "dev"],
       "policy": "sameRange"
-    },
-    {
-      "label": "Use workspace protocol for local packages",
-      "dependencies": ["@cf/*"],
-      "dependencyTypes": ["prod", "dev", "peer"],
-      "policy": "workspace"
     },
     {
       "label": "Testing frameworks alignment",
@@ -81,22 +73,20 @@
       "label": "Prefer caret ranges for production dependencies",
       "range": "^",
       "dependencyTypes": ["prod"],
-      "dependencies": ["**"],
-      "exclude": [
-        "react",
-        "react-dom",
-        "@types/react",
-        "@types/react-dom",
-        "@cf/*",
-        "@radix-ui/*"
+      "dependencies": [
+        "!react",
+        "!react-dom",
+        "!@types/react",
+        "!@types/react-dom",
+        "!@cf/*",
+        "!@radix-ui/*"
       ]
     },
     {
       "label": "Prefer caret ranges for dev dependencies",
       "range": "^",
       "dependencyTypes": ["dev"],
-      "dependencies": ["**"],
-      "exclude": ["@cf/*"]
+      "dependencies": ["!@cf/*"]
     }
   ],
   "sortFirst": [
