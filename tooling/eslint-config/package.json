@@ -27,7 +27,7 @@
   "devDependencies": {
     "@cf/prettier-config": "workspace:*",
     "@cf/typescript-config": "workspace:*",
-    "eslint": "^10.0.3",
+    "eslint": "^9.22.0",
     "typescript": "^5.9.3"
   },
   "eslintConfig": {

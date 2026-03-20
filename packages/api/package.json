@@ -20,7 +20,7 @@
     "@cf/typescript-config": "workspace:*",
     "@tanstack/react-query": "^5.51.11",
     "@types/node": "^24.9.1",
-    "eslint": "^10.0.3",
+    "eslint": "^9.22.0",
     "openapi-typescript": "^7.0.0",
     "prettier": "^3.8.1",
     "react": "^18.3.1",

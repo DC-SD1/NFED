@@ -65,7 +65,7 @@
     "check-dependency-version-consistency": "^6.0.0",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^10.0.3",
+    "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-turbo": "^2.8.18",
     "eslint-plugin-import": "^2.32.0",

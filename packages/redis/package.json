@@ -18,7 +18,7 @@
     "@cf/eslint-config": "workspace:*",
     "@cf/typescript-config": "workspace:*",
     "@types/node": "^24.9.1",
-    "eslint": "^10.0.3",
+    "eslint": "^9.22.0",
     "typescript": "^5.9.3"
   },
   "scripts": {
