@@ -1,0 +1,1000 @@
+{
+  "common": {
+    "welcome": "Welcome to Grower Platform",
+    "signIn": "Login to your account",
+    "signUp": "Create an account",
+    "signOut": "Sign Out",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "profile": "Profile",
+    "back": "Back",
+    "skip": "Skip",
+    "next": "Next",
+    "done": "Done",
+    "processing": "Processing ",
+    "saveAndSend": "Save and send",
+    "save_as_draft": "Save as draft",
+    "submit": "Submit",
+    "resubmit": "Resubmit",
+    "saveAsDraft": "Save as draft",
+    "processing_invitation": "Processing your invitation...",
+    "errors": {
+      "oops_title": "Oops!",
+      "oops_message": "Something went wrong.",
+      "unknown_error": "An unexpected error occurred. Please try again.",
+      "network_error": "Network connection failed. Please check your internet connection.",
+      "timeout": "The request timed out. Please try again.",
+      "server_error": "Server error occurred. Please try again later.",
+      "required_field": "This field is required.",
+      "invalid_field": "Please enter a valid value.",
+      "invalid_format": "Invalid format. Please check your input.",
+      "field_null": "This field cannot be empty.",
+      "field_too_large": "The input is too large. Please reduce the size.",
+      "invalid_value": "Invalid value. Please check your input.",
+      "bad_request": "Bad request. Please check your input and try again.",
+      "invalid_environment": "Request is not valid for this environment.",
+      "invalid_settings": "Invalid authentication settings.",
+      "malformed_request": "The request is malformed and could not be processed.",
+      "invalid_request_body": "Invalid request body. Please check the API documentation.",
+      "invalid_api_key": "Invalid API key. Please check your configuration.",
+      "missing_parameter": "Required parameter is missing.",
+      "unsupported_content_type": "Unsupported content type.",
+      "invalid_proxy_key": "Invalid proxy secret key.",
+      "maintenance_mode": "System is under maintenance. Please try again later.",
+      "not_found": "Resource not found.",
+      "forbidden": "Access forbidden.",
+      "user_quota_exceeded": "A technical error occurred. Our team is resolving the issue, please try again later.",
+      "invalid_url_scheme": "Invalid URL scheme. Please provide a valid URL.",
+      "invalid_redirect_url": "Invalid redirect URL format.",
+      "unauthorized": {
+        "title": "Unauthorized Access",
+        "message": "You don't have permission to access this page. Please contact your administrator if you believe this is an error.",
+        "goToDashboard": "Go to Dashboard",
+        "goToHome": "Go to Home"
+      },
+      "notFound": {
+        "title": "Page Not Found",
+        "message": "Sorry, we couldn't find the page you're looking for. The page might have been removed, renamed, or doesn't exist.",
+        "goToDashboard": "Go to Dashboard",
+        "goToHome": "Go to Home"
+      },
+      "error": {
+        "title": "Something went wrong!",
+        "message": "We're sorry, but something unexpected happened. Please try again or contact support if the problem persists.",
+        "tryAgain": "Try again",
+        "goToHome": "Go to Home"
+      }
+    }
+  },
+  "auth": {
+    "otpSent": "OTP sent to your email!",
+    "otpError": "Could not send OTP. Try again or contact support.",
+    "signInTitle": "Sign in to your account",
+    "signUpTitle": "Create your grower account",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgotten your password?",
+    "recoverPassword": "Recover it now",
+    "recoverPasswordTitle": "Password recovery",
+    "noAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "haveAccount": "Login",
+    "orContinueWith": "Or continue with",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone number",
+    "country": "Country",
+    "selectCountry": "Select country",
+    "enterFirstName": "Enter your first name",
+    "enterLastName": "Enter your last name",
+    "enterEmail": "Enter your email",
+    "creatingAccount": "Creating account...",
+    "continue": "Continue",
+    "or": "Or",
+    "continueWithGoogle": "Continue with Google",
+    "sessionSync": {
+      "welcomeBack": "Welcome back{comma} {name}! Syncing your session...",
+      "readyRedirect": "You're all set. Redirecting...",
+      "syncFailedSigningOut": "Couldn't sync your session. Signing you out to reset."
+    },
+    "you": "there",
+    "resetPasswordVerification": "Reset Password Verification",
+    "loginVerification": "Login Verification",
+    "otpVerification": "OTP Verification",
+    "resetYourPassword": "Reset your password",
+    "changeYourPassword": "Change your password",
+    "createPassword": "Create a password",
+    "createAccount": "Create an account",
+    "enterNewPassword": "Enter a new password for your account",
+    "chooseNewPassword": "Choose a new password for your account",
+    "setNewPassword": "Set new password",
+    "saveNewPassword": "Save new password",
+    "next": "Next",
+    "savePassword": "Save Password",
+    "enterPassword": "Enter your password",
+    "confirmPasswordPlaceholder": "Confirm password",
+    "processing": "Processing...",
+    "enterCode": "Enter the code from Email which we sent to",
+    "verifying": "Verifying...",
+    "apply": "Apply",
+    "didntReceiveOtp": "Didn't receive the OTP?",
+    "sendAgain": "Send again",
+    "sending": "Sending...",
+    "canResendCodeIn": "You can resend the code in",
+    "otpResendSuccess": "Verification code sent successfully! Check your email.",
+    "otpAttemptsWarning": "{attempts} attempts remaining before temporary lockout",
+    "otpLastAttemptWarning": "Last attempt before temporary lockout",
+    "otpMaxAttemptsReached": "Too many attempts. Please wait {minutes} minutes before trying again.",
+    "passwordResetCodeSent": "Password reset code sent! Please check your email at {email}. Remember to check your spam folder if you don't see it.",
+    "byCreatingAccount": "By creating an account you accept our",
+    "termsOfUse": "Terms of Use",
+    "termsAndConditions": "Terms and Conditions",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy",
+    "agreeTo": "I agree to the",
+    "welcomeBack": "Welcome back, {name}!",
+    "accountCreated": "Account created successfully!",
+    "reset_password_subtitle": "Enter the email address associated with your account and we'll send you a link to reset your password.",
+    "create_new_password": "Create new password",
+    "password_updated": "Password reset successfully. Please sign in with your new password.",
+    "password_redirect": "Please wait you will be redirected to the sign in page.",
+    "send_reset_link": "Send reset link",
+    "emailDoesNotExist": "We couldn’t find an account with that email. Please check and try again.",
+    "somethingWentWrong": "Something went wrong. Please try again later.",
+    "resetNotEnabled": "This account can't reset password via email. Please contact support if you need help.",
+    "noUserFound": "Email not registered?",
+    "rateLimitedWithTime": "Too many password reset attempts. Please try again in {seconds} seconds.",
+    "rateLimitExceeded": "Too many password reset attempts. Please try again later.",
+    "passwordRequirements": {
+      "atLeast": "At least",
+      "characters": "8 Characters",
+      "lowercase": "A Lowercase letter",
+      "uppercase": "An uppercase letter",
+      "special": "A special character",
+      "number": "A number"
+    },
+    "errors": {
+      "oops": "Oops! Something went wrong.",
+      "email_not_found": "Email address not found for password reset",
+      "invalid_credentials": "Invalid email or password. Please try again.",
+      "incorrect_password": "Invalid username or password.",
+      "token_expired": "Your session has expired. Please sign in again.",
+      "token_invalid": "Invalid authentication token. Please sign in again.",
+      "auth_error": "We couldn’t log you in. Please double-check your details and try again.",
+      "start_error": "Hmm, we couldn’t start the onboarding. Let’s give it another go.",
+      "submit_error": "Oops! We couldn’t save your responses. Please try again shortly.",
+      "unknown_error": "Something went wrong on our side. Please try again in a moment.",
+      "unauthorized": "You are not authorized to access this resource.",
+      "session_expired": "Your session has expired. Please sign in again.",
+      "session_invalid": "Invalid session. Please sign in again.",
+      "user_not_found": "No account found with this email address.",
+      "no_password_set": "This account uses social sign-in. Please use the 'Continue with Google' button instead.",
+      "email_already_exists": "An account with this email already exists.",
+      "invalid_email": "Please enter a valid email address.",
+      "invalid_password": "Please enter a valid password.",
+      "password_too_weak": "Password is too weak. Please choose a stronger password.",
+      "invalid_phone": "Please enter a valid phone number.",
+      "user_already_exists": "An account with this information already exists.",
+      "account_locked": "Your account has been locked. Please contact support.",
+      "account_suspended": "Your account has been suspended. Please contact support.",
+      "too_many_attempts": "Too many login attempts. Please try again later.",
+      "rate_limit_exceeded": "Too many requests. Please wait and try again.",
+      "otp_expired": "Verification code has expired. Please request a new one.",
+      "otp_invalid": "Invalid verification code. Please check and try again.",
+      "otp_max_attempts": "Maximum verification attempts reached. Please request a new code.",
+      "password_compromised": "This password is too common and easy to guess. Please create a stronger, unique password for better security.",
+      "password_too_short": "Password is too short. Please choose a longer password.",
+      "strategy_mismatch": "This email is associated with a different sign-in method. Please try signing in with Google or reset your password.",
+      "mfa_not_supported": "Two-factor authentication (2FA) is not supported currently. Please contact support to help you disable it.",
+      "needs_new_password": "Please reset your password to continue.",
+      "oauthFailed": "Failed to sign in with {provider}. Please try again.",
+      "signin_incomplete": "Sign-in could not be completed. Please try again or contact support.",
+      "signed_out": "You are signed out. Please sign in to continue.",
+      "session_not_found": "Session not found. Please sign in again.",
+      "session_consumed": "This session has already been used. Please sign in again.",
+      "session_too_old": "Session is too old. Please sign in again.",
+      "emailAlreadyExists": "This email is already registered. Please use a different email or sign in.",
+      "phoneAlreadyExists": "This phone number is already registered. Please use a different number or sign in.",
+      "checkEmailFailed": "Unable to verify email availability. Please try again.",
+      "checkPhoneFailed": "Unable to verify phone number availability. Please try again.",
+      "session_inactive": "Session is no longer active. Please sign in again.",
+      "session_ineligible": "Session cannot be refreshed. Please sign in again.",
+      "request_origin_invalid": "Invalid request origin. Please try again.",
+      "feature_not_enabled": "This feature is not enabled for your account.",
+      "user_banned": "Your account has been banned. If you think this was a mistake, please contact support.",
+      "account_deprovisioned": "Your account has been deprovisioned. Please contact support.",
+      "organization_not_found": "Organization not found or you don't have permission to access it.",
+      "invitation_already_accepted": "This invitation has already been accepted.",
+      "invitation_user_not_found": "User not found. Please sign up first to accept this invitation.",
+      "invitation_not_found": "Invitation not found.",
+      "invitation_not_pending": "This invitation is not in pending status.",
+      "invitation_duplicate": "A pending invitation already exists for this email address.",
+      "invitation_revoked": "This invitation has been revoked.",
+      "organization_deleted": "This organization has been deleted.",
+      "invitation_email_exists": "This email address already exists. Please sign in instead.",
+      "invitation_number_exists": "This phone number already exists. Please sign in instead.",
+      "domain_blocked": "This email domain is blocked. Please use a different email address.",
+      "domain_common": "Common email providers are not allowed. Please use your organization email.",
+      "domain_mismatch": "Email address doesn't match the organization's domain.",
+      "enrollment_mode_disabled": "This enrollment mode is not enabled for your organization.",
+      "domain_quota_exceeded": "Maximum number of domains reached for this organization.",
+      "enterprise_connection_required": "Cannot remove membership tied to enterprise connection.",
+      "verification_not_sent": "Please send a verification code before attempting to verify.",
+      "verification_failed": "Verification failed. Too many incorrect attempts.",
+      "verification_rate_limit": "Too many verification requests. Please wait before trying again.",
+      "totp_incorrect": "Incorrect authenticator code. Please try again.",
+      "totp_already_enabled": "Two-factor authentication is already enabled.",
+      "backup_codes_unavailable": "Enable another 2FA method to use backup codes.",
+      "passkey_failed": "Passkey authentication failed. Please try again.",
+      "passkey_invalid": "Invalid passkey credential.",
+      "oauth_exchange_failed": "OAuth authentication failed. Please try again.",
+      "oauth_misconfigured": "OAuth provider is misconfigured. Please contact support.",
+      "captcha_required": "Please complete the CAPTCHA verification.",
+      "captcha_invalid": "CAPTCHA verification failed. Please try again.",
+      "device_blocked": "This device has been blocked due to suspicious activity.",
+      "device_attestation_required": "Device verification is required.",
+      "device_attestation_failed": "Device verification failed.",
+      "device_attestation_not_configured": "Device attestation is not configured.",
+      "device_attestation_misconfigured": "Device attestation is misconfigured.",
+      "device_attestation_unsupported": "Device attestation is not supported on this platform.",
+      "device_attestation_mismatch": "Device attestation challenge mismatch.",
+      "device_attestation_challenge_invalid": "Invalid or expired device attestation challenge.",
+      "device_attestation_assertion_invalid": "Invalid device attestation assertion.",
+      "assertion_required": "Assertion is required to verify your device.",
+      "ticket_expired": "This ticket has expired.",
+      "ticket_invalid": "Invalid ticket. Please use a valid ticket.",
+      "payment_failed": "Payment failed. Please try again.",
+      "card_declined": "Your card was declined.",
+      "payment_processing_error": "Payment processing error. Please try again.",
+      "payer_not_found": "Payer not found.",
+      "payee_not_found": "Payee not found.",
+      "plan_not_found": "Plan not found.",
+      "subscription_not_found": "Subscription not found.",
+      "too_many_unverified": "Too many unverified contacts. Please verify existing ones first.",
+      "country_not_supported": "Phone numbers from this country are not supported.",
+      "identification_claimed": "This identification has been claimed by another user.",
+      "enhanced_email_disabled": "Enhanced email deliverability requires email OTP only.",
+      "waitlist_closed": "Waitlist is not accepting new entries at this time.",
+      "saml_incomplete": "SAML connection cannot be activated. Missing required fields.",
+      "saml_metadata_fetch_failed": "Failed to fetch SAML IdP metadata.",
+      "saml_metadata_parse_failed": "Failed to parse SAML IdP metadata.",
+      "inviteFail": "Failed to invite user. Please try again.",
+      "completeInvite": "Invite data is incomplete. Please return and complete the invite form.",
+      "completeContract": "Contract data is incomplete. Please return and complete the contract form.",
+      "createContractFail": "Failed to create contract. Please try again."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "farms": "Farms",
+    "crops": "Crops",
+    "activities": "Activities",
+    "analytics": "Analytics",
+    "reports": "Reports",
+    "emptyState": {
+      "title": "Let’s get started",
+      "layoutTitle": "Farm manager",
+      "description": "Feel free to invite someone, send request to hire, or just go ahead and make yourself the farm manager to kick things off!",
+      "addFarmManager": "Add farm manager",
+      "select": "Select the option",
+      "inviteManager": "Invite farm manager",
+      "assignYourself": "Assign myself",
+      "hireManager": "Request to hire",
+      "totalManagers": "Total farm managers",
+      "assignedManagers": "Assigned farm managers",
+      "unassignedManagers": "Not Assigned farm managers",
+      "removedManagers": "Removed farm managers"
+    },
+    "farmManager": {
+      "emptyState": {
+        "title": "Farm Lands",
+        "subtitle": "Let’s get started",
+        "description": "Feel free to invite someone, send request to hire, or just go ahead and make yourself the farm manager to kick things off!",
+        "addFarmLand": "Add farm land",
+        "totalFarmLands": "Total farm lands",
+        "plantingFarmLands": "Planting farm lands",
+        "harvestingFarmLands": "Harvesting farm lands",
+        "deactivatedFarmLands": "Deactivated farm lands"
+      }
+    },
+    "inviteManager": {
+      "title": "Invite Farm Manager",
+      "back": "Back",
+      "header": "Farm Manager",
+      "description": "To invite the farm manager, fill out the details below!",
+      "firstName": "First name",
+      "enterFirstName": "Enter first name",
+      "lastName": "Last name",
+      "enterLastName": "Enter last name",
+      "yearsOfExperience": "Years of experience",
+      "phoneNumber": "Phone number",
+      "email": "Email",
+      "enterEmail": "Enter manager’s email address",
+      "workType": "Is the manager working full-time or contractor?",
+      "fullTime": "Full Time",
+      "contractor": "Contractor",
+      "workPayType": "How’s the manager getting paid?",
+      "payroll": "Paid via payroll",
+      "equityYield": "Take equity of the yield",
+      "hybrid": "Hybrid of cash and equity",
+      "inviteSuccess": "Invite sent successfully!",
+      "inviteSuccessDescription": "The invite's been sent to the farm manager! Just hang tight and wait for their reply."
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "farmer": {
+        "farms": "My Farms",
+        "crops": "Crops",
+        "activities": "Activities",
+        "analytics": "Analytics",
+        "equipment": "Equipment",
+        "marketplace": "Marketplace"
+      },
+      "agent": {
+        "clients": "Clients",
+        "territory": "Territory",
+        "performance": "Performance",
+        "training": "Training",
+        "communications": "Communications",
+        "reports": "Reports"
+      },
+      "errors": {
+        "selectAtLeastOne": "Please select at least one goal"
+      }
+    }
+  },
+  "api": {
+    "errors": {
+      "bad_request": "Invalid request. Please check your input and try again.",
+      "unauthorized": "You are not authorized to perform this action.",
+      "forbidden": "Access denied. You don't have permission to access this resource.",
+      "not_found": "The requested resource was not found.",
+      "timeout": "Request timed out. Please try again.",
+      "conflict": "There was a conflict with your request. Please try again.",
+      "validation_error": "Please check your input and correct any errors.",
+      "rate_limit": "Too many requests. Please wait and try again.",
+      "internal_server_error": "Internal server error. Please try again later.",
+      "bad_gateway": "Service temporarily unavailable. Please try again.",
+      "service_unavailable": "Service is currently unavailable. Please try again later.",
+      "gateway_timeout": "Gateway timeout. Please try again.",
+      "validation_failed": "Validation failed. Please check your input.",
+      "rate_limit_exceeded": "Rate limit exceeded. Please wait and try again."
+    }
+  },
+  "authFlow": {
+    "title": "Your Sourcing, Simplified.",
+    "description": "Get your next batch of high-quality crops with less effort and more control from quote to shipment."
+  },
+  "landing": {
+    "hero": {
+      "title": "Modern Farming Made Simple",
+      "subtitle": "Track, manage, and optimize your agricultural operations with Complete Farmer's digital platform",
+      "cta": "Get Started",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "Everything you need to grow",
+      "farmManagement": {
+        "title": "Farm Management",
+        "description": "Manage multiple farms, fields, and crops in one place"
+      },
+      "cropTracking": {
+        "title": "Crop Tracking",
+        "description": "Monitor crop health, growth stages, and yield predictions"
+      },
+      "analytics": {
+        "title": "Smart Analytics",
+        "description": "Data-driven insights to optimize your farming operations"
+      }
+    },
+    "carousel": {
+      "slide1": {
+        "title": "Start a farm. Visit your farms.",
+        "subtitle": "Farm from anywhere. Everything you need in one place"
+      },
+      "slide2": {
+        "title": "Grow your business. Track your progress.",
+        "subtitle": "Monitor your crops and optimize your farming operations"
+      },
+      "slide3": {
+        "title": "Connect with farmers. Share knowledge.",
+        "subtitle": "Join a community of farmers and agricultural experts"
+      },
+      "slide4": {
+        "title": "Scale your operations. Maximize efficiency.",
+        "subtitle": "Advanced tools and insights for professional farming"
+      }
+    }
+  },
+  "metadata": {
+    "signUpTitle": "Sign Up - CF Grower",
+    "signUpDescription": "Join thousands of farmers growing smarter with Complete Farmer",
+    "signInTitle": "Sign In - CF Grower",
+    "signInDescription": "Sign in to your account to continue"
+  },
+  "alt": {
+    "cf": "CF",
+    "cfGrowerLogo": "CF Grower Logo",
+    "mailIcon": "Mail icon"
+  },
+  "onboarding": {
+    "marketing": {
+      "start": "Get Started",
+      "next": "Next",
+      "title": "First things first, how did you hear about us?",
+      "subtitle": "(This helps us reach more growers like you!)",
+      "options": {
+        "friends-family": "Friends or family",
+        "cf-agent-representative": "A CF Agent or representative",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "google-search": "Google search",
+        "radio-newspaper": "Radio or Newspaper",
+        "event-trade-fair": "Event or trade fair",
+        "other": "Other"
+      }
+    },
+    "segmentation": {
+      "title": "Experience Status",
+      "subtitle": "Have you farmed before, or is this your first time?",
+      "new-label": "Newbie",
+      "new-description": "I'm new to farming",
+      "experienced-label": "Experienced",
+      "experienced-description": "I've farmed before"
+    },
+    "newbie": {
+      "preference": {
+        "title": "Farming preference",
+        "title2": "Farming method",
+        "subtitle": "Welcome aboard! We're excited to help you get started.",
+        "question": " Would you like to:",
+        "farmSelf": "Farm on your own",
+        "farmManager": "Work with a farm manager"
+      },
+      "land-availability": {
+        "greatChoice": "Great choice! You can hire a skilled farm manager right here on the platform to guide your journey.",
+        "question": "Do you have land you plan to use?",
+        "yes": "Yes",
+        "no": "No, I'll need land"
+      },
+      "need-land": {
+        "subtitle1": "No problem—we've got you covered. You can easily lease verified lands right here on the platform.",
+        "subtitle2": "We'll help you find a match to your crop and location.",
+        "next": "Next"
+      },
+      "farming-method": {
+        "question": "What type of farming are you interested in?",
+        "greenhouse": "Green house farming",
+        "openField": "Open Field Farming",
+        "notSure": "I am not sure yet",
+        "coming-soon": "Coming Soon"
+      },
+      "goals": {
+        "title": "Farming Goal",
+        "description": "And just to make sure we're giving you the best experience",
+        "mainQuestion": "What's your main goal on CF Grower?",
+        "options": {
+          "startGuidance": "I want to start farming and need guidance",
+          "betterYields": "I already farm and want better yields",
+          "export": "I want to grow for export",
+          "investment": "I'm exploring farming as an investment"
+        },
+        "errors": {
+          "selectAtLeastOne": "Please select at least one goal"
+        }
+      },
+      "commitment": {
+        "title": "Almost there! Let's make it Official.",
+        "description": " I will use CF Grower to...",
+        "start": "Start and manage my farm so I can successfully reach my goals.",
+        "slide": "Slide to open your farm gate and commit to your journey.",
+        "swipe": "Slide to open"
+      },
+      "complete": {
+        "done": "All done!",
+        "title": "Based on your answers, we'll tailor your dashboard with tools and tips to help you succeed.",
+        "start": "Start farming"
+      }
+    },
+    "experienced": {
+      "farming-level": {
+        "title": "Farming level",
+        "subtitle": "That's awesome! Experience is always valuable.",
+        "question": "How long have you been farming?",
+        "options": {
+          "less_than_1_year": "Less than 1 year",
+          "1-3_years": "1-3 years",
+          "4-7_years": "4-7 years",
+          "5-10_years": "5-10 years",
+          "8+_years": "8+ years"
+        }
+      },
+      "current-crops": {
+        "title": "Crops cultivated",
+        "subtitle": "What crops have you grown?",
+        "instruction": "Select all that apply or type your own:",
+        "options": {
+          "chilli-pepper": "Chilli pepper",
+          "maize": "Maize",
+          "soybean": "Soy bean",
+          "sweet-potatoes": "Sweet Potatoes",
+          "other": "Other"
+        },
+        "errors": {
+          "selectAtLeastOne": "Please select at least one crop you're currently growing"
+        },
+        "next": "Next"
+      },
+      "preference": {
+        "title": "Farming preference",
+        "question": " Would you like to:",
+        "farmSelf": "Farm on your own",
+        "farmManager": "Work with a farm manager"
+      },
+      "land-availability": {
+        "title": "Farming preference",
+        "greatChoice": " Excellent choice! You can invite your own farm manager or hire a skilled one on the platform when you need one.",
+        "question": "Do you have land you plan to use?",
+        "yes": "Yes",
+        "no": "No, I'll need land"
+      },
+      "farming-method": {
+        "title": "Farming Methods",
+        "subtitle": "No problem—we've got you covered. You can easily lease verified lands right here on the platform. We'll help you find a match to your crop and location.",
+        "question": "What type of farming are you interested in?",
+        "greenhouse": "Green house farming",
+        "openField": "Open Field Farming",
+        "notSure": "I am not sure yet",
+        "coming-soon": "Coming Soon"
+      }
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": {
+      "invalid": "Please enter a valid email address"
+    },
+    "phone": {
+      "required": "Phone number is required",
+      "invalid": "Please enter a valid phone number"
+    },
+    "firstName": {
+      "min": "First name must be at least 2 characters",
+      "max": "First name must not exceed 50 characters",
+      "invalid": "First name can only contain letters, spaces, hyphens, and apostrophes"
+    },
+    "lastName": {
+      "min": "Last name must be at least 2 characters",
+      "max": "Last name must not exceed 50 characters",
+      "invalid": "Last name can only contain letters, spaces, hyphens, and apostrophes"
+    },
+    "organizationName": {
+      "required": "Organization name is required"
+    },
+    "companySize": {
+      "required": "Company size is required"
+    },
+    "revenueRange": {
+      "required": "Revenue range is required"
+    },
+    "password": {
+      "min": "Password must be at least 8 characters",
+      "uppercase": "Password must contain at least one uppercase letter",
+      "lowercase": "Password must contain at least one lowercase letter",
+      "number": "Password must contain at least one number",
+      "special": "Password must contain at least one special character",
+      "noSpaces": "Password cannot contain spaces",
+      "mismatch": "Passwords don't match"
+    },
+    "otp": {
+      "length": "OTP must be exactly 6 digits",
+      "invalid": "OTP must contain only numbers"
+    },
+    "country": {
+      "required": "Country is required"
+    }
+  },
+  "buyerOnboarding": {
+    "basicInfo": {
+      "organisationInfo": {
+        "title": "Enter your organization information",
+        "subtitle": "Kindly fill the form below with required details.",
+        "organizationName": "Organization Name",
+        "organizationNamePlaceholder": "Enter your organization name",
+        "companySize": "Size of company by people",
+        "companySizePlaceholder": "Select your company size",
+        "revenueRange": "Revenue range",
+        "revenueRangePlaceholder": "Select your revenue range",
+        "saveAndContinue": "Save and continue",
+        "companySizeOptions": {
+          "0-49": "0 - 49 people",
+          "50-249": "50 - 249 people",
+          "250-999": "250 - 999 people",
+          "1000+": "1000 people and above"
+        },
+        "revenueRangeOptions": {
+          "< $999": "< $999",
+          "$1,000 - $9,999": "$1,000 - $9,999",
+          "$10,000 - $99,999": "$10,000 - $99,999",
+          "> $100,000": "> $100,000",
+          "< GHS 9,999": "< GHS 9,999",
+          "GHS 10,000 - GHS 99,999": "GHS 10,000 - GHS 99,999",
+          "GHS 100,000 - GHS 999,999": "GHS 100,000 - GHS 999,999",
+          "> GHS 1,000,000": "> GHS 1,000,000"
+        }
+      }
+    },
+    "cropInterest": {
+      "title": "Select your crop interest",
+      "subtitle": "Kindly select all crops that interest you.",
+      "otherCrops": "Other crops",
+      "otherCropsPlaceholder": "Didn't find a crop that interests you? Type them here and separate with a comma (,)",
+      "back": "Back",
+      "saveAndContinue": "Save and continue",
+      "crops": {
+        "chili-pepper": {
+          "label": "Chili pepper",
+          "category": "Fruits and vegetables"
+        },
+        "sheanut": {
+          "label": "Sheanut",
+          "category": "Fruits and vegetables"
+        },
+        "pineapple": {
+          "label": "Pineapples",
+          "category": "Fruits and vegetables"
+        },
+        "avocado": {
+          "label": "Avocados",
+          "category": "Fruits and vegetables"
+        },
+        "cassava": {
+          "label": "Cassava",
+          "category": "Roots and tubers"
+        },
+        "soybean": {
+          "label": "Soya beans",
+          "category": "Fruits and vegetables"
+        },
+        "sweet-potatoes": {
+          "label": "Sweet potatoes",
+          "category": "Roots and tubers"
+        },
+        "ginger": {
+          "label": "Ginger",
+          "category": "Roots and tubers"
+        }
+      },
+      "categories": {
+        "fruitsAndVegetables": "Fruits and vegetables",
+        "rootsAndTubers": "Roots and tubers"
+      },
+      "validation": {
+        "selectAtLeastOneCrop": "Please select at least one crop"
+      }
+    },
+    "corporateIdentity": {
+      "title": "Upload your corporate identity documents",
+      "subtitle": "Kindly upload the necessary documents below.",
+      "label": "Business incorporation docs",
+      "labelDescription": "PDF, JPEG, or PNG less than 10MB",
+      "proofOfBusinessAddress": "Proof of business address (optional)",
+      "corporateProfileOrBrochure": "Corporate profile/ brochure (optional)",
+      "back": "Back",
+      "saveAndContinue": "Save and continue",
+      "validation": {
+        "selectAtLeastOneBusinessDoc": "Please select at least one business incorporation document"
+      }
+    },
+    "authorizedRepresentative": {
+      "title": "Upload your authorized representative documents",
+      "subtitle": "Kindly upload the necessary documents below.",
+      "idOfApplicant": "ID of applicant",
+      "idOfShareholders": "ID's of shareholders",
+      "certificateOfIncorporation": "Board Resolution or Power of Attorney (optional)",
+      "labelDescription": "PDF, JPEG, or PNG less than 10MB",
+      "back": "Back",
+      "saveAndContinue": "Save and continue",
+      "validation": {
+        "selectAtLeastOneDoc": "Please select at least one document"
+      }
+    },
+    "financialStanding": {
+      "title": "Upload your financial documents",
+      "subtitle": "Kindly upload the necessary documents below.",
+      "auditedFinancialStatements": "Audited financial statements (last 2 years)",
+      "bankReferenceLetter": "Bank reference letter",
+      "creditRatingReport": "Credit rating report (if available)",
+      "proofOfFunds": "Proof of funds (bank statement or escrow confirmation)",
+      "shippingRecords": "Shipping records",
+      "labelDescription": "PDF, JPEG, or PNG less than 10MB",
+      "back": "Back",
+      "saveAndContinue": "Save and continue",
+      "validation": {
+        "selectAtLeastOneFinancialStatement": "Please select at least one financial statement"
+      }
+    },
+    "sidebar": {
+      "basicInformation": "Basic information",
+      "organizationInformation": "Organization information",
+      "cropInterest": "Crop interest",
+      "companyDocuments": "Company documents",
+      "corporateIdentity": "Corporate identity",
+      "authorizedRepresentative": "Authorized representative",
+      "financialStanding": "Financial standing & liquidity",
+      "reviewAndSubmit": "Review and submit"
+    }
+  },
+  "kycBanner": {
+    "continueOnboarding": "Continue your onboarding",
+    "draftMessage": "Access has been temporarily restricted. Continue your KYC onboarding now to unlock all the features of your dashboard!",
+    "underReview": "Your KYC documents are under review and usually take about 48 hours. We'll email you once they're approved. Thanks for your patience!",
+    "contactSupport": "Contact support",
+    "resubmissionRequired": "Your KYC documents have had some issues and require immediate attention. Please review them and resubmit.",
+    "updateDocuments": "Update KYC documents",
+    "noStatusMessage": "Access has been temporarily restricted. Start your KYC onboarding now to unlock all the features of your dashboard!",
+    "noStatusButton": "Start your onboarding"
+  },
+  "sourcing": {
+    "sourcingPopup": {
+      "cancel": "Cancel sourcing",
+      "saveAndExit": "Save and exit"
+    },
+    "cancelSouring": {
+      "title": "Cancel sourcing",
+      "description": "Are you sure you want to cancel this sourcing? All sourcing progress will be lost.",
+      "form": {
+        "reason": "Reason for cancelation",
+        "reasonPlaceholder": "Provide reason here",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      }
+    },
+    "saveAndExit": {
+      "title": "Save as draft",
+      "description": "Are you sure you want to save this sourcing as a draft and continue later?",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "availableCrops": {
+      "cropSpecification": {
+        "page": {
+          "title": "Select quantity",
+          "subtitle": "Kindly fill the form below with required details."
+        },
+        "quantitySelector": {
+          "title": "Select quantity (in metric tonnes)",
+          "available": "30,000 MT Available",
+          "placeholder": "10,000"
+        },
+        "form": {
+          "validation": {
+            "quantityRequired": "Quantity is required"
+          },
+          "sections": {
+            "cropSpecification": "Crop specification",
+            "otherSpecification": "Other specification",
+            "certificates": "Certificates",
+            "testingType": "Testing type"
+          },
+          "labels": {
+            "cropSpecification": {
+              "variety": "Variety",
+              "condition": "Condition",
+              "grade": "Grade",
+              "cultivationType": "Cultivation type",
+              "packagingType": "Packaging type"
+            }
+          }
+        }
+      }
+    },
+    "sourcingReview": {
+      "page": {
+        "title": "Sourcing summary",
+        "subtitle": "Please take a moment to review and confirm your choice.",
+        "submitForProcessingButton": "Submit for processing"
+      },
+      "submitForProcessing": {
+        "title": "Confirm submission",
+        "description": "Would you like to submit this order for processing?",
+        "no": "No,cancel",
+        "yes": "Yes, submit"
+      }
+    },
+    "offerReview": {
+      "signing": {
+        "title": "Signature",
+        "instruction": "Draw your signature below",
+        "description": "I agree that the signature and initials will be the electronic representation of my signature and initials for all purposes when i (or my agent) use them on documents, including legally binding contracts - just the same as a pen and paper signature or initial.",
+        "draw": "Draw signature",
+        "upload": "Upload signature",
+        "confirm": "Confirm signature",
+        "cancel": "Cancel",
+        "clear": "Clear signature"
+      },
+      "title": "Offer review",
+      "description": "Kindly review the quotation details below.",
+      "viewInvoice": "View invoice",
+      "downloadSuccessful": "Download successful",
+      "summary": {
+        "farmgatePrice": "Farmgate price",
+        "warehouseServices": "Warehouse services",
+        "tests": "Tests",
+        "packagaing": "Packaging",
+        "freightCost": "Freight/logistics cost",
+        "taxImplication": "Tax implication",
+        "totalCost": "Total cost"
+      },
+      "footer": {
+        "decline": "Decline",
+        "renegotiate": "Renegotiate",
+        "accept": "Accept"
+      },
+      "generateContract": {
+        "title": "Generate contract",
+        "description": "Accept this quote to acknowledge offer and proceed to contract signing.",
+        "cancel": "Cancel",
+        "continue": "Continue"
+      },
+      "declineOffer": {
+        "title": "Decline offer",
+        "description": "Please kindly provide your reason for declining this offer.",
+        "form": {
+          "reason": "Reason for declination",
+          "reasonPlaceholder": "Provide reason here",
+          "cancel": "Cancel",
+          "confirm": "Confirm"
+        }
+      },
+      "renegotiateOffer": {
+        "title": "Renegotiate offer",
+        "description": "Please enter your preferred terms for renegotiation.",
+        "form": {
+          "renegotiateTerms": "Renegotiate terms",
+          "renegotiateTermsPlaceholder": "Provide reason here",
+          "cancel": "Cancel",
+          "submit": "Submit"
+        }
+      }
+    },
+    "orderDeclined": {
+      "title": "This order has been declined",
+      "description": "This is the description and should be simple short and direct for easy understanding.",
+      "returnToHome": "Return to home"
+    },
+    "documentProcessing": {
+      "title": "Document processing in progress",
+      "description": "We're processing your order right now. It should be ready within 48 hours."
+    },
+    "navigation": {
+      "title": "Crop sourcing"
+    },
+    "steps": {
+      "cropSpecification": "Crop specification",
+      "shippingMethod": "Shipping method",
+      "paymentDetails": "Payment details",
+      "sourcingReview": "Sourcing review",
+      "documentProcessing": "Document processing",
+      "offerReview": "Offer review",
+      "salesContract": "Sales contract"
+    },
+    "estimator": {
+      "title": "Cost Estimator",
+      "description": "Preview an estimate of your sourcing costs below. To guide your decisions.",
+      "placeholder": "Provide required crop specifications"
+    },
+    "footer": {
+      "back": "Back",
+      "continue": "Continue"
+    },
+    "cropSpecification": {
+      "page": {
+        "title": "Select crop specification",
+        "subtitle": "Kindly fill the form below with required details."
+      },
+      "quantitySelector": {
+        "title": "Select quantity (in metric tonnes)",
+        "available": "30,000 MT Available",
+        "placeholder": "10,000"
+      },
+      "form": {
+        "labels": {
+          "variety": "Variety",
+          "cultivationType": "Cultivation type",
+          "grade": "Grade",
+          "processingStyle": "Processing style",
+          "packagingStyle": "Packaging style",
+          "certificationType": "Certification type",
+          "testingType": "Testing type"
+        },
+        "placeholders": {
+          "selectVariety": "Select variety",
+          "selectCultivationType": "Select cultivation type",
+          "selectGrade": "Select grade",
+          "selectProcessingStyle": "Select processing style",
+          "selectPackagingStyle": "Select packaging style",
+          "selectCertificationType": "Select certification type",
+          "selectTestingType": "Select testing type"
+        }
+      },
+      "validation": {
+        "quantityRequired": "Quantity is required",
+        "varietyRequired": "Variety is required",
+        "cultivationTypeRequired": "Cultivation type is required",
+        "gradeRequired": "Grade is required",
+        "processingStyleRequired": "Processing style is required",
+        "packagingStyleRequired": "Packaging style is required",
+        "certificationTypeRequired": "Certification type is required",
+        "testingTypeRequired": "Testing type is required"
+      }
+    },
+    "shippingMethod": {
+      "page": {
+        "title": "Shipping information",
+        "subtitle": "Please select one of the shipping methods and provide the additional details."
+      }
+    },
+    "paymentDetails": {
+      "page": {
+        "title": "Payment information",
+        "subtitle": "Please select one of the shipping methods and provide the additional details."
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account preferences and settings here",
+    "cards": {
+      "profile": {
+        "title": "Profile Management",
+        "description": "Update your personal details, contact information, and avatar."
+      },
+      "notifications": {
+        "title": "Notification Settings",
+        "description": "Choose how and when you receive alerts from Complete Farmer."
+      },
+      "account": {
+        "title": "Account Settings",
+        "description": "Manage authentication, connected providers, and security controls."
+      }
+    },
+    "profile": {
+      "title": "Profile Management",
+      "subtitle": "Update your personal information to keep your account accurate.",
+      "empty": "Profile preferences will be available soon.",
+      "breadcrumb": {
+        "settings": "Settings",
+        "profileSettings": "Profile settings"
+      },
+      "tabs": {
+        "profileDetails": "Profile details",
+        "staffDetails": "Staff details"
+      },
+      "completionCard": {
+        "title": "Your profile detail is {percentage}% complete!",
+        "doLater": "Do this later",
+        "completeNow": "Complete now"
+      },
+      "buttons": {
+        "edit": "Edit",
+        "view": "View"
+      }
+    },
+    "notifications": {
+      "title": "Notification Settings",
+      "subtitle": "Choose which alerts you receive and how we notify you.",
+      "empty": "Notification preferences will be configurable soon."
+    },
+    "account": {
+      "title": "Account Settings",
+      "subtitle": "Control password, multi-factor, and connected account preferences.",
+      "empty": "Account controls are coming soon."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Build caches - exclude from Netlify secret scanning
+.next/cache/
+.turbo/
+node_modules/.cache/
+
+# Development files
+.env.local
+.env.*.local
+
+# IDE
+.cursor/
+.windsurf/
+.vscode/
+.idea/
+

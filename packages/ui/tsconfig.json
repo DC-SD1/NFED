@@ -1,0 +1,12 @@
+{
+  "extends": "@cf/typescript-config/base",
+  "compilerOptions": {
+    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
+  },
+  "include": [
+    "*.ts",
+    "src",
+    "../../apps/buyer/src/app/[locale]/onboarding/review/[slug]/_components/status-badge.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

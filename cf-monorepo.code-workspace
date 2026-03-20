@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "name": "📦 Root",
+      "path": "."
+    },
+    {
+      "name": "🌱 Grower App",
+      "path": "apps/grower"
+    },
+    {
+      "name": "🔐 Auth Proxy",
+      "path": "apps/auth-proxy"
+    },
+    {
+      "name": "🎨 UI Package",
+      "path": "packages/ui"
+    },
+    {
+      "name": "🔌 API Package",
+      "path": "packages/api"
+    },
+    {
+      "name": "🔒 Auth Package",
+      "path": "packages/auth"
+    },
+    {
+      "name": "🛠️ Common Package",
+      "path": "packages/common"
+    },
+    {
+      "name": "⚙️ Tooling",
+      "path": "tooling"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "📦 Root/node_modules/typescript/lib"
+  }
+}

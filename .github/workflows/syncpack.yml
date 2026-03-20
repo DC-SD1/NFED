@@ -1,0 +1,38 @@
+name: Syncpack Version Check
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  push:
+    branches: [main, qa, develop]
+
+jobs:
+  syncpack:
+    name: Check dependency versions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: 1.2.5
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Check version mismatches
+        run: bun run deps:check
+
+      - name: Check semver ranges
+        run: bun run deps:lint
+
+      - name: Generate mismatch report
+        if: failure()
+        run: |
+          echo "## ❌ Dependency Version Mismatches Found" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Run \`bun run deps:fix\` locally to fix these issues." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          bun run syncpack list-mismatches >> $GITHUB_STEP_SUMMARY 2>&1 || true
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY

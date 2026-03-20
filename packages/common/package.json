@@ -1,0 +1,43 @@
+{
+  "name": "@cf/common",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./subscriptions": "./src/subscriptions.ts",
+    "./hooks": "./src/hooks/index.ts"
+  },
+  "dependencies": {
+    "@cf/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@cf/eslint-config": "workspace:*",
+    "@cf/prettier-config": "workspace:*",
+    "@cf/typescript-config": "workspace:*",
+    "@types/react": "^18.3.3",
+    "eslint": "^10.0.3",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@cf/eslint-config/base"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^18.3.0"
+  },
+  "prettier": "@cf/prettier-config",
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --check '**/*.{mjs,ts,json}' "
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "src/*"
+      ]
+    }
+  }
+}

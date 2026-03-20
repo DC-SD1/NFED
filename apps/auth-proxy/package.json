@@ -1,0 +1,32 @@
+{
+  "name": "@cf/auth-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "@cf/eslint-config": "workspace:*",
+    "@cf/prettier-config": "workspace:*",
+    "@cf/tailwind-config": "workspace:*",
+    "@cf/typescript-config": "workspace:*",
+    "@types/node": "^24.9.1",
+    "eslint": "^10.0.3",
+    "h3": "^1.11.1",
+    "nitropack": "^2.9.6",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@cf/eslint-config/base"
+    ]
+  },
+  "prettier": "@cf/prettier-config",
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --write '**/*.{js,cjs,mjs,ts,tsx,md,json}'  --ignore-path .prettierignore",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
+  }
+}

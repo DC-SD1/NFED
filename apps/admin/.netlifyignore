@@ -1,0 +1,20 @@
+# Build caches - exclude from Netlify secret scanning
+.next/cache/
+.turbo/
+node_modules/.cache/
+.netlify/
+
+# Root-relative paths (for monorepo context)
+apps/admin/.next/cache/
+apps/admin/.turbo/
+apps/admin/.netlify/
+
+# Development files
+.env.local
+.env.*.local
+
+# IDE
+.cursor/
+.windsurf/
+.vscode/
+.idea/

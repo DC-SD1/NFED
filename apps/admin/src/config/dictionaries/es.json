@@ -1,0 +1,1075 @@
+{
+  "common": {
+    "welcome": "Bienvenido",
+    "tableMetadata": {
+      "rowSelected": "fila(s) seleccionada(s).",
+      "perPage": "Filas por página",
+      "of": "de",
+      "page": "Página"
+    },
+    "errors": {
+      "oops_title": "Ups!",
+      "oops_message": "Algo salió mal.",
+      "unknown_error": "Ocurrió un error inesperado. Por favor intenta de nuevo.",
+      "network_error": "Error de conexión de red. Por favor verifica tu conexión a internet.",
+      "timeout": "La solicitud expiró. Por favor intenta de nuevo.",
+      "server_error": "Error del servidor. Por favor intenta más tarde.",
+      "required_field": "Este campo es obligatorio.",
+      "invalid_field": "Por favor ingresa un valor válido.",
+      "invalid_format": "Formato inválido. Por favor verifica tu entrada.",
+      "field_null": "Este campo no puede estar vacío.",
+      "field_too_large": "La entrada es demasiado grande. Por favor reduce el tamaño.",
+      "invalid_value": "Valor inválido. Por favor verifica tu entrada.",
+      "bad_request": "Solicitud incorrecta. Por favor verifica tu entrada e intenta de nuevo.",
+      "invalid_environment": "La solicitud no es válida para este entorno.",
+      "invalid_settings": "Configuración de autenticación inválida.",
+      "malformed_request": "La solicitud está mal formada y no se pudo procesar.",
+      "invalid_request_body": "Cuerpo de solicitud inválido. Por favor consulta la documentación de la API.",
+      "invalid_api_key": "Clave API inválida. Por favor verifica tu configuración.",
+      "missing_parameter": "Falta un parámetro requerido.",
+      "unsupported_content_type": "Tipo de contenido no soportado.",
+      "invalid_proxy_key": "Clave secreta de proxy inválida.",
+      "maintenance_mode": "El sistema está en mantenimiento. Por favor intenta más tarde.",
+      "not_found": "Recurso no encontrado.",
+      "forbidden": "Acceso prohibido.",
+      "invalid_url_scheme": "Esquema de URL inválido. Por favor proporciona una URL válida.",
+      "invalid_redirect_url": "Formato de URL de redirección inválido.",
+      "unauthorized": {
+        "title": "Acceso no autorizado",
+        "message": "No tienes permiso para acceder a esta página. Por favor contacta a tu administrador si crees que esto es un error.",
+        "goToDashboard": "Ir al Panel de Control",
+        "goToHome": "Ir a Inicio"
+      },
+      "notFound": {
+        "title": "Página no encontrada",
+        "message": "Lo sentimos, no pudimos encontrar la página que buscas. La página podría haber sido eliminada, renombrada o no existe.",
+        "goToDashboard": "Ir al Panel de Control",
+        "goToHome": "Ir a Inicio"
+      },
+      "error": {
+        "title": "¡Algo salió mal!",
+        "message": "Lo sentimos, pero algo inesperado sucedió. Por favor intenta de nuevo o contacta al soporte si el problema persiste.",
+        "tryAgain": "Intentar de nuevo",
+        "goToHome": "Ir a Inicio"
+      }
+    },
+    "profileMenu": {
+      "profile": "Perfil",
+      "activityLog": "Historial de actividad",
+      "signOut": "Cerrar sesión"
+    },
+    "notificationMenu": {
+      "title": "Notificaciones",
+      "markAllAsRead": "Marcar todas como leídas"
+    },
+    "copyButton": {
+      "success": "Copiado al portapapeles",
+      "error": "No se pudo copiar al portapapeles"
+    },
+    "approvalActions": {
+      "view": "Ver",
+      "approve": "Aprobar",
+      "declineWithReason": "Rechazar con motivo",
+      "approved": "Aprobado",
+      "declinedWithReason": "Rechazado con motivo",
+      "change": "Cambiar",
+      "cancel": "Cancelar",
+      "save": "Guardar",
+      "reasonPlaceholder": "¿Por qué quieres suspender a este cliente?"
+    }
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signInTitle": "Acceso seguro solo para el personal",
+    "signInButton": "Continuar con Microsoft",
+    "email": "Correo electrónico",
+    "placeholder": "Ingresa tu correo electrónico completo",
+    "welcomeBack": "¡Bienvenido de nuevo, {name}!",
+    "accountCreated": "¡Cuenta creada exitosamente!",
+    "processing": "Procesando...",
+    "metadata": {
+      "signInTitle": "Iniciar sesión - CF Admin",
+      "signInDescription": "Inicia sesión en tu cuenta para continuar"
+    },
+    "sessionSync": {
+      "welcomeBack": "¡Bienvenido de nuevo, {name}!",
+      "readyRedirect": "Ya estás listo. Redirigiendo…",
+      "syncFailedSigningOut": "No pudimos sincronizar tu sesión. Cerrando sesión para reiniciar."
+    },
+    "you": "allí",
+    "errors": {
+      "oops": "¡Ups! Algo salió mal.",
+      "token_expired": "Tu sesión ha expirado. Por favor inicia sesión de nuevo.",
+      "token_invalid": "Token de autenticación expirado. Por favor inicia sesión de nuevo.",
+      "auth_error": "No pudimos iniciar sesión. Por favor verifica tus detalles y vuelve a intentarlo.",
+      "start_error": "Hmm, no pudimos iniciar el proceso. Vamos a intentarlo de nuevo.",
+      "submit_error": "¡Ups! No pudimos guardar tus respuestas. Por favor intenta de nuevo.",
+      "unknown_error": "Algo salió mal en nuestro lado. Por favor intenta de nuevo en un momento.",
+      "unauthorized": "No tienes permiso para acceder a este recurso.",
+      "session_expired": "Tu sesión ha expirado. Por favor inicia sesión de nuevo.",
+      "session_invalid": "Sesión inválida. Por favor inicia sesión de nuevo.",
+      "user_not_found": "No se encontró ninguna cuenta con este correo electrónico.",
+      "email_already_exists": "Ya existe una cuenta con este correo electrónico.",
+      "user_already_exists": "Ya existe una cuenta con esta información.",
+      "account_locked": "Tu cuenta ha sido bloqueada. Por favor contacta al soporte.",
+      "account_suspended": "Tu cuenta ha sido suspendida. Por favor contacta al soporte.",
+      "too_many_attempts": "Demasiados intentos de inicio de sesión. Por favor intenta de nuevo más tarde.",
+      "rate_limit_exceeded": "Demasiadas solicitudes. Por favor espera y vuelve a intentarlo.",
+      "mfa_not_supported": "Autenticación de dos factores (2FA) no está soportada actualmente. Por favor contacta al soporte para deshabilitarla.",
+      "oauthFailed": "No se pudo iniciar sesión con {provider}. Por favor intenta de nuevo.",
+      "signed_out": "Has cerrado sesión. Por favor inicia sesión para continuar.",
+      "session_not_found": "Sesión no encontrada. Por favor inicia sesión de nuevo.",
+      "session_consumed": "Esta sesión ya ha sido utilizada. Por favor inicia sesión de nuevo.",
+      "session_too_old": "La sesión es demasiado antigua. Por favor inicia sesión de nuevo.",
+      "checkEmailFailed": "No se pudo verificar la disponibilidad del correo electrónico. Por favor intenta de nuevo.",
+      "session_inactive": "La sesión ya no está activa. Por favor inicia sesión de nuevo.",
+      "session_ineligible": "La sesión no puede ser actualizada. Por favor inicia sesión de nuevo.",
+      "request_origin_invalid": "Origen de solicitud inválido. Por favor intenta de nuevo.",
+      "feature_not_enabled": "Esta característica no está habilitada para tu cuenta.",
+      "user_banned": "Tu cuenta ha sido bloqueada. Si crees que esto es un error, por favor contacta al soporte.",
+      "account_deprovisioned": "Tu cuenta ha sido desprovisionada. Por favor contacta al soporte.",
+      "organization_not_found": "Organización no encontrada o no tienes permiso para acceder a ella.",
+      "invitation_already_accepted": "Esta invitación ya ha sido aceptada.",
+      "invitation_user_not_found": "Usuario no encontrado. Por favor regístrate primero para aceptar esta invitación.",
+      "invitation_not_found": "Invitación no encontrada.",
+      "invitation_not_pending": "Esta invitación no está en estado pendiente.",
+      "invitation_duplicate": "Ya existe una invitación pendiente para este correo electrónico.",
+      "invitation_revoked": "Esta invitación ha sido revocada.",
+      "organization_deleted": "Esta organización ha sido eliminada.",
+      "invitation_email_exists": "Este correo electrónico ya existe. Por favor inicia sesión en su lugar.",
+      "invitation_number_exists": "Este número de teléfono ya existe. Por favor inicia sesión en su lugar.",
+      "invitation_expired": "El enlace de invitación ha expirado. Por favor solicita uno nuevo.",
+      "invitation_invalid_token_format": "El enlace de invitación es inválido. Por favor verifica el enlace y vuelve a intentarlo.",
+      "invitation_invalid_email_token": "La invitación contiene un correo electrónico inválido.",
+      "invitation_malformed_email_token": "La invitación contiene un correo electrónico inválido.",
+      "invitation_invalid_date_token": "La invitación contiene una fecha inválida.",
+      "invitation_invalid_date_format": "El formato de fecha de la invitación es inválido.",
+      "invitation_missing_token": "Falta el token de invitación. Por favor usa el enlace completo desde tu correo electrónico.",
+      "invitation_invalid_email_for_token": "Correo electrónico inválido proporcionado para la invitación.",
+      "invitation_invalid_email_format": "El formato de correo electrónico es inválido.",
+      "invitation_missing_params": "Enlace de invitación inválido. Faltan parámetros requeridos.",
+      "clerk_user_not_found": "No se encontró ninguna cuenta de usuario. Por favor contacta al soporte.",
+      "clerk_api_error": "Error al conectar con el servicio de autenticación. Por favor intenta de nuevo.",
+      "invitation_processing_failed": "No se pudo procesar la invitación. Por favor intenta de nuevo.",
+      "unknown_token_error": "Ocurrió un error al validar la invitación. Por favor intenta de nuevo.",
+      "invitation_generic_error": "Ocurrió un error con la invitación. Por favor contacta al soporte.",
+      "invitation_invalid_token_data": "Los datos de la invitación son inválidos. Por favor solicita una nueva invitación.",
+      "domain_blocked": "Este dominio de correo electrónico está bloqueado. Por favor usa un correo electrónico diferente.",
+      "domain_common": "Los proveedores de correo electrónico comunes no están permitidos. Por favor usa tu correo electrónico de la organización.",
+      "domain_mismatch": "El correo electrónico no coincide con el dominio de la organización.",
+      "enrollment_mode_disabled": "Este modo de inscripción no está habilitado para tu organización.",
+      "domain_quota_exceeded": "Se alcanzó el número máximo de dominios para esta organización.",
+      "enterprise_connection_required": "No se puede eliminar la membresía vinculada a la conexión empresarial.",
+      "verification_not_sent": "Por favor envía un código de verificación antes de intentar verificar.",
+      "verification_failed": "La verificación falló. Demasiados intentos incorrectos.",
+      "verification_rate_limit": "Demasiadas solicitudes de verificación. Por favor espera antes de intentar de nuevo.",
+      "totp_incorrect": "Código de autenticador incorrecto. Por favor intenta de nuevo.",
+      "totp_already_enabled": "La autenticación de dos factores ya está habilitada.",
+      "backup_codes_unavailable": "Habilita otro método de 2FA para usar códigos de respaldo.",
+      "passkey_failed": "La autenticación con passkey falló. Por favor intenta de nuevo.",
+      "passkey_invalid": "Credencial de passkey inválida.",
+      "oauth_exchange_failed": "La autenticación OAuth falló. Por favor intenta de nuevo.",
+      "oauth_misconfigured": "El proveedor OAuth está configurado incorrectamente. Por favor contacta al soporte.",
+      "captcha_required": "Por favor completa la verificación de CAPTCHA.",
+      "captcha_invalid": "La verificación de CAPTCHA falló. Por favor intenta de nuevo.",
+      "device_blocked": "Este dispositivo ha sido bloqueado debido a actividad sospechosa.",
+      "device_attestation_required": "Se requiere la verificación del dispositivo.",
+      "device_attestation_failed": "La verificación del dispositivo falló.",
+      "device_attestation_not_configured": "La verificación del dispositivo no está configurada.",
+      "device_attestation_misconfigured": "La verificación del dispositivo está configurada incorrectamente.",
+      "device_attestation_unsupported": "La verificación del dispositivo no está soportada en esta plataforma.",
+      "device_attestation_mismatch": "La verificación del dispositivo no coincide.",
+      "device_attestation_challenge_invalid": "Verificación del dispositivo inválida o expirada.",
+      "device_attestation_assertion_invalid": "Asertación de verificación del dispositivo inválida.",
+      "contact_admin": "Contacta al administrador para la invitación."
+    }
+  },
+  "userManagement": {
+    "pageTitle": "Gestión de usuarios",
+    "exportButton": "Exportar",
+    "inviteUserButton": "Invitar usuarios",
+    "exportUser": {
+      "title": "Exportar elementos",
+      "allItems": "Todos los elementos",
+      "itemsMatchingAppliedFilters": "Elementos que coinciden con los filtros aplicados",
+      "exportButton": "Exportar",
+      "fileFormatTitle": "Formato de archivo",
+      "fileFormatDescription": "Este es el formato que puedes esperar para la exportación una vez que se descargue.",
+      "fileFormatOptions": {
+        "csv": "Formato de archivo CSV"
+      },
+      "successMessage": "Exportación exitosa",
+      "exportErrorMessage": "Error al exportar todos los usuarios"
+    },
+    "emptyState": {
+      "title": "No se encontraron usuarios",
+      "description": "Tu lista de usuarios está vacía. Invita nuevos usuarios para comenzar."
+    },
+    "userMetrics": {
+      "totalStaff": "Personal total",
+      "userStatus": "Estado del usuario",
+      "allTime": "Todo el tiempo",
+      "active": "Activo",
+      "deactivated": "Desactivado",
+      "pending": "Pendiente"
+    },
+    "userTable": {
+      "actions": {
+        "deactivate": "Desactivar usuario",
+        "view": "Ver detalle",
+        "edit": "Editar rol",
+        "resendInvite": "Reenviar invitación"
+      },
+      "deactivateUsers": "Desactivar {count} usuarios",
+      "resetToolbar": "Restablecer",
+      "resendInvite": "Reenviar invitación",
+      "noUsersFound": "No se encontraron usuarios",
+      "yourSearchResults": "Tus resultados de búsqueda"
+    },
+    "deactivateUser": {
+      "title": "Desactivar usuario",
+      "bulkTitle": "Desactivar {count} usuarios",
+      "description": "Esto deshabilitará inmediatamente su acceso a CF Admin. Ya no podrán iniciar sesión, pero sus datos permanecerán en el sistema.",
+      "deactivateButton": "Desactivar usuario",
+      "bulkDeactivateButton": "Desactivar usuarios",
+      "cancelButton": "Cancelar",
+      "singleDeactivateDescription": "Esto deshabilitará inmediatamente el acceso a CF Admin de {name}. Ya no podrán iniciar sesión, pero sus datos permanecerán en el sistema."
+    },
+    "inviteUser": {
+      "title": "Invitar usuarios",
+      "inviteButton": "Invitar",
+      "addUser": "Agregar usuario",
+      "workEmail": "Correo electrónico de trabajo",
+      "assignRole": "Asignar rol",
+      "chooseRole": "Elegir rol",
+      "missingFields": "Por favor completa todos los campos",
+      "duplicateEmails": "Por favor elimina correos electrónicos duplicados",
+      "invalidEmail": "Por favor ingresa un correo electrónico válido",
+      "emailAlreadyExists": "Este correo electrónico ya existe",
+      "invalidEmails": "Por favor elimina correos electrónicos inválidos",
+      "incompleteFarmerEmail": "Correo electrónico de Complete Farmer inválido"
+    },
+    "accountDetail": {
+      "title": "Detalles de la cuenta",
+      "editRole": "Editar rol",
+      "editAccount": "Editar cuenta",
+      "deactivate": "Desactivar",
+      "activityHistory": "Historial de actividad",
+      "department": "Departamento",
+      "assignedRole": "Rol asignado",
+      "phoneNumber": "Número de teléfono",
+      "reactivate": "Reactivar",
+      "resendInvite": "Reenviar invitación"
+    },
+    "editUserRole": {
+      "title": "Editar rol",
+      "assignedRole": "Rol asignado",
+      "saveButton": "Guardar",
+      "chooseRole": "Elegir un rol"
+    },
+    "activityHistory": {
+      "title": "Historial de actividad",
+      "actionTypePlaceholder": "Seleccionar tipo de acción",
+      "datePlaceholder": "Seleccionar fecha",
+      "emptyState": {
+        "title": "No hay actividad aún",
+        "description": "Tus acciones en la plataforma aparecerán aquí.",
+        "notFound": "No se encontró actividad",
+        "notFoundDescription": "Tus resultados de búsqueda."
+      }
+    },
+    "editAccount": {
+      "title": "Editar cuenta",
+      "edit": "Editar",
+      "fullName": "Nombre completo",
+      "fullName-placeholder": "Ingresa tu nombre completo",
+      "email": "Correo electrónico",
+      "email-placeholder": "Ingresa tu correo electrónico",
+      "department": "Departamento",
+      "department-placeholder": "Ingresa tu departamento",
+      "role": "Rol asignado",
+      "role-placeholder": "Ingresa tu rol",
+      "phone": "Número de teléfono",
+      "phone-placeholder": "Ingresa tu número de teléfono",
+      "save": "Guardar",
+      "successMessage": "Perfil actualizado exitosamente"
+    }
+  },
+  "customerManagement": {
+    "formalGrower": {
+      "pageTitle": "Gestión de formal growers",
+      "inviteUserButton": "Invitar",
+      "exportButton": "Exportar",
+      "emptyState": {
+        "title": "No se encontraron formal growers",
+        "description": "Tu lista de formal growers está vacía. Invita nuevos clientes para comenzar."
+      },
+      "userMetrics": {
+        "status": "Estado",
+        "totalGrowers": "Total de formal growers",
+        "totalCountries": "Total de países",
+        "active": "Activo",
+        "deactivated": "Desactivado",
+        "pending": "Pendiente",
+        "suspended": "Suspendido"
+      },
+      "formalGrowerTable": {
+        "actions": {
+          "deactivate": "Desactivar usuario",
+          "view": "Ver detalle",
+          "requestSuspension": "Solicitar suspensión",
+          "requestReactivation": "Solicitar reactivación",
+          "resendInvite": "Reenviar invitación"
+        },
+        "deactivateUsers": "Desactivar {count} usuarios",
+        "resetToolbar": "Restablecer",
+        "resendInvite": "Reenviar invitación",
+        "noUsersFound": "No se encontraron usuarios",
+        "yourSearchResults": "Tus resultados de búsqueda",
+        "headers": {
+          "name": "Nombre de formal grower",
+          "assignedAgent": "Agente asignado",
+          "email": "Correo electrónico",
+          "country": "País",
+          "status": "Estado"
+        }
+      },
+      "filters": {
+        "dateRange": "Seleccionar rango de fechas",
+        "selectCountry": "Buscar países",
+        "selectStatus": "Seleccionar estado",
+        "searchPlaceholder": "Buscar por nombre de formal grower, agente, país, teléfono",
+        "resendInvite": "Reenviar invitación",
+        "resetToolbar": "Restablecer",
+        "requestToSuspend": "Solicitar suspensión",
+        "requestToReactivate": "Solicitar reactivación"
+      },
+      "inviteFormalGrower": {
+        "title": "Invitar formal growers",
+        "inviteButton": "Invitar formal growers",
+        "addNew": "Agregar nuevo",
+        "phoneNumber": "Número de teléfono",
+        "phoneNumberPlaceholder": "Ingresa el número de teléfono",
+        "email": "Correo electrónico",
+        "missingFields": "Por favor completa todos los campos",
+        "duplicateEmails": "Por favor elimina correos electrónicos duplicados",
+        "invalidEmail": "Por favor ingresa un correo electrónico válido",
+        "invalidPhoneNumber": "Por favor ingresa un número de teléfono válido",
+        "emailAlreadyExists": "Este correo electrónico ya existe",
+        "phoneNumberAlreadyExists": "Este número de teléfono ya existe",
+        "invalidEmails": "Por favor elimina correos electrónicos inválidos",
+        "invalidPhoneNumbers": "Por favor elimina números de teléfono inválidos",
+        "duplicatePhoneNumbers": "Por favor elimina números de teléfono duplicados"
+      },
+      "requestToSuspendGrower": {
+        "title": "Solicitar suspensión de formal grower",
+        "grower": "Formal grower",
+        "assignedFulfillmentCenters": "Centros de cumplimiento asignados",
+        "proofOfViolation": "Prueba de violación (Opcional)",
+        "suspensionReason": "Motivo de suspensión",
+        "reasonPlaceholder": "¿Por qué quieres suspender a este cliente?",
+        "fileTitle": "Subir prueba de violación",
+        "fileDescription": "PDF, JPEG, o PNG menos de 10MB",
+        "submit": "Solicitar suspensión",
+        "successModal": {
+          "title": "Solicitud de suspensión enviada",
+          "description": "Tu solicitud para suspender a {grower} ha sido enviada. Ellos permanecerán activos hasta que un administrador lo revise.",
+          "done": "Entendido"
+        }
+      },
+      "details": {
+        "pageTitle": "Detalles de formal grower",
+        "alert": {
+          "description": "Este formal grower está actualmente suspendido y no puede realizar ninguna actividad.",
+          "reasons": "Motivos",
+          "reactivate": "Reactivar"
+        },
+        "breadcrumbs": {
+          "formalGrower": "Formal growers",
+          "details": "Detalles"
+        },
+        "actions": {
+          "requestSuspension": "Solicitar suspensión",
+          "resendInvite": "Reenviar invitación",
+          "reactivate": "Reactivar",
+          "requestReactivation": "Solicitar reactivación"
+        },
+        "tabs": {
+          "details": "Detalles",
+          "overview": "Overview"
+        },
+        "overviewTab": {
+          "pageTitle": "Overview",
+          "dateRange": "Rango de fechas",
+          "farmProductivityScore": "Puntuación de productividad de la granja",
+          "currentCropPhase": "Fase actual del cultivo",
+          "reportFrequency": "Frecuencia de reporte",
+          "yieldInsights": "Insights de rendimiento",
+          "inspectionsAndAgronomySupport": "Inspecciones y asistencia agronómica",
+          "issuesRaisedThisSeason": "Problemas planteados esta temporada",
+          "tasksCompletedOnTime": "Tareas completadas a tiempo",
+          "taskCompletionRate": "Tasa de completación de tareas",
+          "agronomyVisits": "Visitas agronómicas",
+          "escalaciones": "Escalaciones"
+        },
+        "detailsTab": {
+          "pageTitle": "Detalles",
+          "lastActivity": "Último activo",
+          "formalGrower": "Formal grower",
+          "tabs": {
+            "detail": "Detalles",
+            "kyc": "KYC",
+            "paymentInfo": "Información de pago"
+          },
+          "kycTab": {
+            "preferences": "Preferencias",
+            "experienceStatus": "Estado de experiencia",
+            "farmingPreferences": "Preferencias de agricultura",
+            "doYouHaveLandYouPlanToUse": "¿Tienes tierra que planeas usar?",
+            "farmingMethods": "Métodos de agricultura",
+            "whatsYourMainGoalOnCFGrower": "¿Cuál es tu objetivo principal en CF Grower",
+            "uploadValidGhanaIDCard": "Subir tarjeta de identificación válida de Ghana",
+            "uploadValidPassport": "Subir pasaporte válido",
+            "votersIDOrPassport": "ID o pasaporte del votante (Este es opcional si no hay ID válido)",
+            "idOrPassportExpirationDate": "Fecha de expiración del ID o pasaporte",
+            "uploadAValidVisa": "Subir un visa válido (Opcional)",
+            "ghanaPostGPSAddress": "Dirección GPS de Ghana post",
+            "address": "Dirección",
+            "proofOfAddress": "Prueba de dirección",
+            "typeOfResidenceAndDocuments": "Tipo de residencia y documentos",
+            "certificationDocuments": "Documentos de certificación",
+            "kycApprovalDetail": "Detalles de aprobación KYC",
+            "approvedBy": "Aprobado por",
+            "approvedDateAndTime": "Fecha y hora de aprobación",
+            "notAssigned": "No asignado",
+            "notUploadedYet": "No subido aún",
+            "noLocalDocumentsUploaded": "No documentos locales subidos",
+            "noInternationalDocumentsUploaded": "No documentos internacionales subidos",
+            "emptyState": {
+              "title": "No hay detalles de KYC disponibles",
+              "description": "La información KYC aparecerá aquí una vez que el agente haya completado sus procesos."
+            },
+            "idCardTitle": "Tarjeta de identificación",
+            "idVotersIDOrPassport": "ID o pasaporte del votante",
+            "idPassport": "Pasaporte",
+            "visaImageTitle": "Imagen del visa"
+          }
+        },
+        "sideMenu": {
+          "formalGrower": "Formal grower",
+          "phone": "Teléfono",
+          "email": "Correo electrónico",
+          "fulfillmentCenter": "Centro de cumplimiento",
+          "assignedRom": "RoM asignado",
+          "status": "Estado",
+          "lastActive": "Último activo",
+          "country": "País",
+          "region": "Región",
+          "district": "Distrito",
+          "assignedAgent": "Agente asignado",
+          "approvedBy": "Aprobado por",
+          "viewMore": "Ver más",
+          "viewAll": "Ver todos",
+          "activeFarms": "Farms activas ({count})",
+          "notAssigned": "No asignado"
+        },
+        "growerSuspensionReasonModal": {
+          "title": "Detalles de suspensión",
+          "reasonsForSuspension": "Motivos de suspensión",
+          "requestInformation": "Información de solicitud",
+          "requestedOn": "Solicitado el",
+          "requestedBy": "Solicitado por",
+          "approvedBy": "Aprobado por",
+          "approvedDateAndTime": "Fecha y hora de aprobación",
+          "proofOfVerification": "Prueba de verificación",
+          "noDocumentFound": "No se encontró documento",
+          "reactivateGrower": "Reactivar formal grower"
+        }
+      }
+    },
+    "buyer": {
+      "pageTitle": "Compradores",
+      "inviteUserButton": "Invitar",
+      "exportButton": "Exportar",
+      "emptyState": {
+        "title": "No se encontraron compradores",
+        "description": "Su lista de compradores está vacía. Invite a nuevos compradores para comenzar."
+      },
+      "userMetrics": {
+        "status": "Estado",
+        "totalBuyers": "Total de compradores",
+        "totalCountries": "Total de países",
+        "active": "Activo",
+        "deactivated": "Desactivado",
+        "pending": "Pendiente",
+        "suspended": "Suspendido"
+      },
+      "buyerTable": {
+        "actions": {
+          "deactivate": "Desactivar usuario",
+          "view": "Ver detalles",
+          "requestSuspension": "Solicitar suspensión",
+          "requestReactivation": "Solicitar reactivación",
+          "resendInvite": "Reenviar invitación"
+        },
+        "deactivateUsers": "Desactivar {count} usuarios",
+        "resetToolbar": "Restablecer",
+        "resendInvite": "Reenviar invitación",
+        "noBuyersFound": "No se encontraron compradores",
+        "yourSearchResults": "Sus resultados de búsqueda",
+        "headers": {
+          "name": "Nombre del comprador",
+          "organizationName": "Nombre de la organización",
+          "companyName": "Nombre de la empresa",
+          "email": "Correo electrónico",
+          "country": "País",
+          "status": "Estado",
+          "compliance": "Cumplimiento"
+        }
+      },
+      "filters": {
+        "dateRange": "Seleccionar rango de fechas",
+        "selectCountry": "Buscar países",
+        "selectStatus": "Seleccionar estado",
+        "selectComplianceStatus": "Todos los riesgos de cumplimiento",
+        "searchPlaceholder": "Buscar por nombre de comprador, empresa, país, teléfono",
+        "resendInvite": "Reenviar invitación",
+        "resetToolbar": "Restablecer",
+        "requestToSuspend": "Solicitar suspensión",
+        "requestToReactivate": "Solicitar reactivación"
+      },
+      "inviteBuyer": {
+        "title": "Invitar compradores",
+        "inviteButton": "Invitar compradores",
+        "addNew": "Agregar nuevo",
+        "firstName": "Nombre",
+        "firstNamePlaceholder": "Ingrese el nombre",
+        "lastName": "Apellido",
+        "lastNamePlaceholder": "Ingrese el apellido",
+        "phoneNumber": "Número de teléfono",
+        "phoneNumberPlaceholder": "Ingrese el número de teléfono",
+        "email": "Correo electrónico",
+        "emailPlaceholder": "Ingrese la dirección de correo electrónico",
+        "successMessage": "Comprador invitado exitosamente.",
+        "missingFields": "Por favor complete todos los campos",
+        "duplicateEmails": "Por favor elimine los correos electrónicos duplicados",
+        "invalidEmail": "Ingrese una dirección de correo electrónico válida",
+        "invalidPhoneNumber": "Ingrese un número de teléfono válido",
+        "emailAlreadyExists": "La dirección de correo electrónico ya existe",
+        "phoneNumberAlreadyExists": "El número de teléfono ya existe",
+        "invalidEmails": "Por favor elimine los correos electrónicos inválidos",
+        "invalidPhoneNumbers": "Por favor elimine los números de teléfono inválidos",
+        "duplicatePhoneNumbers": "Por favor elimine los números de teléfono duplicados"
+      }
+    },
+    "agents": {
+      "pageTitle": "Agentes",
+      "inviteUserButton": "Invitar",
+      "exportButton": "Exportar",
+      "action": {
+        "inviteAgent": "Invitar agente",
+        "inviteProspectiveAgent": "Invitar agente potencial"
+      },
+      "tabs": {
+        "listView": "Vista de lista",
+        "mapView": "Vista de mapa"
+      },
+      "emptyState": {
+        "title": "No se encontraron agentes",
+        "description": "Tu lista de agentes está vacía. Invita nuevos clientes para comenzar."
+      },
+      "userMetrics": {
+        "status": "Estado",
+        "totalAgents": "Total de agentes",
+        "active": "Activo",
+        "deactivated": "Desactivado",
+        "pending": "Pendiente",
+        "suspended": "Suspendido"
+      },
+      "agentsTable": {
+        "actions": {
+          "deactivate": "Desactivar agente",
+          "view": "Ver detalle",
+          "requestSuspension": "Solicitar suspensión",
+          "requestReactivation": "Solicitar reactivación",
+          "resendInvite": "Reenviar invitación"
+        },
+        "deactivateUsers": "Desactivar {count} agentes",
+        "resetToolbar": "Restablecer",
+        "resendInvite": "Reenviar invitación",
+        "noAgentsFound": "No se encontraron agentes",
+        "yourSearchResults": "Tus resultados de búsqueda",
+        "headers": {
+          "name": "Nombre de agente",
+          "assignedRom": "RoM asignado",
+          "noOfSmf": "No de SHF",
+          "fulfillmentCenter": "Centro de cumplimiento",
+          "phoneNumber": "Número de teléfono",
+          "status": "Estado"
+        }
+      },
+      "filters": {
+        "dateRange": "Seleccionar rango de fechas",
+        "selectCountry": "Buscar países",
+        "selectRegion": "Buscar regiones",
+        "selectFulfillmentCenter": "Buscar centros de cumplimiento",
+        "selectStatus": "Seleccionar estado",
+        "searchPlaceholder": "Buscar por agente, RoM, centro de cumplimiento",
+        "resendInvite": "Reenviar invitación",
+        "resetToolbar": "Restablecer",
+        "requestToSuspend": "Solicitar suspensión",
+        "requestToReactivate": "Solicitar reactivación"
+      },
+      "inviteAgents": {
+        "title": "Invitar {group}",
+        "inviteButton": "Invitar {group}",
+        "firstName": "Nombre",
+        "firstNamePlaceholder": "eg:John",
+        "lastNamePlaceholder": "eg:Doe",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "emailPlaceholder": "example@company.com",
+        "phoneNumber": "Número de teléfono",
+        "phoneNumberPlaceholder": "Ingresa el número de teléfono",
+        "successMessage": "Agente invitado exitosamente."
+      },
+      "details": {
+        "pageTitle": "Detalles de agente",
+        "export": "Exportar",
+        "assign": "Asignar",
+        "alert": {
+          "description": "Este agente está actualmente suspendido y no puede realizar ninguna actividad.",
+          "reasons": "Motivos",
+          "reactivate": "Reactivar"
+        },
+        "breadcrumbs": {
+          "agents": "Agentes",
+          "details": "Detalles"
+        },
+        "actions": {
+          "requestSuspension": "Solicitar suspensión",
+          "resendInvite": "Reenviar invitación",
+          "reactivate": "Reactivar",
+          "requestReactivation": "Solicitar reactivación",
+          "assignToFarmland": "Asignar a farmland"
+        },
+        "tabs": {
+          "details": "Detalles",
+          "overview": "Overview",
+          "growers": "Growers"
+        },
+        "overviewTab": {
+          "pageTitle": "Overview",
+          "dateRange": "Date range",
+          "totalTasksAssigned": "Total tasks assigned",
+          "totalFarms": "Total farms",
+          "taskCompletionRate": "Task completion rate",
+          "avgEscalationResponse": "Avg. escalation response",
+          "routingCapacity": "Routing capacity",
+          "commissions": "Commissions",
+          "totalAcres": "Total acres",
+          "smallholderFarmers": "Smallholder farmers",
+          "commercialFarmers": "Commercial farmers",
+          "visitsMade": "Visits made",
+          "avgPerFarm": "Avg per farm",
+          "acresMapped": "Acres mapped",
+          "paid": "Paid",
+          "pending": "Pending",
+          "inactive": "Inactive",
+          "underProduction": "Under production",
+          "completed": "Completed",
+          "agentMapActivities": "Agent map activities"
+        },
+        "detailsTab": {
+          "agent": "Agente",
+          "lastActivity": "Último activo",
+          "tabs": {
+            "detail": "Detalles",
+            "kyc": "KYC",
+            "paymentInfo": "Información de pago"
+          },
+          "kycTab": {
+            "notAssigned": "No asignado",
+            "emptyState": {
+              "title": "No hay detalles de KYC disponibles",
+              "description": "KYC information will appear here once the agent has completed their processes."
+            },
+            "approvedBy": "Aprobado por",
+            "approvedDateAndTime": "Fecha y hora de aprobación",
+            "kycApprovalDetail": "Detalles de aprobación KYC",
+            "trainingCertificate": "Certificado de capacitación",
+            "notUploadedYet": "No subido aún",
+            "ghanaCardFrontView": "Vista frontal de la tarjeta de Ghana",
+            "ghanaCardBackView": "Vista posterior de la tarjeta de Ghana"
+          }
+        },
+        "farmersTab": {
+          "pageTitle": "Farmers",
+          "dateRange": "Date range",
+          "linkedFarmers": "Linked farmers",
+          "smallholder": "Smallholder",
+          "formal": "Formal",
+          "status": "Estado",
+          "active": "Activo",
+          "inactive": "Inactivo",
+          "filters": {
+            "searchPlaceholder": "Buscar por nombre de formal grower, agente, país, teléfono",
+            "selectGrowerType": "Seleccionar tipo de formal grower",
+            "searchCenters": "Buscar centros de cumplimiento",
+            "reassignFarmers": "Reasignar {count} formal growers",
+            "suspendFarmers": "Suspender {count} formal growers"
+          },
+          "table": {
+            "headers": {
+              "name": "Nombre de formal grower",
+              "growerType": "Tipo de formal grower",
+              "farm": "Granja (ac)",
+              "fulfillmentCenter": "Centro de cumplimiento",
+              "status": "Estado"
+            },
+            "actions": {
+              "viewDetail": "Ver detalle",
+              "reassignFarmland": "Reasignar farmland"
+            },
+            "emptyState": {
+              "title": "No formal growers to display",
+              "description": "Formal growers linked to agents will appear here once added or onboarded."
+            },
+            "searchEmptyState": {
+              "title": "No formal growers found",
+              "description": "Your search results"
+            }
+          }
+        },
+        "sideMenu": {
+          "agent": "Agente",
+          "phoneNumber": "Número de teléfono",
+          "email": "Correo electrónico",
+          "status": "Estado",
+          "lastActive": "Último activo",
+          "agentId": "ID de agente",
+          "viewMore": "Ver más",
+          "fulfillmentCenter": "Centro de cumplimiento",
+          "notAssigned": "No asignado",
+          "assignedRom": "RoM asignado",
+          "customerType": "Tipo de cliente",
+          "country": "País",
+          "region": "Región",
+          "village": "Village",
+          "community": "Community",
+          "activityLogs": "Actividades logs",
+          "noActivityLogsFound": "No se encontraron actividades logs."
+        },
+        "assignFarmland": {
+          "title": "Asignar agente a farmland",
+          "reassignTitle": "Reasignar agente a farmland",
+          "buttonText": "Asignar agente a farmland",
+          "selectedFarmland": "Farmland seleccionado",
+          "selectedAgent": "Agente seleccionado",
+          "grower": "Grower",
+          "assignedAgent": "Agente asignado",
+          "location": "Ubicación",
+          "size": "Tamaño",
+          "back": "Atrás",
+          "reassign": "Reasignar",
+          "farmland": "Farmland",
+          "farmlandPlaceholder": "Asignar farmland",
+          "successMessage": "Agente asignado a farmland con éxito.",
+          "reassignSuccessMessage": "Agente reasignado a {farmland} con éxito.",
+          "confirmationDialog": {
+            "title": "Asignar agente a farmland?",
+            "reassignTitle": "Reasignar agente a farmland?",
+            "message": "¿Estás seguro de querer asignar este {agentName} a {farmlandName}?",
+            "reassignMessage": "¿Estás seguro de querer reasignar este {agentName} a {farmlandName}?",
+            "cancel": "Cancelar",
+            "assign": "Asignar"
+          }
+        }
+      }
+    }
+  },
+  "allRequests": {
+    "title": "Todas las solicitudes({count})",
+    "tabs": {
+      "new": "Nuevo",
+      "inProgress": "En progreso",
+      "rejected": "Rechazado",
+      "completed": "Completado"
+    },
+    "pageTitles": {
+      "new": "Solicitudes nuevas",
+      "inProgress": "Solicitudes en progreso",
+      "rejected": "Solicitudes rechazadas",
+      "completed": "Solicitudes completadas"
+    },
+    "table": {
+      "headers": {
+        "date": "Fecha",
+        "requestType": "Tipo de solicitud",
+        "requestedBy": "Solicitado por",
+        "status": "Estado"
+      },
+      "actions": {
+        "review": "Revisar",
+        "sendReminder": "Enviar recordatorio"
+      },
+      "newTab": {
+        "emptyState": {
+          "title": "No hay solicitudes pendientes",
+          "description": "No hay nada esperando revisión en este momento. Te avisaremos cuando haya algo nuevo."
+        }
+      },
+      "inProgressTab": {
+        "emptyState": {
+          "title": "No hay solicitudes en progreso",
+          "description": "Ya estás al día. No hay solicitudes en progreso en este momento."
+        }
+      },
+      "rejectedTab": {
+        "emptyState": {
+          "title": "No hay solicitudes rechazadas",
+          "description": "Una vez que hayas rechazado solicitudes, aparecerán aquí."
+        }
+      },
+      "completedTab": {
+        "emptyState": {
+          "title": "No hay solicitudes completadas",
+          "description": "Una vez que hayas completado o rechazado solicitudes, aparecerán aquí."
+        }
+      }
+    },
+    "reviewKyc": {
+      "pageTitle": "Revisar KYC",
+      "back": "Atrás",
+      "next": "Siguiente",
+      "declineRequest": "Rechazar solicitud",
+      "submitRequest": "Enviar & solicitar cambios",
+      "update": "Actualizar",
+      "notAssigned": "No asignado",
+      "tabs": {
+        "typeOfResidenceAndDocuments": "Tipo de residencia y documentos",
+        "certificates": "Certificados",
+        "reviewAndConfirm": "Revisar y confirmar",
+        "corporateIdentity": "Identidad corporativa",
+        "authorizedRepresentative": "Representante autorizado",
+        "financialStandingAndLiquidity": "Estándares financieros y liquidez"
+      },
+      "rightContent": {
+        "requestDetail": "Detalle de solicitud",
+        "requestedOn": "Solicitado el",
+        "requestType": "Tipo de solicitud",
+        "requestedBy": "Solicitado por",
+        "progress": "Progreso"
+      },
+      "mainContent": {
+        "reviewAllFiles": "Revisar todos los archivos",
+        "viewAll": "Ver todos {count} archivos",
+        "typeOfResidence": "Tipo de residencia",
+        "ghanaPostGPSAddress": "Dirección GPS de Ghana post",
+        "address": "Dirección",
+        "proofOfAddress": "Prueba de dirección",
+        "idOrPassportExpirationDate": "Fecha de expiración del ID o pasaporte",
+        "uploadedCertificates": "Certificados subidos",
+        "noCertificatesUploaded": "No se encontraron certificados subidos",
+        "approved": "Aprobado",
+        "declined": "Rechazado"
+      }
+    },
+    "details": {
+      "pageTitle": "Ver KYC"
+    }
+  },
+  "fulfillmentCenters": {
+    "pageTitle": "Centros de cumplimiento",
+    "export": "Exportar",
+    "addCenter": "Agregar centro",
+    "filters": {
+      "searchPlaceholder": "Buscar por nombre del centro",
+      "selectFulfillmentCenter": "Seleccionar centro de cumplimiento"
+    },
+    "table": {
+      "headers": {
+        "name": "Nombre del centro",
+        "country": "País",
+        "location": "Dirección de ubicación",
+        "address": "Dirección",
+        "phoneNumber": "Número de teléfono",
+        "regionalManager": "Gerente regional"
+      },
+      "actions": {
+        "viewDetail": "Ver detalle",
+        "editCenter": "Editar centro",
+        "deleteCenter": "Eliminar centro",
+        "archiveCenter": "Archivar centro"
+      },
+      "emptyState": {
+        "title": "No se ha creado ningún centro de cumplimiento",
+        "description": "Los centros de cumplimiento agregados aparecerán aquí, listos para ser vistos y administrados."
+      },
+      "filterEmptyState": {
+        "title": "No se encontraron centros de cumplimiento",
+        "description": "Tus resultados de búsqueda"
+      }
+    },
+    "addNewCenter": {
+      "pageTitle": "Agregar nuevo centro de cumplimiento",
+      "updateTitle": "Editar centro de cumplimiento",
+      "update": "Actualizar",
+      "next": "Siguiente",
+      "back": "Atrás",
+      "createCenter": "Crear centro",
+      "successMessage": "Centro de cumplimiento agregado exitosamente",
+      "updateSuccessMessage": "Centro de cumplimiento actualizado exitosamente",
+      "detailsTab": {
+        "pageTitle": "Detalles del centro de cumplimiento",
+        "description": "Agregar la información básica del centro, ubicación y cobertura.",
+        "name": "Nombre del centro",
+        "namePlaceholder": "Ingrese el nombre del centro",
+        "country": "País de operaciones",
+        "countryPlaceholder": "Seleccionar país de operaciones",
+        "phoneNumber": "Número de teléfono",
+        "phoneNumberPlaceholder": "Ingrese el número de teléfono",
+        "location": "Ubicación",
+        "locationPlaceholder": "Buscar dirección de ubicación",
+        "mapLink": "Enlace de Google Maps",
+        "mapLinkPlaceholder": "Pegar el enlace de Google Maps aquí",
+        "focusCrops": "Cultivos principales",
+        "focusCropsPlaceholder": "Asignar cultivos que este centro se centrará",
+        "focusCropsSearchPlaceholder": "Buscar cultivo por nombre",
+        "focusCropsEmptyState": "No se encontraron cultivos",
+        "focusCropsEmptyStateDescription": "Asignar cultivos que este centro se centrará",
+        "region": "Región",
+        "regionPlaceholder": "Seleccionar región",
+        "regionSearchPlaceholder": "Buscar región",
+        "nearbyDistrictsServed": "Distritos cercanos servidos",
+        "nearbyDistrictsServedPlaceholder": "Seleccionar uno o más distritos para este centro",
+        "nearbyDistrictsServedSearchPlaceholder": "Buscar distritos por nombre",
+        "nearbyDistrictsServedEmptyState": "No se encontraron distritos",
+        "nearbyDistrictsServedEmptyStateDescription": "Seleccionar uno o más distritos para este centro",
+        "photos": "Fotos (Opcional)",
+        "photosInfo": "Agregar fotos exteriores o interiores para ayudar a identificar este centro. (Tamaño máximo: 10MB)"
+      },
+      "managementTeamTab": {
+        "pageTitle": "Asignación de equipo de gestión",
+        "description": "Asignar gerentes para supervisar las operaciones.",
+        "regionalManager": "Gerente regional",
+        "regionalManagerPlaceholder": "Asignar un gerente regional",
+        "regionalManagerSearchPlaceholder": "Buscar gerente regional",
+        "regionalManagerEmptyState": "No se encontraron gerentes regionales",
+        "regionalManagerEmptyStateDescription": "Asignar un gerente regional",
+        "operationDirector": "Director de operaciones (Opcional)",
+        "operationDirectorPlaceholder": "Asignar un director de operaciones",
+        "operationDirectorSearchPlaceholder": "Buscar nombre de director de operaciones",
+        "operationDirectorEmptyState": "No se encontraron directores de operaciones",
+        "operationDirectorEmptyStateDescription": "Asignar un director de operaciones",
+        "warehouseManager": "Gerente de almacén (Opcional)",
+        "warehouseManagerPlaceholder": "Asignar un gerente de almacén",
+        "warehouseManagerSearchPlaceholder": "Buscar nombre de gerente de almacén",
+        "warehouseManagerEmptyState": "No se encontraron gerentes de almacén",
+        "warehouseManagerEmptyStateDescription": "Asignar un gerente de almacén",
+        "fieldAgronomist": "Agrónomo de campo (Opcional)",
+        "fieldAgronomistPlaceholder": "Asignar un agronomista de campo",
+        "fieldAgronomistSearchPlaceholder": "Buscar nombre de agronomista de campo",
+        "fieldAgronomistEmptyState": "No se encontraron agronomistas de campo",
+        "fieldAgronomistEmptyStateDescription": "Asignar un agronomista de campo",
+        "fieldCoordinator": "Coordinadores de campo (Opcional)",
+        "fieldCoordinatorPlaceholder": "Asignar un coordinador de campo",
+        "fieldCoordinatorSearchPlaceholder": "Buscar nombre de coordinador de campo",
+        "fieldCoordinatorEmptyState": "No se encontraron coordinadores de campo",
+        "fieldCoordinatorEmptyStateDescription": "Asignar un coordinador de campo"
+      },
+      "reviewAndConfirmTab": {
+        "pageTitle": "Revisar y confirmar",
+        "description": "Revisar todos los detalles y enviar el centro de cumplimiento.",
+        "fulfillmentCenterDetails": "Detalles del centro de cumplimiento",
+        "edit": "Editar",
+        "name": "Nombre del centro",
+        "namePlaceholder": "Ingrese el nombre del centro",
+        "country": "País de operaciones",
+        "countryPlaceholder": "Seleccionar país de operaciones",
+        "phoneNumber": "Número de teléfono",
+        "phoneNumberPlaceholder": "Ingrese el número de teléfono",
+        "location": "Ubicación",
+        "locationPlaceholder": "Ingrese la ubicación",
+        "focusCrops": "Cultivos principales",
+        "focusCropsPlaceholder": "Asignar cultivos que este centro se centrará",
+        "focusCropsSearchPlaceholder": "Buscar cultivo por nombre",
+        "focusCropsEmptyState": "No se encontraron cultivos",
+        "focusCropsEmptyStateDescription": "Asignar cultivos que este centro se centrará",
+        "nearbyDistrictsServed": "Distritos cercanos servidos",
+        "nearbyDistrictsServedPlaceholder": "Seleccionar uno o más distritos para este centro",
+        "nearbyDistrictsServedSearchPlaceholder": "Buscar distritos por nombre",
+        "nearbyDistrictsServedEmptyState": "No se encontraron distritos",
+        "nearbyDistrictsServedEmptyStateDescription": "Seleccionar uno o más distritos para este centro",
+        "photos": "Fotos",
+        "managementTeamAssignment": "Asignación de equipo de gestión",
+        "regionalManager": "Gerente regional",
+        "operationDirector": "Director de operaciones (Opcional)",
+        "warehouseManager": "Gerente de almacén (Opcional)",
+        "fieldAgronomist": "Agrónomo de campo (Opcional)",
+        "fieldCoordinator": "Coordinadores de campo (Opcional)"
+      }
+    },
+    "details": {
+      "pageTitle": "Detalles del centro de cumplimiento",
+      "export": "Exportar",
+      "assign": "Asignar",
+      "actions": {
+        "edit": "Editar centro",
+        "archiveCenter": "Archivar centro",
+        "assignAgent": "Asignar agente",
+        "assignGrowerFarmlands": "Asignar farmlands de formal grower",
+        "assignRegionalManager": "Asignar gerente regional",
+        "assignOperationDirector": "Asignar director de operaciones",
+        "assignWarehouseManager": "Asignar gerente de almacén",
+        "assignFieldAgronomist": "Asignar agronomista de campo",
+        "assignFieldCoordinators": "Asignar coordinadores de campo"
+      },
+      "breadcrumbList": {
+        "fulfillmentCenters": "Centros de cumplimiento",
+        "details": "Detalles del centro de cumplimiento"
+      },
+      "tabs": {
+        "details": "Detalles",
+        "assigned": "Asignados",
+        "wallet": "Billetera"
+      },
+      "detailsTab": {
+        "detail": "Detalle",
+        "photos": "Fotos"
+      },
+      "info": {
+        "phoneNumber": "Contacto",
+        "address": "Dirección",
+        "country": "País",
+        "regionalManager": "Gerente regional",
+        "sectorDirector": "Director de operaciones",
+        "status": "Estado",
+        "viewDetail": "Ver detalle",
+        "location": "Ubicación",
+        "countryOfOperation": "País de operaciones",
+        "region": "Región",
+        "nearbyRegionsServed": "Regiones cercanas servidas",
+        "focusedCrops": "Cultivos principales"
+      }
+    }
+  },
+  "api": {
+    "errors": {
+      "bad_request": "Solicitud inválida. Por favor verifica tu información e intenta de nuevo.",
+      "unauthorized": "No estás autorizado para realizar esta acción.",
+      "forbidden": "Acceso denegado. No tienes permiso para acceder a este recurso.",
+      "not_found": "El recurso solicitado no fue encontrado.",
+      "timeout": "La solicitud expiró. Por favor intenta de nuevo.",
+      "conflict": "Hubo un conflicto con tu solicitud. Por favor intenta de nuevo.",
+      "validation_error": "Por favor verifica tu información y corrige cualquier error.",
+      "rate_limit": "Demasiadas solicitudes. Por favor espera e intenta de nuevo.",
+      "internal_server_error": "Error interno del servidor. Por favor intenta más tarde.",
+      "bad_gateway": "Servicio temporalmente no disponible. Por favor intenta de nuevo.",
+      "service_unavailable": "El servicio no está disponible actualmente. Por favor intenta más tarde.",
+      "gateway_timeout": "Tiempo de espera agotado. Por favor intenta de nuevo.",
+      "validation_failed": "La validación falló. Por favor verifica tu información.",
+      "rate_limit_exceeded": "Límite de velocidad excedido. Por favor espera e intenta de nuevo."
+    }
+  }
+}

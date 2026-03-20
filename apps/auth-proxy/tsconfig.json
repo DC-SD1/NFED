@@ -1,0 +1,4 @@
+{
+  "extends": "@cf/typescript-config/base",
+  "include": ["routes"]
+}

@@ -1,0 +1,49 @@
+# Detect if running from GitHub Desktop (limited PATH)
+if [[ "$PATH" == *"GitHub Desktop.app"* ]] && ! command -v bun &> /dev/null && ! command -v node &> /dev/null; then
+  echo "⚠️  Running from GitHub Desktop - skipping pre-commit checks"
+  echo "   To run checks manually before committing, use:"
+  echo "   bun run test && bun run lint"
+  exit 0
+fi
+
+# Run tests
+echo "Running tests..."
+
+# Check if bun is available, otherwise try npx
+if command -v bun &> /dev/null; then
+  BUN_CMD="bun"
+  BUNX_CMD="bunx"
+elif command -v npx &> /dev/null; then
+  BUN_CMD="npx"
+  BUNX_CMD="npx"
+else
+  echo "Warning: Neither bun nor npm found. Skipping pre-commit checks."
+  exit 0
+fi
+
+$BUN_CMD vitest run --passWithNoTests
+
+# Check if any package.json files are being committed
+PACKAGE_JSON_CHANGED=$(git diff --cached --name-only | grep -E "(^|/)package\.json$" || true)
+
+if [ -n "$PACKAGE_JSON_CHANGED" ]; then
+  echo "package.json files detected in commit, checking dependency versions..."
+  
+  # Run Syncpack check for version mismatches only
+  $BUN_CMD run deps:check || {
+    echo ""
+    echo "❌ Dependency version mismatches found!"
+    echo ""
+    echo "To fix automatically, run:"
+    echo "  bun run deps:fix"
+    echo ""
+    echo "To bypass this check (emergency only), use:"
+    echo "  git commit --no-verify"
+    echo ""
+    exit 1
+  }
+fi
+
+# Run lint-staged for code formatting
+echo "Running lint-staged..."
+$BUNX_CMD lint-staged --no-stash

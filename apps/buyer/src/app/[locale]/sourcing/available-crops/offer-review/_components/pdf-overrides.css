@@ -1,0 +1,24 @@
+.rpv-core__text-layer,
+.rpv-core__canvas-layer {
+  opacity: 1 !important;
+  box-shadow: none !important;
+  border: 4px solid transparent !important;
+}
+
+/* Hide scrollbars */
+.rpv-core__viewer,
+.rpv-core__inner-page {
+  scrollbar-width: none; /* Firefox */
+}
+.rpv-core__viewer::-webkit-scrollbar,
+.rpv-core__inner-page::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Transparent page/canvas backgrounds */
+.rpv-core__page-layer {
+  background: transparent !important;
+}
+.rpv-core__canvas-layer {
+  background: transparent !important;
+}

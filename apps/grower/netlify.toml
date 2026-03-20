@@ -1,0 +1,46 @@
+[build]
+  # Build only this app using Turbo's filter
+  command = "turbo run build --filter @cf/grower"
+  publish = "apps/grower/.next"
+  # Ignore builds if nothing changed in this app or its dependencies
+  ignore = "git diff --quiet HEAD^ HEAD -- apps/grower packages tooling"
+
+# Exclude webpack cache from secret scanning
+[build.processing]
+  skip_processing = false
+
+[build.processing.skip_paths]
+  # Skip secret scanning in build caches
+  paths = [
+    ".next/cache/**",
+    ".turbo/**",
+    "node_modules/**"
+  ]
+
+[build.environment]
+  # Node version
+  NODE_VERSION = "22"
+
+  # Bun version
+  BUN_VERSION = "1.3"
+
+  # Enable pnpm-style node_modules hoisting for faster installs
+  NODE_OPTIONS = "--max-old-space-size=4096"
+
+  # Next.js optimizations
+  NEXT_TELEMETRY_DISABLED = "1"
+
+  # Turbo cache configuration (optional - requires Vercel account)
+  # Uncomment and add your tokens to enable remote caching:
+  # TURBO_TOKEN = "your-vercel-token"
+  # TURBO_TEAM = "your-team-slug"
+
+# Cache build artifacts (node_modules cached by Netlify automatically)
+[[plugins]]
+  package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+    paths = [
+      ".next/cache",
+      ".turbo"
+    ]

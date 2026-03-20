@@ -1,0 +1,46 @@
+{
+  "name": "@cf/eslint-config",
+  "version": "0.0.1",
+  "private": true,
+  "files": [
+    "./base.js",
+    "./nextjs.js",
+    "./react.js",
+    "./tailwind.js"
+  ],
+  "dependencies": {
+    "@next/eslint-plugin-next": "^16.2.0",
+    "@types/eslint": "^8.56.7",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-config-turbo": "^2.8.18",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-tailwindcss": "^3.18.2",
+    "eslint-plugin-turbo": "^1.13.4",
+    "eslint-plugin-unused-imports": "^4.4.1"
+  },
+  "devDependencies": {
+    "@cf/prettier-config": "workspace:*",
+    "@cf/typescript-config": "workspace:*",
+    "eslint": "^10.0.3",
+    "typescript": "^5.9.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "./base.js"
+    ]
+  },
+  "prettier": "@cf/prettier-config",
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --check '**/*.{js,json}' ",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  }
+}

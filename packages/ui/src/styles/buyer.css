@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 107 18% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    /* CF Grower green as primary - #3FB648 */
+    --primary: 176 32% 43%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 0 0% 96%;
+    --placeholder-text: 176 7% 37%;
+    /* Add lighter and darker variants of primary green */
+    /* --primary-light: 122 39% 91%; 
+    --primary-dark: 158 25% 32%; */
+    --primary-dark: 177 100% 9%;
+    --primary-darkest: 162 44% 24%; /* #235C4B - Darkest green */
+    --primary-lightest: 130 33% 93%; /* #E6F4E8 - Very light green */
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 180 14% 10%;
+    --muted-foreground: 176 7% 37%;
+    /* Green accent */
+    --accent: 176 32% 43%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 75% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 5.9% 90%;
+    /* --border: 80 9% 82% */
+    /* Update input to use light green instead of gray */
+    /* --input: 240 5.9% 90%; */
+    --input: 78 19% 90%;
+
+    --ring: 142 71% 45%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Tab bar colors - matching Figma design */
+    --tab-bar-background: 0 0% 96%; /* #F5F5F5 - Light gray background */
+    --tab-bar-active-background: 108 50% 68%; /* Dark green active state */
+    --tab-bar-active-text: 117 60% 33%; /* #2D7C2B - Dark green text */
+    --tab-bar-inactive-text: 0 0% 40%; /* #666666 - Gray text */
+
+    /* Container */
+    /* --container: 78 19% 90%; */
+    --container: 117 24% 96%;
+
+    /* User dropdown */
+    --user-dropdown-background: 117 16% 96%;
+
+    /* Custom color tokens */
+    --background-light: 180 10% 98%; /* #F7FAFA - Very light gray background */
+    --border-light: 180 6% 90%; /* #E0E5E5 - Light gray border */
+    --text-dark: 177 100% 9%; /* #002D2B - Very dark teal text */
+    --avatar-background: 176 71% 20%; /* #0E5954 - Dark teal for avatars */
+    --success: 142 100% 26%; /* #008744 - Green success color */
+    --error: 0 74% 41%; /* #BA1A1A - Red error color */
+    --warning: 39 100% 50%; /* #FFA500 - Orange warning color */
+
+    /* font family */
+    --font-sans: "Cera Pro", sans-serif;
+  }
+  .dark {
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+
+  .container {
+    @apply max-sm:px-4;
+  }
+}
+
+@layer utilities {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.no-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

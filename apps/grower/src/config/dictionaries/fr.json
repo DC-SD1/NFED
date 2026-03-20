@@ -1,0 +1,1430 @@
+{
+  "common": {
+    "welcome": "Bienvenue sur la Plateforme Grower",
+    "signIn": "Se Connecter",
+    "signUp": "S'inscrire",
+    "signOut": "Se Déconnecter",
+    "dashboard": "Tableau de Bord",
+    "settings": "Paramètres",
+    "profile": "Profil",
+    "back": "Retour",
+    "skip": "Passer",
+    "saveAndSend": "Enregistrer et envoyer",
+    "saveAsDraft": "Enregistrer comme brouillon",
+    "deactivated": "Désactivé",
+    "deactivatedDescription": "Le gestionnaire de ferme a été désactivé avec succès. Vous pouvez réactiver la ferme en l'affectant à une ferme.",
+    "processing_invitation": "Traitement de votre invitation...",
+    "errors": {
+      "unknown_error": "Une erreur inattendue s'est produite. Veuillez réessayer.",
+      "network_error": "Échec de la connexion réseau. Veuillez vérifier votre connexion internet.",
+      "timeout": "La requête a expiré. Veuillez réessayer.",
+      "server_error": "Erreur du serveur. Veuillez réessayer plus tard.",
+      "required_field": "Ce champ est obligatoire.",
+      "invalid_field": "Veuillez entrer une valeur valide.",
+      "invalid_format": "Format invalide. Veuillez vérifier votre saisie.",
+      "field_null": "Ce champ ne peut pas être vide.",
+      "field_too_large": "La saisie est trop grande. Veuillez réduire la taille.",
+      "invalid_value": "Valeur invalide. Veuillez vérifier votre saisie.",
+      "bad_request": "Requête incorrecte. Veuillez vérifier votre saisie et réessayer.",
+      "invalid_environment": "La requête n'est pas valide pour cet environnement.",
+      "invalid_settings": "Paramètres d'authentification invalides.",
+      "malformed_request": "La requête est mal formée et n'a pas pu être traitée.",
+      "invalid_request_body": "Corps de requête invalide. Veuillez consulter la documentation de l'API.",
+      "invalid_api_key": "Clé API invalide. Veuillez vérifier votre configuration.",
+      "missing_parameter": "Un paramètre requis est manquant.",
+      "unsupported_content_type": "Type de contenu non pris en charge.",
+      "invalid_proxy_key": "Clé secrète de proxy invalide.",
+      "maintenance_mode": "Le système est en maintenance. Veuillez réessayer plus tard.",
+      "not_found": "Ressource introuvable.",
+      "forbidden": "Accès interdit.",
+      "user_quota_exceeded": "Une erreur technique s'est produite. Notre équipe résout le problème, veuillez réessayer plus tard.",
+      "invalid_url_scheme": "Schéma d'URL invalide. Veuillez fournir une URL valide.",
+      "invalid_redirect_url": "Format d'URL de redirection invalide.",
+      "unauthorized": {
+        "title": "Accès non autorisé",
+        "message": "Vous n'avez pas la permission d'accéder à cette page. Veuillez contacter votre administrateur si vous pensez qu'il s'agit d'une erreur.",
+        "goToDashboard": "Aller au Tableau de Bord",
+        "goToHome": "Aller à l'Accueil"
+      },
+      "notFound": {
+        "title": "Page non trouvée",
+        "message": "Désolé, nous n'avons pas pu trouver la page que vous recherchez. La page a peut-être été supprimée, renommée ou n'existe pas.",
+        "goToDashboard": "Aller au Tableau de Bord",
+        "goToHome": "Aller à l'Accueil"
+      },
+      "error": {
+        "title": "Quelque chose s'est mal passé !",
+        "message": "Nous sommes désolés, mais quelque chose d'inattendu s'est produit. Veuillez réessayer ou contacter le support si le problème persiste.",
+        "tryAgain": "Réessayer",
+        "goToHome": "Aller à l'Accueil"
+      }
+    }
+  },
+  "farmPlan": {
+    "selectCrop": {
+      "saving": "Enregistrement...",
+      "view": "Voir",
+      "close": "Fermer",
+      "errors": {
+        "planExistsTitle": "Le plan de culture existe déjà",
+        "planExistsDesc": "Un plan pour cette ferme, cette parcelle et cette culture existe déjà."
+      }
+    },
+    "productionPlan": {
+      "title": "Plan de production",
+      "description": "Analyse complète de la ferme avec des informations sur la météo, le sol, la zone et la production",
+      "farmInformation": "Informations sur la ferme",
+      "farmInformationSubtitle": "Entrez les détails de votre ferme pour obtenir une analyse complète",
+      "farmName": "Nom de la ferme",
+      "farmLandSize": "Taille du terrain de la ferme",
+      "cropType": "Type de culture",
+      "cropVariety": "Variété de culture",
+      "selectCropType": "Sélectionner le type de culture",
+      "selectCropVariety": "Sélectionner la variété de culture",
+      "analyzingConditions": "Analyse des conditions de plantation optimales...",
+      "preferredStartDate": "Date de début préférée",
+      "useIrrigation": "Prévoyez-vous d'utiliser l'irrigation ?",
+      "generateFarmPlan": "Générer un plan agricole",
+      "plantingRecommendation": "Recommandation de plantation",
+      "generating": "Génération du plan agricole...",
+      "loading": "Chargement...",
+      "errors": {
+        "loadFailed": "Échec du chargement des détails de la ferme. Veuillez réessayer.",
+        "generateFailed": "Échec de la génération du plan agricole. Veuillez réessayer.",
+        "missingRequiredData": "Informations requises manquantes",
+        "missingFarmId": "Informations de la ferme manquantes",
+        "missingLandId": "Informations du terrain manquantes",
+        "missingCropId": "Informations de la culture manquantes",
+        "missingUserId": "Informations de l'utilisateur manquantes",
+        "missingMultipleFields": "Informations requises manquantes : {fields}"
+      }
+    },
+    "planSummary": {
+      "title": "Résumé du plan",
+      "back": "Retour",
+      "nameFarmPlan": "Nommer le plan agricole",
+      "enterFarmPlanName": "Entrez le nom du plan agricole",
+      "upcoming": "À venir",
+      "active": "Actif",
+      "completed": "Terminé",
+      "overdue": "En retard",
+      "daysToGo": "{days} jours restants",
+      "landSize": "Taille du terrain",
+      "crop": "Culture",
+      "farmingStartDate": "Date de début de culture",
+      "cropCalendar": "Calendrier des cultures",
+      "billOfMaterialsAndServices": "Liste des matériaux et services",
+      "item": "Article",
+      "unit": "Unité",
+      "costRange": "Fourchette de coûts",
+      "viewFullMaterialsList": "Voir la liste complète des matériaux",
+      "productionActivities": "Activités de production",
+      "stage": "Étape",
+      "activity": "Activité",
+      "duration": "Durée",
+      "durationWeek": "Durée (Semaine)",
+      "costRangeGHS": "Fourchette de coûts (GHS)",
+      "startWeek": "Semaine de début",
+      "endWeek": "Semaine de fin",
+      "week": "semaine",
+      "activities": "activités",
+      "start": "Début",
+      "end": "Fin",
+      "cost": "Coût",
+      "viewFullActivitiesList": "Voir la liste complète des activités",
+      "viewLess": "Voir moins",
+      "noItems": "Aucun article disponible",
+      "save": "Enregistrer",
+      "saving": "Enregistrement...",
+      "success": {
+        "planSaved": "Plan agricole enregistré avec succès",
+        "title": "Plan agricole ajouté",
+        "description": "Votre plan agricole pour la saison à venir a été créé avec succès.",
+        "done": "Terminé"
+      },
+      "errors": {
+        "nameFarmPlan": "Veuillez saisir un nom pour le plan agricole",
+        "saveFailed": "Échec de l'enregistrement du plan agricole. Veuillez réessayer."
+      }
+    },
+    "planDetails": {
+      "loading": "Chargement...",
+      "notFound": "Plan agricole introuvable",
+      "untitledPlan": "Plan sans titre",
+      "deletePlan": "Supprimer le plan",
+      "deleting": "Suppression...",
+      "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce plan agricole?",
+      "cancelDelete": "Annuler",
+      "confirmDeleteButton": "Oui, supprimer",
+      "success": {
+        "planDeleted": "Plan agricole supprimé avec succès"
+      },
+      "errors": {
+        "deleteFailed": "Échec de la suppression du plan agricole. Veuillez réessayer."
+      }
+    },
+    "summary": {
+      "title": "Plan de production",
+      "description": "Analyse complète de la ferme avec des informations sur la météo, le sol, la zone et la production",
+      "dataAutoSaved": "Données enregistrées automatiquement",
+      "lastUpdated": "Dernière mise à jour : {date}",
+      "editFarmData": "Modifier les données de la ferme",
+      "startNewPlan": "Démarrer un nouveau plan",
+      "farmDashboard": "Tableau de bord de la ferme",
+      "farmThisPlan": "Cultiver ce plan",
+      "savePlan": "Enregistrer le plan",
+      "soilAnalysis": "Analyse du sol",
+      "currentConditions": "Conditions actuelles et recommandations agricoles",
+      "planId": "ID du plan",
+      "daysLeft": "{days} jours restants",
+      "tabs": {
+        "overview": "Aperçu",
+        "timelines": "Calendriers",
+        "materials": "Matériaux"
+      },
+      "metrics": {
+        "expectedYield": "Rendement attendu",
+        "totalCost": "Coût total",
+        "activities": "Activités",
+        "materials": "Matériaux",
+        "tons": "Tonnes",
+        "estimated": "Estimé",
+        "scheduledTasks": "Tâches programmées",
+        "requiredItems": "Articles requis"
+      },
+      "fields": {
+        "cropType": "Type de culture",
+        "cropVariety": "Variété de culture",
+        "landSize": "Taille du terrain",
+        "dateCreated": "Date de création",
+        "crop": "Culture:",
+        "startDate": "Date de début:",
+        "area": "Superficie:",
+        "harvestDate": "Date de récolte:"
+      },
+      "modal": {
+        "nameThePlan": "Nommer le plan agricole",
+        "giveNameSubtitle": "Donnez un nom à votre plan agricole avant de l'enregistrer!",
+        "inputLabel": "Nommer le plan agricole",
+        "inputPlaceholder": "Entrez le nom",
+        "saveAndContinue": "Enregistrer et continuer",
+        "cancel": "Annuler",
+        "successMessage": "Plan agricole enregistré avec succès!"
+      }
+    },
+    "list": {
+      "title": "Plans agricoles",
+      "farmThePlan": "Cultiver le plan",
+      "starting": "Démarrage...",
+      "headers": {
+        "planName": "Nom du plan",
+        "farmName": "Nom de la ferme",
+        "dateCreated": "Date de création",
+        "startDate": "Date de début",
+        "harvestDate": "Date de récolte",
+        "status": "Statut",
+        "action": "Action"
+      },
+      "mobile": {
+        "harvestTime": "TEMPS DE RÉCOLTE",
+        "status": "Statut",
+        "farmId": "ID de la ferme: {id}"
+      },
+      "empty": {
+        "title": "Aucun plan agricole",
+        "description": "Créez votre nouveau plan agricole pour commencer votre voyage agricole.",
+        "createButton": "Créer un plan agricole"
+      }
+    }
+  },
+  "auth": {
+    "otpSent": "Le code de vérification a été envoyé à votre e-mail !",
+    "otpError": "Impossible d'envoyer le code de vérification. Veuillez réessayer ou contacter le support.",
+    "otpFailed": "La vérification du code de vérification a échoué. Veuillez réessayer.",
+    "otpIncorrect": "Code de vérification invalide ou expiré. Veuillez vérifier et réessayer.",
+    "otpNotFound": "Aucun code de vérification trouvé pour cette adresse e-mail. Veuillez demander un nouveau code.",
+    "updatePhoneError": "Impossible de mettre à jour le numéro de téléphone. Veuillez réessayer.",
+    "updateNumberSuccess": "Le numéro de téléphone a été mis à jour avec succès !",
+    "ghanaNumberError": "Les numéros de téléphone venant du Ghana ne sont actuellement pas pris en charge. Veuillez contacter le support.",
+    "signInTitle": "Connectez-vous à votre compte",
+    "signUpTitle": "Créez votre compte agriculteur",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "forgotPassword": "Mot de passe oublié?",
+    "noAccount": "Vous n'avez pas de compte?",
+    "haveAccount": "Vous avez déjà un compte?",
+    "orContinueWith": "Ou continuer avec",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "phone": "Numéro de téléphone",
+    "enterFirstName": "Entrez votre prénom",
+    "enterLastName": "Entrez votre nom",
+    "enterEmail": "Entrez votre email",
+    "creatingAccount": "Création du compte...",
+    "continue": "Continuer",
+    "or": "Ou",
+    "continueWithGoogle": "Continuer avec Google",
+    "sessionSync": {
+      "welcomeBack": "Ravi de vous revoir{comma} {name} ! Synchronisation de votre session…",
+      "readyRedirect": "Tout est prêt. Redirection…",
+      "syncFailedSigningOut": "Impossible de synchroniser votre session. Déconnexion pour réinitialiser."
+    },
+    "you": "",
+    "resetPasswordVerification": "Vérification de Réinitialisation du Mot de Passe",
+    "loginVerification": "Vérification de Connexion",
+    "otpVerification": "Vérification OTP",
+    "resetYourPassword": "Réinitialisez votre mot de passe",
+    "changeYourPassword": "Changez votre mot de passe",
+    "createPassword": "Créez un mot de passe",
+    "enterNewPassword": "Entrez un nouveau mot de passe pour votre compte",
+    "chooseNewPassword": "Choisissez un nouveau mot de passe pour votre compte",
+    "setNewPassword": "Définir un nouveau mot de passe",
+    "saveNewPassword": "Enregistrer le nouveau mot de passe",
+    "next": "Suivant",
+    "savePassword": "Enregistrer le Mot de Passe",
+    "enterPassword": "Entrez le mot de passe",
+    "confirmPasswordPlaceholder": "Confirmer le mot de passe",
+    "processing": "Traitement...",
+    "enterCode": "Entrez le code de l'email que nous avons envoyé à",
+    "verifying": "Vérification...",
+    "apply": "Appliquer",
+    "didntReceiveOtp": "Vous n'avez pas reçu l'OTP?",
+    "sendAgain": "Renvoyer",
+    "sending": "Envoi en cours...",
+    "canResendCodeIn": "Vous pouvez renvoyer le code dans",
+    "otpResendSuccess": "Code de vérification envoyé avec succès ! Vérifiez votre e-mail.",
+    "otpAttemptsWarning": "{attempts} tentatives restantes avant le verrouillage temporaire",
+    "otpLastAttemptWarning": "Dernière tentative avant le verrouillage temporaire",
+    "otpMaxAttemptsReached": "Trop de tentatives. Veuillez attendre {minutes} minutes avant de réessayer.",
+    "passwordResetCodeSent": "Code de réinitialisation du mot de passe envoyé ! Veuillez vérifier votre e-mail à {email}. N'oubliez pas de vérifier votre dossier spam si vous ne le voyez pas.",
+    "byCreatingAccount": "En créant un compte, vous acceptez nos",
+    "termsOfUse": "Conditions d'Utilisation",
+    "and": "et",
+    "privacyPolicy": "Politique de Confidentialité",
+    "welcomeBack": "Bon retour, {name} !",
+    "accountCreated": "Compte créé avec succès !",
+    "reset_password_subtitle": "Veuillez fournir l'e-mail associé à votre compte, et nous vous enverrons un lien de réinitialisation du mot de passe.",
+    "create_new_password": "Créer un nouveau mot de passe",
+    "password_updated": "Mot de passe mis à jour avec succès. Veuillez vous connecter avec votre nouveau mot de passe.",
+    "password_redirect": "Veuillez patienter, vous serez redirigé vers la page de connexion.",
+    "send_reset_link": "Envoyer le lien de réinitialisation",
+    "emailDoesNotExist": "Aucun compte trouvé avec cette adresse e-mail. Veuillez vérifier et réessayer.",
+    "somethingWentWrong": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+    "resetNotEnabled": "La réinitialisation du mot de passe par e-mail n’est pas disponible pour ce compte. Veuillez contacter le support si vous avez besoin d’aide.",
+    "currentPassword": "Mot de passe actuel",
+    "enterCurrentPassword": "Entrez le mot de passe",
+    "newPassword": "Nouveau mot de passe",
+    "updatePassword": "Mettre à jour le mot de passe",
+    "passwordRequirements": {
+      "atLeast": "Au moins",
+      "characters": "8 Caractères",
+      "lowercase": "Une lettre minuscule",
+      "uppercase": "Une lettre majuscule",
+      "special": "Un caractère spécial",
+      "number": "Un chiffre"
+    },
+    "errors": {
+      "oops_title": "Oups !",
+      "oops_message": "Une erreur est survenue.",
+      "auth_error": "Nous n’avons pas pu vous connecter. Veuillez vérifier vos informations et réessayer.",
+      "start_error": "Hmm, nous n’avons pas pu démarrer l’intégration. Essayons encore une fois.",
+      "submit_error": "Oups ! Nous n’avons pas pu enregistrer vos réponses. Veuillez réessayer dans un instant.",
+      "unknown_error": "Une erreur est survenue de notre côté. Veuillez réessayer dans quelques instants.",
+      "invalid_credentials": "Email ou mot de passe invalide. Veuillez réessayer.",
+      "incorrect_password": "Nom d'utilisateur ou mot de passe invalide. Veuillez réessayer.",
+      "token_expired": "Votre session a expiré. Veuillez vous reconnecter.",
+      "token_invalid": "Jeton d'authentification invalide. Veuillez vous reconnecter.",
+      "unauthorized": "Vous n'êtes pas autorisé à accéder à cette ressource.",
+      "session_expired": "Votre session a expiré. Veuillez vous reconnecter.",
+      "session_invalid": "Session invalide. Veuillez vous reconnecter.",
+      "user_not_found": "Aucun compte trouvé avec cette adresse email.",
+      "no_password_set": "Ce compte utilise la connexion sociale. Veuillez utiliser le bouton 'Continuer avec Google'.",
+      "email_already_exists": "Un compte avec cet email existe déjà.",
+      "invalid_email": "Veuillez entrer une adresse email valide.",
+      "invalid_password": "Veuillez entrer un mot de passe valide.",
+      "password_too_weak": "Le mot de passe est trop faible. Veuillez choisir un mot de passe plus fort.",
+      "invalid_phone": "Veuillez entrer un numéro de téléphone valide.",
+      "user_already_exists": "Un compte avec ces informations existe déjà.",
+      "account_locked": "Votre compte a été verrouillé. Veuillez contacter le support.",
+      "account_suspended": "Votre compte a été suspendu. Veuillez contacter le support.",
+      "too_many_attempts": "Trop de tentatives de connexion. Veuillez réessayer plus tard.",
+      "rate_limit_exceeded": "Trop de requêtes. Veuillez patienter et réessayer.",
+      "otp_expired": "Le code de vérification a expiré. Veuillez en demander un nouveau.",
+      "otp_invalid": "Code de vérification invalide. Veuillez vérifier et réessayer.",
+      "otp_max_attempts": "Nombre maximum de tentatives de vérification atteint. Veuillez demander un nouveau code.",
+      "password_compromised": "Ce mot de passe est trop commun et facile à deviner. Veuillez créer un mot de passe plus fort et unique pour une meilleure sécurité.",
+      "password_too_short": "Le mot de passe est trop court. Veuillez choisir un mot de passe plus long.",
+      "strategy_mismatch": "Cet email est associé à une méthode de connexion différente. Veuillez essayer de vous connecter avec Google ou réinitialiser votre mot de passe.",
+      "mfa_not_supported": "L'authentification à deux facteurs (2FA) n'est pas prise en charge actuellement. Veuillez contacter le support pour vous aider à la désactiver.",
+      "needs_new_password": "Veuillez réinitialiser votre mot de passe pour continuer.",
+      "oauthFailed": "Échec de la connexion avec {provider}. Veuillez réessayer.",
+      "signin_incomplete": "La connexion n'a pas pu être complétée. Veuillez réessayer ou contacter le support.",
+      "signed_out": "Vous êtes déconnecté. Veuillez vous connecter pour continuer.",
+      "session_not_found": "Session introuvable. Veuillez vous reconnecter.",
+      "session_consumed": "Cette session a déjà été utilisée. Veuillez vous reconnecter.",
+      "session_too_old": "La session est trop ancienne. Veuillez vous reconnecter.",
+      "emailAlreadyExists": "Cet email est déjà enregistré. Veuillez utiliser un autre email ou vous connecter.",
+      "phoneAlreadyExists": "Ce numéro de téléphone est déjà enregistré. Veuillez utiliser un autre numéro ou vous connecter.",
+      "checkEmailFailed": "Impossible de vérifier la disponibilité de l'email. Veuillez réessayer.",
+      "checkPhoneFailed": "Impossible de vérifier la disponibilité du numéro. Veuillez réessayer.",
+      "session_inactive": "La session n'est plus active. Veuillez vous reconnecter.",
+      "session_ineligible": "La session ne peut pas être renouvelée. Veuillez vous reconnecter.",
+      "request_origin_invalid": "Origine de la requête invalide. Veuillez réessayer.",
+      "feature_not_enabled": "Cette fonctionnalité n'est pas activée pour votre compte.",
+      "user_banned": "Votre compte a été banni. Si vous pensez que c'est une erreur, veuillez contacter le support.",
+      "account_deprovisioned": "Votre compte a été déprovisionné. Veuillez contacter le support.",
+      "organization_not_found": "Organisation introuvable ou vous n'avez pas la permission d'y accéder.",
+      "invitation_already_accepted": "Cette invitation a déjà été acceptée.",
+      "invitation_user_not_found": "Utilisateur introuvable. Veuillez vous inscrire d'abord pour accepter cette invitation.",
+      "invitation_not_found": "Invitation introuvable.",
+      "invitation_not_pending": "Cette invitation n'est pas en attente.",
+      "invitation_duplicate": "Une invitation en attente existe déjà pour cette adresse email.",
+      "invitation_revoked": "Cette invitation a été révoquée.",
+      "organization_deleted": "Cette organisation a été supprimée.",
+      "invitation_email_exists": "Cette adresse email existe déjà. Veuillez vous connecter à la place.",
+      "invitation_number_exists": "Ce numéro de téléphone existe déjà. Veuillez vous connecter.",
+      "invitation_expired": "Ce lien d'invitation a expiré. Veuillez en demander un nouveau.",
+      "invitation_token_expired": "Le jeton d'invitation a expiré. Veuillez en demander un nouveau.",
+      "invitation_invalid_token_format": "Le lien d'invitation est invalide. Veuillez vérifier le lien et réessayer.",
+      "invitation_invalid_email_token": "L'invitation contient une adresse email invalide.",
+      "invitation_malformed_email_token": "L'invitation contient une adresse email mal formatée.",
+      "invitation_invalid_date_token": "L'invitation contient une date invalide.",
+      "invitation_invalid_date_format": "Le format de date de l'invitation est invalide.",
+      "invitation_missing_token": "Le jeton d'invitation est manquant. Veuillez utiliser le lien complet de votre email.",
+      "invitation_invalid_email_for_token": "Adresse email invalide fournie pour l'invitation.",
+      "invitation_invalid_email_format": "Le format de l'adresse email est invalide.",
+      "invitation_missing_params": "Lien d'invitation invalide. Les paramètres requis sont manquants.",
+      "clerk_user_not_found": "Compte utilisateur introuvable. Veuillez contacter le support.",
+      "clerk_api_error": "Erreur de connexion au service d'authentification. Veuillez réessayer.",
+      "invitation_processing_failed": "Échec du traitement de l'invitation. Veuillez réessayer.",
+      "unknown_token_error": "Une erreur s'est produite lors de la validation de l'invitation. Veuillez réessayer.",
+      "invitation_generic_error": "Une erreur s'est produite avec l'invitation. Veuillez contacter le support.",
+      "invitation_invalid_token_data": "Les données de l'invitation sont invalides. Veuillez demander une nouvelle invitation.",
+      "domain_blocked": "Ce domaine de messagerie est bloqué. Veuillez utiliser une adresse email différente.",
+      "domain_common": "Les fournisseurs de messagerie courants ne sont pas autorisés. Veuillez utiliser votre email professionnel.",
+      "domain_mismatch": "L'adresse email ne correspond pas au domaine de l'organisation.",
+      "enrollment_mode_disabled": "Ce mode d'inscription n'est pas activé pour votre organisation.",
+      "domain_quota_exceeded": "Nombre maximum de domaines atteint pour cette organisation.",
+      "enterprise_connection_required": "Impossible de supprimer l'adhésion liée à la connexion d'entreprise.",
+      "verification_not_sent": "Veuillez envoyer un code de vérification avant d'essayer de vérifier.",
+      "verification_failed": "Échec de la vérification. Trop de tentatives incorrectes.",
+      "verification_rate_limit": "Trop de demandes de vérification. Veuillez patienter avant de réessayer.",
+      "totp_incorrect": "Code d'authentificateur incorrect. Veuillez réessayer.",
+      "totp_already_enabled": "L'authentification à deux facteurs est déjà activée.",
+      "backup_codes_unavailable": "Activez une autre méthode 2FA pour utiliser les codes de secours.",
+      "passkey_failed": "L'authentification par clé d'accès a échoué. Veuillez réessayer.",
+      "passkey_invalid": "Identifiant de clé d'accès invalide.",
+      "oauth_exchange_failed": "L'authentification OAuth a échoué. Veuillez réessayer.",
+      "oauth_misconfigured": "Le fournisseur OAuth est mal configuré. Veuillez contacter le support.",
+      "captcha_required": "Veuillez compléter la vérification CAPTCHA.",
+      "captcha_invalid": "La vérification CAPTCHA a échoué. Veuillez réessayer.",
+      "device_blocked": "Cet appareil a été bloqué en raison d'une activité suspecte.",
+      "device_attestation_required": "La vérification de l'appareil est requise.",
+      "device_attestation_failed": "La vérification de l'appareil a échoué.",
+      "device_attestation_not_configured": "L'attestation de l'appareil n'est pas configurée.",
+      "device_attestation_misconfigured": "L'attestation de l'appareil est mal configurée.",
+      "device_attestation_unsupported": "L'attestation de l'appareil n'est pas prise en charge sur cette plateforme.",
+      "device_attestation_mismatch": "Incompatibilité du défi d'attestation de l'appareil.",
+      "device_attestation_challenge_invalid": "Défi d'attestation de l'appareil invalide ou expiré.",
+      "device_attestation_assertion_invalid": "Assertion d'attestation de l'appareil invalide.",
+      "assertion_required": "Une assertion est requise pour vérifier votre appareil.",
+      "ticket_expired": "Ce ticket a expiré.",
+      "ticket_invalid": "Ticket invalide. Veuillez utiliser un ticket valide.",
+      "payment_failed": "Le paiement a échoué. Veuillez réessayer.",
+      "card_declined": "Votre carte a été refusée.",
+      "payment_processing_error": "Erreur de traitement du paiement. Veuillez réessayer.",
+      "payer_not_found": "Payeur introuvable.",
+      "payee_not_found": "Bénéficiaire introuvable.",
+      "plan_not_found": "Plan introuvable.",
+      "subscription_not_found": "Abonnement introuvable.",
+      "too_many_unverified": "Trop de contacts non vérifiés. Veuillez d'abord vérifier les existants.",
+      "country_not_supported": "Les numéros de téléphone de ce pays ne sont pas pris en charge.",
+      "identification_claimed": "Cette identification a été revendiquée par un autre utilisateur.",
+      "enhanced_email_disabled": "La livraison améliorée des emails nécessite uniquement l'OTP par email.",
+      "waitlist_closed": "La liste d'attente n'accepte pas de nouvelles entrées pour le moment.",
+      "saml_incomplete": "La connexion SAML ne peut pas être activée. Champs requis manquants.",
+      "saml_metadata_fetch_failed": "Échec de la récupération des métadonnées SAML IdP.",
+      "saml_metadata_parse_failed": "Échec de l'analyse des métadonnées SAML IdP.",
+      "inviteFail": "Échec de l'invitation de l'utilisateur. Veuillez réessayer.",
+      "draftFail": "Échec de l'enregistrement du brouillon d'invitation. Veuillez réessayer.",
+      "completeInvite": "Les informations de l'invitation sont incomplètes. Veuillez revenir et compléter le formulaire d'invitation.",
+      "completeContract": "Les informations du contrat sont incomplètes. Veuillez revenir et compléter le formulaire de contrat.",
+      "createContractFail": "Échec de la création du contrat. Veuillez réessayer.",
+      "farmManagersFail": "Échec de la recherche de la liste des gestionnaires de fermes. Veuillez réessayer.",
+      "failedToUpdateContract": "Échec de la mise à jour du contrat. Veuillez réessayer.",
+      "failToUpdateManagerDetails": "Échec de la mise à jour des informations du gestionnaire. Veuillez réessayer.",
+      "farmManagerDeactivated": "Le gestionnaire de ferme est déjà désactivé.",
+      "max_farm_lands": "Vous avez atteint la limite — un propriétaire de ferme ne peut gérer que deux parcelles de terre à la fois.",
+      "already_managing": "Le gestionnaire de ferme gère déjà cette parcelle de terre.",
+      "error_assigning_self": "Une erreur s'est produite lors de l'affectation de vous-même."
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de Bord",
+    "overview": "Aperçu",
+    "farms": "Fermes",
+    "crops": "Cultures",
+    "activities": "Activités",
+    "analytics": "Analytique",
+    "reports": "Rapports",
+    "welcomeCard": {
+      "title": "Bienvenue {userName}",
+      "subtitle": "Rejoignez plus de 20000+ agriculteurs qui utilisent Complete Farmer pour cultiver leurs cultures",
+      "completedSteps": "Vous avez terminé {stepsComplete}/4 étapes",
+      "needHelp": "Besoin d'aide pour votre ferme?",
+      "contactSupport": "Contactez le support:"
+    },
+    "tasks": {
+      "title": "Tâches",
+      "tabAll": "Toutes",
+      "tabPending": "En attente",
+      "tabUpcoming": "À venir",
+      "tabToDo": "À faire",
+      "tabDone": "Terminées",
+      "status": "Statut",
+      "due": "Échéance",
+      "farmLabel": "Ferme",
+      "assigneeLabel": "Responsable",
+      "markDone": "Marquer comme terminé",
+      "noTasksTitle": "Aucune tâche nouvelle",
+      "noTasksSubtitle": "Vous êtes à jour!",
+      "viewMore": "Voir plus",
+      "close": "Fermer le panneau des tâches",
+      "modalTitle": "Toutes les tâches",
+      "statuses": {
+        "pending": "En attente",
+        "upcoming": "À venir",
+        "notStarted": "Pas commencé",
+        "completed": "Terminé"
+      },
+      "emptyStates": {
+        "all": {
+          "title": "Aucune tâche pour le moment",
+          "subtitle": "Vous êtes à jour!",
+          "hint": ""
+        },
+        "pending": {
+          "title": "Aucune tâche en attente",
+          "subtitle": "Toutes vos tâches urgentes sont terminées",
+          "hint": "Essayez de voir 'Toutes' ou 'À venir'"
+        },
+        "upcoming": {
+          "title": "Aucune tâche à venir",
+          "subtitle": "Aucune tâche programmée pour plus tard",
+          "hint": "Vérifiez 'En attente' ou 'Toutes' pour d'autres tâches"
+        },
+        "completed": {
+          "title": "Aucune tâche terminée",
+          "subtitle": "Aucune tâche marquée comme terminée pour le moment",
+          "hint": "Terminez des tâches en attente pour les voir ici"
+        }
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "tabAll": "Toutes",
+      "tabUnread": "Non lues",
+      "tabReminder": "Rappel",
+      "tabTask": "Tâche",
+      "tabAlert": "Alerte",
+      "today": "Aujourd'hui",
+      "yesterday": "Hier",
+      "noNotificationsTitle": "Aucune notification nouvelle",
+      "noNotificationsSubtitle": "Vous êtes à jour!",
+      "viewMore": "Voir plus",
+      "modalTitle": "Toutes les notifications",
+      "searchPlaceholder": "Rechercher des notifications",
+      "emptyDrawerTitle": "Votre boîte est tranquille",
+      "emptyDrawerSubtitle": "Lorsque nous aurons des nouveautés pour vous, elles apparaîtront ici.",
+      "noResultsTitle": "Aucune notification trouvée",
+      "noResultsSubtitle": "Essayez un autre mot-clé.",
+      "clearSearch": "Effacer la recherche",
+      "ctaProfile": "Consulter le profil",
+      "ctaFarmPlan": "Voir le plan agricole",
+      "ctaFarmManagers": "Consulter les gestionnaires",
+      "ctaDefault": "Voir les détails",
+      "noCtaLabel": "Aucune action disponible",
+      "deleteLabel": "Supprimer",
+      "unknownDate": "Date inconnue",
+      "toastTitle": "Nouvelle notification",
+      "toastDismiss": "Fermer"
+    },
+    "learningResources": {
+      "title": "Ressources d'apprentissage",
+      "viewMore": "Voir plus",
+      "modalTitle": "Toutes les ressources d'apprentissage",
+      "drawerTitle": "Ressources d'apprentissage",
+      "ariaLabelPrefix": "Lire la vidéo",
+      "documentAriaLabelPrefix": "Télécharger le document",
+      "errorLoadingResources": "Échec du chargement des ressources d'apprentissage",
+      "errorDrawerTitle": "Échec du chargement des ressources",
+      "errorDrawerSubtitle": "Veuillez réessayer ou contacter le support si le problème persiste.",
+      "retry": "Réessayer",
+      "noResourcesAvailable": "Aucune ressource d'apprentissage disponible pour le moment",
+      "emptyDrawerTitle": "Aucune ressource disponible",
+      "emptyDrawerSubtitle": "Revenez plus tard pour du nouveau contenu d'apprentissage et des ressources."
+    },
+    "emptyState": {
+      "title": "C'est parti",
+      "layoutTitle": "Gestionnaire de ferme",
+      "deactivateManager": "Désactiver le gestionnaire de ferme",
+      "description": "N'hésitez pas à inviter quelqu'un, à demander à embaucher ou à vous assigner comme gestionnaire de ferme pour commencer!",
+      "addFarmManager": "Ajouter un gestionnaire de ferme",
+      "select": "Sélectionner l'option",
+      "inviteManager": "Inviter un gestionnaire de ferme",
+      "assignYourself": "M'assigner moi-même",
+      "hireManager": "Demander à embaucher",
+      "totalManagers": "Total des gestionnaires de ferme",
+      "assignedManagers": "Assignés",
+      "unassignedManagers": "Non assignés",
+      "removedManagers": "Désactivés",
+      "dashboardTitle": "Votre configuration est {progress}% terminée",
+      "dashDescription": "Terminez les étapes ci-dessous dans n'importe quel ordre. Chaque étape vous rapproche du lancement de votre exploitation agricole.",
+      "steps": {
+        "login": {
+          "title": "Configurer les détails de connexion",
+          "status": "Terminé"
+        },
+        "addLand": {
+          "title": "Ajouter votre terre agricole"
+        },
+        "addManager": {
+          "title": "Ajouter votre gestionnaire de ferme"
+        },
+        "start": {
+          "title": "Commencer votre aventure agricole",
+          "action": "Commencer à cultiver"
+        }
+      }
+    },
+    "farmLand": {
+      "planAdded": "Plan de ferme ajouté",
+      "moreDetails": "Plus de détails"
+    },
+    "farmManager": {
+      "emptyState": {
+        "title": "Terres agricoles",
+        "subtitle": "C'est parti",
+        "description": "N'hésitez pas à inviter quelqu'un, à demander à embaucher ou à vous assigner comme gestionnaire de ferme pour commencer!",
+        "addFarmLand": "Ajouter une terre agricole",
+        "totalFarmLands": "Total des terres agricoles",
+        "plantingFarmLands": "Terres agricoles ensemencées",
+        "harvestingFarmLands": "Terres agricoles en récolte",
+        "deactivatedFarmLands": "Terres agricoles désactivées",
+        "noAssignedGrower": "Aucun cultivateur assigné",
+        "noGrowerDescription": "Vous n'avez pas encore été assigné pour gérer la ferme, une fois que vous avez reçu et accepté l'invitation, la ferme que vous gérez apparaîtra ici.",
+        "filtered": {
+          "title": "Aucune ferme trouvée",
+          "subtitle": "Aucune ferme ne correspond au filtre \"{filter}\"",
+          "clearButton": "Effacer le filtre"
+        }
+      }
+    },
+    "inviteManager": {
+      "title": "Inviter un gestionnaire de ferme",
+      "back": "Retour",
+      "header": "Gestionnaire de ferme",
+      "description": "Pour inviter le gestionnaire de ferme, remplissez les informations ci-dessous!",
+      "firstName": "Prénom",
+      "enterFirstName": "Entrez le prénom",
+      "lastName": "Nom de famille",
+      "enterLastName": "Entrez le nom de famille",
+      "yearsOfExperience": "Années d'expérience",
+      "phoneNumber": "Numéro de téléphone",
+      "email": "Adresse e-mail",
+      "enterEmail": "Entrez l'adresse e-mail du gestionnaire",
+      "workType": "Le gestionnaire travaille-t-il à plein temps ou en tant que contractant?",
+      "fullTime": "Temps plein",
+      "contractor": "Contractant",
+      "workPayType": "Comment le gestionnaire est-il payé?",
+      "payroll": "Payé via la paie",
+      "equityYield": "Prendre une part de la production",
+      "hybrid": "Hybride de cash et de part de la production",
+      "inviteSuccess": "L'invitation a été envoyée avec succès!",
+      "inviteSuccessDescription": "L'invitation a été envoyée au gestionnaire de ferme! Patientez juste un peu et attendez sa réponse.",
+      "draftSuccess": "Enregistré en tant que brouillon",
+      "draftSuccessDescription": "L'invitation du gestionnaire de ferme a été enregistrée dans la liste des brouillons."
+    },
+    "hireManager": {
+      "selectLand": "Sélectionnez le terrain de ferme",
+      "selectLandSub": "Sélectionnez le terrain de ferme que vous voulez assigner au gestionnaire.",
+      "searchLand": "Rechercher des terres de ferme",
+      "workConditions": "Mes conditions de travail",
+      "workConditionsSub": "Définissez votre fourchette de salaire et votre offre supplémentaire.",
+      "salaryRange": "Fourchette de salaire",
+      "averageSalary": "Le salaire moyen dans cette zone est de {amount}",
+      "minSalary": "Salaire minimum",
+      "maxSalary": "Salaire maximum",
+      "accommodationRequired": "Offrez-vous un hébergement ?",
+      "submit": "Envoyer",
+      "requestSent": "Demande envoyée",
+      "sentDescription": "Votre demande pour embaucher un gestionnaire de ferme a été envoyée"
+    },
+    "assignSelf": {
+      "selectLand": "Sélectionnez le terrain de ferme",
+      "selectLandSub": "Sélectionnez le terrain de ferme que vous voulez gérer",
+      "searchLand": "Rechercher des terres de ferme",
+      "submit": "Envoyer",
+      "allSet": "C'est tout !",
+      "setDescription": "Vous êtes maintenant prêt à gérer votre ferme vous-même. Vous pouvez toujours embaucher ou inviter un gestionnaire de ferme à tout moment"
+    },
+    "nav": {
+      "dashboard": "Tableau de Bord",
+      "profile": "Profil",
+      "farmer": {
+        "farms": "Mes Fermes",
+        "crops": "Cultures",
+        "activities": "Activités",
+        "analytics": "Analytique",
+        "equipment": "Équipement",
+        "marketplace": "Marché"
+      },
+      "agent": {
+        "clients": "Clients",
+        "territory": "Territoire",
+        "performance": "Performance",
+        "training": "Formation",
+        "communications": "Communications",
+        "reports": "Rapports"
+      }
+    },
+    "profile": {
+      "updateDetails": "Mettre à jour les détails",
+      "updateDetailsSub": "Pour mettre à jour vos détails, remplissez le formulaire ci-dessous",
+      "kycStatus": {
+        "nonCompliantTitle": "Statut du compte",
+        "nonCompliantMessage": "Mettez à jour votre KYC et soumettez les documents pertinents pour que votre compte soit entièrement conforme",
+        "nonCompliantButtonText": "Soumettre le KYC",
+        "compliantTitle": "Statut du compte",
+        "partiallyCompliantButtonText": "Modifier",
+        "personalDocumentsTitle": "Documents personnels",
+        "certificateDocumentsTitle": "Documents de certification",
+        "noCertificateUploaded": "Aucun certificat téléchargé",
+        "noCertificateUploadButtonText": "Télécharger un certificat",
+        "status": {
+          "nonCompliant": "Non conforme",
+          "partiallyCompliant": "Partiellement conforme",
+          "compliant": "Conforme"
+        }
+      }
+    },
+    "kyc": {
+      "kycTitle": "Type de résident",
+      "kycSub": "Êtes-vous un individu local ou international?",
+      "localTitle": "Individu/résident local",
+      "internationalTitle": "Individu international",
+      "localSub": "Vous devrez soumettre une carte d'identité du Ghana et une preuve d'adresse.",
+      "internationalSub": "Vous devrez soumettre un passeport valide, un visa et une preuve d'adresse.",
+      "uploadTitle": "Télécharger des documents",
+      "uploadSub": "Télécharger des documents de soutien pour vérifier votre identité",
+      "save": "Enregistrer et envoyer",
+      "saveDraft": "Enregistrer comme brouillon",
+      "saveAsDraft": "Enregistrer comme brouillon",
+      "successTitle": "KYC envoyé",
+      "successTitleDraft": "KYC enregistré en tant que brouillon",
+      "successSub": "Vos documents ont été envoyés avec succès!",
+      "successSubDraft": "Vos documents ont été enregistrés comme brouillon avec succès!",
+      "uploadError": "Échec de téléchargement de document.",
+      "submit": "Envoi en cours...",
+      "saveUpdate": "Enregistrer et mettre à jour",
+      "residentType": {
+        "uploadId": "Télécharger une carte d'identité valide du Ghana",
+        "uploadPassport": "Carte d'identité de votant ou passeport (Ceci est facultatif si une carte d'identité valide n'est pas disponible)",
+        "expiryDate": "Date d'expiration de la carte d'identité ou du passeport",
+        "proofOfAddress": "Preuve d'adresse",
+        "formatAccepted": "Format accepté jpeg, png et PDF et taille de fichier max 2 Mo",
+        "editTitle": "Documents de KYC",
+        "editSubTitle": "Les documents que vous avez téléchargés sont affichés ci-dessous.",
+        "replaceDoc": "Remplacer les documents",
+        "replaceDocSub": "Téléversez le fichier pour remplacer le fichier actuel.",
+        "upload": "Télécharger",
+        "cancel": "Annuler"
+      },
+      "international": {
+        "editTitle": "Documents KYC",
+        "editSubTitle": "Ci-dessous se trouvent les documents que vous avez téléchargés.",
+        "replaceDoc": "Remplacer les documents",
+        "replaceDocSub": "Téléchargez le fichier pour remplacer le fichier actuel.",
+        "upload": "Télécharger",
+        "cancel": "Annuler",
+        "uploadPassport": "Télécharger un passeport valide",
+        "passExpiry": "Date d'expiration du passeport",
+        "uploadVisa": "Télécharger un visa valide",
+        "proofOfAddress": "Preuve d'adresse",
+        "visaExpiry": "Date d'expiration du visa"
+      },
+      "certification": {
+        "title": "Sélectionner la certification",
+        "description": "Sélectionnez le certificat que vous souhaitez télécharger.",
+        "selectPlaceholder": "Sélectionner un certificat",
+        "options": {
+          "pprsd": "PPRSD",
+          "globalGap": "Global G.A.P (Conformité totale GRASP)",
+          "euOrganic": "EU Biologique",
+          "asta": "ASTA",
+          "smeta": "SMETA",
+          "fairTrade": "FairTrade"
+        },
+        "uploadLabel": "Télécharger le certificat"
+      },
+      "accountSettings": {
+        "title": "Paramètres de compte"
+      }
+    },
+    "grow": {
+      "available": "Disponible",
+      "preferredCropTitle": "O cultivar el cultivo preferido",
+      "noCrops": "No se encontraron cultivos",
+      "noBuyers": "No hay pedidos de compradores disponibles, te notificaremos cuando estén disponibles o puedes continuar cultivando tu cultivo preferido a continuación.",
+      "selectTitle": "Seleccionar opción de cultivo",
+      "selectSub": "Puedes elegir cómo quieres comenzar tu aventura agrícola, ya sea que desees dedicarte a cultivar cultivos o enfocarte en cumplir con los pedidos de los compradores.",
+      "buyerTitle": "Pedidos de compradores",
+      "buyerSub": "Cultivar para cumplir con una solicitud personalizada de un comprador específico",
+      "focusTitle": "Cultivos principales de los agricultores",
+      "focusSub": "Cultiva cualquiera de nuestros cultivos clave con una demanda de compradores comprobada.",
+      "buyer-order": {
+        "title": "Seleccionar cultivo",
+        "searchCrops": "Buscar cultivos"
+      },
+      "contract": {
+        "title": "Signer le contrat",
+        "sign": "Signer le contrat",
+        "description": "Votre signature électronique sera juridiquement liante. Le contrat sera stocké de maniere secure."
+      },
+      "signing": {
+        "title": "Signature",
+        "instruction": "Dessinez votre signature ci-dessous",
+        "description": "Je comprends que la signature et les initiales seront la représentation électronique de ma signature et de mes initiales pour toutes les utilisations, y compris les contrats légalement contraignants - exactement comme une signature ou des initiales sur un document papier.",
+        "draw": "Dessiner la signature",
+        "upload": "Télécharger la signature",
+        "confirm": "Confirmer la signature",
+        "cancel": "Annuler",
+        "clear": "Effacer la signature"
+      },
+      "success": {
+        "title": "Demande envoyée !",
+        "message": "Votre demande de location de terrain a été envoyée avec succès",
+        "download": "Télécharger le contrat"
+      }
+    }
+  },
+  "api": {
+    "errors": {
+      "bad_request": "Requête invalide. Veuillez vérifier votre saisie et réessayer.",
+      "unauthorized": "Vous n'êtes pas autorisé à effectuer cette action.",
+      "forbidden": "Accès refusé. Vous n'avez pas la permission d'accéder à cette ressource.",
+      "not_found": "La ressource demandée est introuvable.",
+      "timeout": "La requête a expiré. Veuillez réessayer.",
+      "conflict": "Il y a eu un conflit avec votre requête. Veuillez réessayer.",
+      "validation_error": "Veuillez vérifier votre saisie et corriger les erreurs.",
+      "rate_limit": "Trop de requêtes. Veuillez patienter et réessayer.",
+      "internal_server_error": "Erreur interne du serveur. Veuillez réessayer plus tard.",
+      "bad_gateway": "Service temporairement indisponible. Veuillez réessayer.",
+      "service_unavailable": "Le service est actuellement indisponible. Veuillez réessayer plus tard.",
+      "gateway_timeout": "Délai d'attente de la passerelle. Veuillez réessayer.",
+      "validation_failed": "La validation a échoué. Veuillez vérifier votre saisie.",
+      "rate_limit_exceeded": "Limite de débit dépassée. Veuillez patienter et réessayer."
+    }
+  },
+  "landing": {
+    "hero": {
+      "title": "L'Agriculture Moderne Simplifiée",
+      "subtitle": "Suivez, gérez et optimisez vos opérations agricoles avec la plateforme numérique de Complete Farmer",
+      "cta": "Commencer",
+      "learnMore": "En Savoir Plus"
+    },
+    "features": {
+      "title": "Tout ce dont vous avez besoin pour cultiver",
+      "farmManagement": {
+        "title": "Gestion des Fermes",
+        "description": "Gérez plusieurs fermes, champs et cultures en un seul endroit"
+      },
+      "cropTracking": {
+        "title": "Suivi des Cultures",
+        "description": "Surveillez la santé des cultures, les stades de croissance et les prévisions de rendement"
+      },
+      "analytics": {
+        "title": "Analyse Intelligente",
+        "description": "Des informations basées sur les données pour optimiser vos opérations agricoles"
+      }
+    },
+    "carousel": {
+      "slide1": {
+        "title": "Démarrez une ferme. Visitez vos fermes.",
+        "subtitle": "Cultivez de n'importe où. Tout ce dont vous avez besoin en un seul endroit"
+      },
+      "slide2": {
+        "title": "Développez votre entreprise. Suivez vos progrès.",
+        "subtitle": "Surveillez vos cultures et optimisez vos opérations agricoles"
+      },
+      "slide3": {
+        "title": "Connectez-vous avec des agriculteurs. Partagez des connaissances.",
+        "subtitle": "Rejoignez une communauté d'agriculteurs et d'experts agricoles"
+      },
+      "slide4": {
+        "title": "Développez vos opérations. Maximisez l'efficacité.",
+        "subtitle": "Outils avancés et informations pour l'agriculture professionnelle"
+      }
+    }
+  },
+  "metadata": {
+    "signUpTitle": "S'inscrire - CF Grower",
+    "signUpDescription": "Rejoignez des milliers d'agriculteurs qui cultivent plus intelligemment avec Complete Farmer",
+    "signInTitle": "Se connecter - CF Grower",
+    "signInDescription": "Connectez-vous à votre compte pour continuer"
+  },
+  "alt": {
+    "cf": "CF",
+    "cfGrowerLogo": "Logo CF Grower",
+    "mailIcon": "Icône de courrier"
+  },
+  "onboarding": {
+    "marketing": {
+      "start": "Commencer",
+      "next": "Suivant",
+      "title": "Avant tout, comment avez-vous entendu parler de nous ?",
+      "subtitle": "(Cela nous aide à atteindre plus d'agriculteurs comme vous !)",
+      "options": {
+        "friends-family": "Amis ou famille",
+        "cf-agent-representative": "Un agent ou représentant CF",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "google-search": "Recherche Google",
+        "radio-newspaper": "Radio ou journal",
+        "event-trade-fair": "Événement ou foire commerciale",
+        "other": "Autre"
+      }
+    },
+    "segmentation": {
+      "title": "Statut d’expérience",
+      "subtitle": "Avez-vous déjà cultivé ou est-ce votre première fois ?",
+      "new-label": "Débutant",
+      "new-description": "Je débute dans l'agriculture",
+      "experienced-label": "Expérimenté",
+      "experienced-description": "J'ai déjà cultivé"
+    },
+    "newbie": {
+      "preference": {
+        "title": "Préférence agricole",
+        "title2": "Méthode de culture",
+        "subtitle": "Bienvenue à bord ! Nous sommes ravis de vous aider à démarrer.",
+        "question": "Souhaitez-vous :",
+        "farmSelf": "Cultiver par vous-même",
+        "farmManager": "Travailler avec un gestionnaire de ferme"
+      },
+      "land-availability": {
+        "greatChoice": "Excellent choix ! Vous pouvez engager un gestionnaire de ferme qualifié directement sur la plateforme pour vous accompagner.",
+        "question": "Avez-vous une terre que vous prévoyez d'utiliser ?",
+        "yes": "Oui",
+        "no": "Non, j'ai besoin d'une terre"
+      },
+      "need-land": {
+        "subtitle1": "Pas de souci—nous avons ce qu'il vous faut. Vous pouvez facilement louer des terres vérifiées sur la plateforme.",
+        "subtitle2": "Nous vous aiderons à trouver une correspondance selon votre culture et votre localisation.",
+        "next": "Suivant"
+      },
+      "farming-method": {
+        "question": "Quel type d'agriculture vous intéresse ?",
+        "greenhouse": "Culture sous serre",
+        "openField": "Culture en plein champ",
+        "notSure": "Je ne suis pas encore sûr",
+        "coming-soon": "Bientôt disponible"
+      },
+      "goals": {
+        "title": "Objectif agricole",
+        "description": "Et pour vous offrir la meilleure expérience possible",
+        "mainQuestion": "Quel est votre principal objectif avec CF Grower ?",
+        "options": {
+          "startGuidance": "Je veux commencer à cultiver et j'ai besoin d'orientation",
+          "betterYields": "Je cultive déjà et je veux de meilleurs rendements",
+          "export": "Je veux cultiver pour l'exportation",
+          "investment": "J'explore l'agriculture comme investissement"
+        },
+        "errors": {
+          "selectAtLeastOne": "Veuillez sélectionner au moins un objectif"
+        }
+      },
+      "commitment": {
+        "title": "Presque terminé ! Rendons cela officiel.",
+        "description": " J'utiliserai CF Grower pour...",
+        "start": "Lancer et gérer ma ferme afin d'atteindre mes objectifs avec succès.",
+        "slide": "Faites glisser pour ouvrir la porte de votre ferme et vous engager dans ce voyage.",
+        "swipe": "Glisser pour ouvrir"
+      },
+      "complete": {
+        "done": "C'est fait !",
+        "title": "En fonction de vos réponses, nous adapterons votre tableau de bord avec des outils et conseils pour vous aider à réussir.",
+        "start": "Commencer à cultiver"
+      }
+    },
+    "experienced": {
+      "farming-level": {
+        "title": "Niveau d'expérience agricole",
+        "subtitle": "C'est génial ! L'expérience est toujours précieuse.",
+        "question": "Depuis combien de temps cultivez-vous ?",
+        "options": {
+          "less_than_1_year": "Moins d'un an",
+          "1-3_years": "1 à 3 ans",
+          "4-7_years": "4 à 7 ans",
+          "5-10_years": "5 à 10 ans",
+          "8+_years": "Plus de 8 ans"
+        }
+      },
+      "current-crops": {
+        "title": "Cultures cultivées",
+        "subtitle": "Quelles cultures avez-vous cultivées ?",
+        "instruction": "Sélectionnez tout ce qui s'applique ou saisissez le vôtre :",
+        "options": {
+          "chilli-pepper": "Piment fort",
+          "maize": "Maïs",
+          "soybean": "Soja",
+          "sweet-potatoes": "Patates douces",
+          "ginger": "Gingembre",
+          "cowpea": "Niébé",
+          "pineapple": "Ananas",
+          "mango": "Mangue",
+          "cassava": "Manioc",
+          "sesame": "Sésame",
+          "groundnut": "Arachide",
+          "other": "Autre"
+        },
+        "errors": {
+          "selectAtLeastOne": "Veuillez sélectionner au moins une culture que vous cultivez actuellement"
+        },
+        "next": "Suivant"
+      },
+      "preference": {
+        "title": "Préférence agricole",
+        "question": "Souhaitez-vous :",
+        "farmSelf": "Cultiver par vous-même",
+        "farmManager": "Travailler avec un gestionnaire de ferme"
+      },
+      "land-availability": {
+        "title": "Préférence agricole",
+        "greatChoice": "Excellent choix ! Vous pouvez inviter votre propre gestionnaire de ferme ou en embaucher un qualifié sur la plateforme lorsque vous en avez besoin.",
+        "question": "Avez-vous une terre que vous prévoyez d'utiliser ?",
+        "yes": "Oui",
+        "no": "Non, j'ai besoin d'une terre"
+      },
+      "farming-method": {
+        "title": "Méthodes de culture",
+        "subtitle": "Pas de souci—nous avons ce qu'il vous faut. Vous pouvez facilement louer des terres vérifiées sur la plateforme. Nous vous aiderons à trouver une correspondance selon votre culture et votre localisation.",
+        "question": "Quel type d'agriculture vous intéresse ?",
+        "greenhouse": "Culture sous serre",
+        "openField": "Culture en plein champ",
+        "notSure": "Je ne suis pas encore sûr",
+        "coming-soon": "Bientôt disponible"
+      }
+    }
+  },
+  "FarmLands": {
+    "title": "Ajout de terrain agricole",
+    "subtitle": "Comment souhaitez-vous ajouter votre terrain ?",
+    "mapFarmLand": {
+      "title": "Cartographier votre terrain agricole",
+      "description": "Déplacez-vous autour de votre terrain agricole pour enregistrer les limites."
+    },
+    "uploadCoordinates": {
+      "title": "Télécharger les coordonnées du terrain",
+      "description": "Téléchargez le fichier avec les coordonnées de votre terrain",
+      "modal": {
+        "title": "Sélectionner le type de fichier",
+        "subtitle": "Sélectionnez le type de fichier que vous souhaitez télécharger",
+        "uploadCsv": "Télécharger fichier .CSV",
+        "uploadKml": "Télécharger fichier .KML"
+      }
+    },
+    "requestAssistance": {
+      "title": "Demander l'assistance d'un agent",
+      "description": "Demandez à un agent de vous aider à cartographier votre terrain agricole"
+    },
+    "confirm": {
+      "question": "L'image montre-t-elle correctement votre ferme et sa taille ?",
+      "yesContinue": "Oui, continuer",
+      "reUpload": "Télécharger à nouveau le fichier",
+      "farmLandSize": "Taille du terrain agricole",
+      "back": "Retour"
+    },
+    "additionalDetails": {
+      "title": "Détails supplémentaires",
+      "farmName": "Nom de la ferme",
+      "farmNamePlaceholder": "Entrez le nom de la ferme",
+      "region": "Région",
+      "regionPlaceholder": "Entrez la région où se trouve le terrain",
+      "villageLocation": "Village / Emplacement",
+      "villagePlaceholder": "Entrez le village où se trouve le terrain",
+      "landOwnershipType": "Type de propriété foncière ? (Optionnel)",
+      "landTitle": "Titre foncier",
+      "contractualAgreements": "Accords contractuels",
+      "uploadLandTitle": "Télécharger les documents du titre foncier",
+      "uploadContractual": "Télécharger les documents d'accord contractuel",
+      "uploadLabel": "Télécharger",
+      "uploadDescription": "Format accepté jpeg, pdf, png",
+      "next": "Suivant",
+      "back": "Retour",
+      "uploading": "Téléchargement...",
+      "farmNameRequiredForUpload": "Veuillez entrer le nom de la ferme avant de télécharger des documents"
+    },
+    "upload": {
+      "title": "Télécharger un fichier",
+      "infoBanner": {
+        "csv": "Si vous téléchargez un fichier CSV, veuillez utiliser notre modèle standard pour garantir le formatage correct.",
+        "kml": "Si vous téléchargez un fichier KML, veuillez utiliser notre modèle standard pour garantir le formatage correct."
+      },
+      "downloadTemplate": {
+        "csv": "Télécharger le modèle Excel",
+        "kml": "Télécharger le modèle KML"
+      },
+      "dropzone": {
+        "title": "Télécharger",
+        "description": "Format accepté .CSV (excel) et .KML",
+        "descriptionCsv": "Format accepté .CSV",
+        "descriptionKml": "Format accepté .KML"
+      },
+      "continue": "Continuer",
+      "errors": {
+        "invalid_csv": "Format CSV invalide. Veuillez vérifier que la structure du fichier correspond au modèle.",
+        "invalid_kml": "Format KML invalide. Veuillez vous assurer que le fichier contient des coordonnées valides.",
+        "invalid_csv_format": "Le format du fichier CSV est incorrect. Veuillez utiliser le modèle fourni.",
+        "invalid_kml_format": "Le format du fichier KML est incorrect. Veuillez vérifier la structure du fichier.",
+        "csv_missing_columns": "Le fichier CSV manque de colonnes requises. Veuillez utiliser le modèle.",
+        "csv_invalid_data": "Le CSV contient des données invalides. Veuillez vérifier que toutes les valeurs sont correctes.",
+        "kml_invalid_structure": "Le fichier KML a une structure invalide. Veuillez vérifier le fichier.",
+        "file_too_large": "Le fichier est trop volumineux. Veuillez réduire la taille du fichier.",
+        "file_empty": "Le fichier téléchargé est vide. Veuillez sélectionner un fichier avec du contenu.",
+        "invalid_coordinates": "Le fichier contient des valeurs de coordonnées invalides.",
+        "coordinates_out_of_bounds": "Les coordonnées sont en dehors de la plage géographique valide.",
+        "polygon_not_closed": "Le polygone n'est pas correctement fermé. Le premier et le dernier point doivent correspondre.",
+        "insufficient_points": "Pas assez de points de coordonnées pour former un polygone valide."
+      },
+      "errorModal": {
+        "default": {
+          "title": "Erreur de Téléchargement",
+          "description": "Veuillez vérifier votre fichier et réessayer."
+        },
+        "invalidCsv": {
+          "title": "Format CSV Invalide",
+          "description": "Veuillez vous assurer que votre fichier CSV correspond au format du modèle."
+        },
+        "invalidXlsx": {
+          "title": "Format Excel Invalide",
+          "description": "Veuillez vous assurer que votre fichier Excel correspond au format du modèle."
+        },
+        "invalidKml": {
+          "title": "Format KML Invalide",
+          "description": "Veuillez vous assurer que votre fichier KML contient des coordonnées valides."
+        },
+        "invalidCoordinates": {
+          "title": "Coordonnées Invalides",
+          "description": "Les coordonnées de votre fichier semblent invalides ou hors limites."
+        },
+        "missingColumns": {
+          "title": "Colonnes Requises Manquantes",
+          "csvDescription": "Votre fichier CSV manque de colonnes requises. Veuillez utiliser le modèle.",
+          "xlsxDescription": "Votre fichier Excel manque de colonnes requises. Veuillez utiliser le modèle."
+        },
+        "invalidData": {
+          "title": "Données Invalides",
+          "description": "Le fichier contient des données invalides. Veuillez vérifier que toutes les valeurs sont correctes."
+        },
+        "fileEmpty": {
+          "title": "Fichier Vide",
+          "subtitle": "Le fichier téléchargé semble être vide.",
+          "description": "Veuillez sélectionner un fichier avec du contenu."
+        },
+        "fileTooLarge": {
+          "title": "Fichier Trop Volumineux",
+          "description": "Le fichier dépasse la taille maximale autorisée. Veuillez réduire la taille du fichier."
+        },
+        "polygonNotClosed": {
+          "title": "Polygone Non Fermé",
+          "description": "Le polygone n'est pas correctement fermé. Les points de coordonnées initial et final doivent correspondre."
+        },
+        "insufficientPoints": {
+          "title": "Points Insuffisants",
+          "description": "Pas assez de points de coordonnées pour former un polygone valide. Au moins 3 points sont requis."
+        }
+      }
+    },
+    "confirmation": {
+      "farmLandSize": "Taille du terrain agricole",
+      "farmName": "Nom de la ferme",
+      "cropRecommendations": "Recommandations de cultures",
+      "region": "Région",
+      "village": "Village",
+      "soilProfile": "Profil du sol",
+      "fulfilmentCenter": "Centre de distribution",
+      "confirmAndSave": "Confirmer et Enregistrer",
+      "pending": "En attente..."
+    },
+    "success": {
+      "title": "Terrain agricole ajouté avec succès !",
+      "subtitle": "Votre ferme \"{farmName}\" a été enregistrée avec succès.",
+      "subtitleContinue": "Continuez vers votre tableau de bord pour configurer votre ferme",
+      "goToDashboard": "Aller à votre tableau de bord",
+      "addFarmManager": "Procéder à l'ajout d'un gestionnaire de ferme"
+    },
+    "farmDetails": {
+      "soilProfileTitle": "Profil du sol",
+      "nameTitle": "Nom de la ferme",
+      "managerTitle": "Gestionnaire de la ferme",
+      "landSizeTitle": "Taille du terrain agricole",
+      "dateTitle": "Date ajoutée",
+      "landSplitTitle": "Division du terrain",
+      "locationTitle": "Emplacement",
+      "villageTitle": "Village",
+      "fertilitySummary": "Résumé de la fertilité du sol",
+      "regionTitle": "Région",
+      "fulfilmentCenterTitle": "Centre de distribution",
+      "cropRecommendationsTitle": "Recommandations de cultures",
+      "soilFertilityStatus": "L'état de fertilité de votre sol",
+      "fertilityDescription": "Votre sol a ou manque des éléments suivants.",
+      "suitabilityNotes": "Notes d'Adéquation"
+    }
+  },
+  "MobileAppPrompt": {
+    "appName": "Application CF Grower",
+    "title": "Continuez sur l'application mobile CF Grower",
+    "description": "La cartographie des fermes n'est disponible que sur notre application mobile. Téléchargez l'application pour cartographier votre terrain, accéder aux outils agricoles et obtenir une assistance en temps réel en déplacement.",
+    "downloadApp": "Télécharger l'application",
+    "alreadyHaveApp": "Vous avez déjà l'application ?",
+    "continue": "Continuer"
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire",
+    "email": {
+      "invalid": "Veuillez entrer une adresse e-mail valide"
+    },
+    "phone": {
+      "required": "Le numéro de téléphone est obligatoire",
+      "invalid": "Veuillez entrer un numéro de téléphone valide"
+    },
+    "firstName": {
+      "min": "Le prénom doit contenir au moins 2 caractères",
+      "max": "Le prénom ne doit pas dépasser 50 caractères",
+      "invalid": "Le prénom ne peut contenir que des lettres, espaces, tirets et apostrophes"
+    },
+    "lastName": {
+      "min": "Le nom doit contenir au moins 2 caractères",
+      "max": "Le nom ne doit pas dépasser 50 caractères",
+      "invalid": "Le nom ne peut contenir que des lettres, espaces, tirets et apostrophes"
+    },
+    "password": {
+      "min": "Le mot de passe doit contenir au moins 8 caractères",
+      "uppercase": "Le mot de passe doit contenir au moins une lettre majuscule",
+      "lowercase": "Le mot de passe doit contenir au moins une lettre minuscule",
+      "number": "Le mot de passe doit contenir au moins un chiffre",
+      "special": "Le mot de passe doit contenir au moins un caractère spécial",
+      "mismatch": "Les mots de passe ne correspondent pas",
+      "passwordsDifferent": "Le nouveau mot de passe doit être différent de votre mot de passe actuel."
+    },
+    "otp": {
+      "length": "L'OTP doit contenir exactement 6 chiffres",
+      "invalid": "L'OTP ne doit contenir que des chiffres"
+    },
+    "farmName": {
+      "min": "Le nom de la ferme doit contenir au moins 2 caractères",
+      "max": "Le nom de la ferme ne doit pas dépasser 100 caractères",
+      "invalid": "Le nom de la ferme ne peut contenir que des lettres, chiffres, espaces, tirets et apostrophes"
+    },
+    "region": {
+      "min": "La région doit contenir au moins 2 caractères",
+      "max": "La région ne doit pas dépasser 100 caractères"
+    },
+    "village": {
+      "min": "Le village/lieu doit contenir au moins 2 caractères",
+      "max": "Le village/lieu ne doit pas dépasser 100 caractères"
+    },
+    "documentUrl": {
+      "invalid": "Veuillez fournir une URL de document valide",
+      "required": "Le téléchargement du document est requis lorsque le type de propriété foncière est sélectionné"
+    }
+  },
+  "comingSoon": {
+    "notifications": {
+      "overlay": "COMING SOON",
+      "title": "Paramètres de notification",
+      "subtitle": "Nous pouvons encore vous envoyer des notifications importantes concernant vos détails de compte en dehors de vos paramètres de notification",
+      "comments": {
+        "title": "Commentaires",
+        "desc": "Ce sont des notifications pour les commentaires sur vos activités et tâches agricoles."
+      },
+      "tags": {
+        "title": "Mots-clés",
+        "desc": "Ce sont des notifications pour lorsque quelqu'un vous mentionne dans un commentaire sur vos activités et tâches agricoles."
+      },
+      "channels": {
+        "push": "Push",
+        "email": "Email",
+        "sms": "SMS"
+      },
+      "comingSoon": "Coming Soon"
+    }
+  },
+  "plans": {
+    "status": {
+      "completed": "Terminé",
+      "overdue": "En retard",
+      "inProgress": "En cours",
+      "cancelled": "Annulé",
+      "paused": "En pause",
+      "unknown": "Inconnu"
+    },
+    "statusLine": {
+      "dueToday": "Échéance aujourd'hui",
+      "daysToGo": "{days} jours restants",
+      "monthsToGo": "{months} mois restants",
+      "startDatePassed": "Date de début dépassée"
+    }
+  },
+  "termsAndConditions": {
+    "title": "Contrat Simple de Culture de Complete Farmer (\"Contrat\")",
+    "sections": [
+      {
+        "id": 1,
+        "title": "Parties et Portée",
+        "content": "Complete Farmer LTD, une société à responsabilité limitée ghanéenne située au 11 Molade – Akiwumi Street, Airport West, Accra (\"Complete Farmer\") et (Michael Essien), situé à (Haatso) avec (JeNeSaisPas) ayant le numéro (JeNeSaisPas) et (IDK). Le Producteur et Complete Farmer sont ci-après collectivement désignés les \"Parties\" et individuellement une \"Partie\". Le présent Contrat concerne exclusivement les Produits énumérés à l’Annexe A, cultivés sur la Terre conformément aux Normes de Méthode de Production de l’Annexe C. Le Producteur déclare et garantit qu’il dispose de tous les titres nécessaires en vertu des lois du Ghana pour cultiver et préparer les Produits."
+      },
+      {
+        "id": 2,
+        "title": "Durée / Terme",
+        "content": "Le présent Contrat commence le (23 octobre 2023), qui sera le premier jour de la Période de Culture, et reste en vigueur jusqu’au dernier jour de la Période de Culture, sauf résiliation anticipée conformément à ses termes."
+      },
+      {
+        "id": 3,
+        "title": "Spécifications de Qualité",
+        "content": "Le Producteur s’engage à se conformer strictement aux Spécifications et normes de qualité des Produits décrites à l’Annexe B. Complete Farmer peut vérifier et contrôler la qualité à ses frais. Les Parties conviennent que seuls les Produits répondant aux Spécifications seront vendus sur la plateforme Complete Farmer. Le Producteur se conformera strictement aux Normes de Méthode de Production énoncées à l’Annexe C du présent Contrat. Toute violation de ces Normes sera considérée comme une violation substantielle donnant droit à Complete Farmer de résilier le Contrat sans préavis."
+      },
+      {
+        "id": 4,
+        "title": "Obligations de Complete Farmer",
+        "content": "Complete Farmer peut fournir au Producteur les services suivants :\n\ni) Formation pour renforcer la capacité du Producteur à produire la qualité et la quantité requises de Produits\n\nii) Services d’extension et de supervision\n\niii) Centre de conditionnement pour les Produits\n\niv) Matériaux d’emballage pour les Produits\n\nv) Prêt d’Intrants selon certaines conditions\n\nvi) Tout autre service que Complete Farmer décide à sa seule discrétion de fournir."
+      },
+      {
+        "id": 5,
+        "title": "Obligations du Producteur",
+        "content": "Le Producteur doit :\n\ni. Payer à Complete Farmer les Frais pour les services prévus par ce Contrat.\n\nii. Cultiver les cultures conformément aux Normes de Méthode de Production.\n\niii. Autoriser Complete Farmer ou un tiers mandaté par Complete Farmer à inspecter les Produits au lieu de Livraison.\n\niv. Décrire la qualité et la quantité des Produits à Complete Farmer lors de la Livraison.\n\nv. Livrer les Produits dans l’emballage prescrit par Complete Farmer.\n\nvi. Réaliser tout autre service que Complete Farmer peut raisonnablement exiger du Producteur en vertu de ce Contrat."
+      },
+      {
+        "id": 6,
+        "title": "Obligations du Producteur",
+        "content": "À la fin de la Période de Culture, Complete Farmer notifiera au Producteur la date de récolte et prendra en charge l’emballage et la livraison des Produits conformément au présent Contrat.\n\nLe Producteur doit livrer les Produits dans un Centre de Conditionnement désigné dans les trois (3) jours suivant la récolte. Le Producteur peut demander un enlèvement à la ferme par Complete Farmer moyennant des frais supplémentaires déduits des Frais convenus.\n\nAprès la récolte, le Producteur disposera de trois (3) jours pour transporter les Produits vers un centre de récolte/conditionnement désigné. Le Producteur peut demander à Complete Farmer de récupérer les Produits moyennant des frais.\n\n[...]"
+      },
+      {
+        "id": 7,
+        "title": "Prix, Modalités et Mode de Paiement",
+        "content": "Complete Farmer versera au Producteur le Prix de tous les Produits acceptés par Complete Farmer en vertu du présent Contrat dans un délai de trois (3) jours ouvrables via (i) lettres de crédit, (ii) chèques postdatés ou (iii) virement bancaire/mobile direct dans un délai de dix (10) jours ouvrables. Les Parties prépareront un rapport pour confirmer les Produits livrés et les services fournis. Complete Farmer et le Producteur signeront les documents appropriés. Si Complete Farmer effectue un paiement tardif, celui-ci portera un intérêt de 5 % pour chaque semaine de retard, et Complete Farmer indemnisera le Producteur pour tous les coûts et pertes liés au retard."
+      },
+      {
+        "id": 8,
+        "title": "Assurance",
+        "content": "Les Parties conviennent que le Producteur doit souscrire une assurance couvrant les pertes et risques potentiels, y compris la non-exécution, les conditions météorologiques, les ravageurs/maladies et la guerre. La prime d’assurance sera payée par le Producteur et remboursée par Complete Farmer après la vente des Produits."
+      },
+      {
+        "id": 9,
+        "title": "Résiliation",
+        "content": "Complete Farmer peut résilier le présent Contrat si le Producteur commet une Violation Matérielle et, lorsqu’elle est réparable, ne la corrige pas dans les trente (30) jours suivant la notification écrite. Le Producteur peut résilier le présent Contrat pendant une Période de Culture si Complete Farmer ne respecte pas ses obligations dans un délai de trente (30) jours après notification écrite. Chaque Partie peut résilier le Contrat en donnant un préavis d’au moins trente (30) jours, sauf pendant la Période de Culture. Aucun remboursement ne sera effectué en cas de résiliation en dehors de la Période de Culture."
+      },
+      {
+        "id": 10,
+        "title": "Obligations de Complete Farmer",
+        "content": "Complete Farmer peut fournir au Producteur les services suivants :\n\ni) Formation pour renforcer la capacité du Producteur à produire la qualité et la quantité requises de Produits\n\nii) Services d’extension et de supervision\n\niii) Centre de conditionnement pour les Produits\n\niv) Matériaux d’emballage pour les Produits\n\nv) Prêt d’Intrants selon certaines conditions\n\nvi) Tout autre service que Complete Farmer décide à sa seule discrétion de fournir."
+      },
+      {
+        "id": 11,
+        "title": "Indemnité",
+        "content": "Les Parties conviennent de s’indemniser, de se défendre et de se tenir mutuellement indemnes contre toute réclamation, dépense, responsabilité et dommage de tiers découlant de l’exécution ou de la violation du présent Contrat. Cette obligation survivra à la résiliation du Contrat."
+      },
+      {
+        "id": 12,
+        "title": "Règlement des Différends",
+        "content": "En cas de Différend, chaque Partie doit notifier par écrit à l’autre Partie en fournissant des détails et pièces justificatives, et les deux Parties s’efforceront de régler le Différend à l’amiable. Si elles n’y parviennent pas dans un délai de soixante (60) jours, le Différend sera définitivement réglé par un arbitre nommé conformément à la loi ghanéenne sur le Règlement Alternatif des Différends, 2010 (Acte 798). La langue de l’arbitrage sera l’anglais et le lieu sera Accra, Ghana."
+      },
+      {
+        "id": 13,
+        "title": "Limitation de Responsabilité",
+        "content": "Les Parties conviennent qu’elles ne seront pas responsables de certains types de pertes ou dommages subis par l’autre Partie, sauf dans des circonstances spécifiques telles que fraude, inconduite intentionnelle, décès, dommages matériels, blessures corporelles, atteinte à la propriété intellectuelle, obligations d’indemnisation ou violation de la confidentialité. Pour la responsabilité générale, sauf dans les cas mentionnés, le montant maximum est limité à une fois (1x) le total payé ou payable en vertu du Contrat au cours des douze mois précédant l’événement."
+      },
+      {
+        "id": 14,
+        "title": "Acceptation",
+        "content": "Le Producteur reconnaît et déclare avoir lu, compris et accepté d’être lié par les Conditions en ligne, qui sont intégrées au présent Contrat par référence. En cas de conflit entre ce Contrat et les Conditions en ligne, le présent Contrat prévaut."
+      },
+      {
+        "id": 15,
+        "title": "Droit Applicable",
+        "content": "Les notifications doivent être faites par écrit et peuvent être remises en main propre, par courrier ou par email à l’adresse indiquée dans ce Contrat. La remise en main propre est réputée reçue dès réception, tandis qu’un email est réputé reçu 24 heures après l’envoi."
+      }
+    ],
+    "definitions": [
+      {
+        "term": "Informations Confidentielles",
+        "definition": "désigne toute information divulguée par la Partie divulgatrice à la Partie réceptrice, qui, (i) si elle est sous forme écrite, graphique, lisible par machine ou autre forme tangible, est marquée \"Confidentiel\" ou \"Propriétaire\" ou, si elle est divulguée oralement, est identifiée comme confidentielle au moment de la divulgation ; ou (ii) par la nature des circonstances, doit de bonne foi être traitée comme confidentielle, y compris les données commerciales, financières, marketing, opérationnelles, techniques et similaires qui ne sont pas généralement connues en dehors de la Partie divulgatrice."
+      },
+      {
+        "term": "Différend",
+        "definition": "désigne tout différend, controverse, malentendu ou réclamation découlant du présent Contrat ou lié à son exécution, sa validité ou son applicabilité."
+      },
+      {
+        "term": "Notification de Différend",
+        "definition": "désigne la notification écrite du Différend, précisant sa nature et ses détails."
+      },
+      {
+        "term": "Frais",
+        "definition": "désigne les frais indiqués dans le Bon de Commande."
+      },
+      {
+        "term": "Force Majeure",
+        "definition": "désigne des circonstances indépendantes de la volonté d’une Partie, y compris mais sans s’y limiter aux catastrophes naturelles, incendie, inondation, sécheresse, pandémies, épidémies, explosion, sabotage des cultures ou du stockage/transport, accident, émeute, guerre, coup d’État, troubles civils ou panne d’équipement, empêchant directement une Partie d’exécuter ses obligations."
+      },
+      {
+        "term": "Centre de Conditionnement",
+        "definition": "désigne un lieu désigné par Complete Farmer pour recevoir, inspecter et emballer les Produits."
+      },
+      {
+        "term": "Période de Culture",
+        "definition": "désigne la période allant de [date à date]"
+      },
+      {
+        "term": "Intrants",
+        "definition": "désigne les semences, plants, produits agrochimiques et engrais."
+      },
+      {
+        "term": "Terre",
+        "definition": "désigne la parcelle de terre située à [insérer longitude et latitude], dans [Ville] dans la [Région] de la République du Ghana."
+      },
+      {
+        "term": "Violation Matérielle",
+        "definition": "désigne une violation (y compris une violation anticipée) suffisamment grave pour affecter de manière significative le bénéfice qu’aurait retiré la Partie non défaillante."
+      },
+      {
+        "term": "Commande",
+        "definition": "désigne une commande de Produits."
+      },
+      {
+        "term": "Conditions en Ligne",
+        "definition": "désigne la Politique de Confidentialité de Complete Farmer [lien], et (ii) les Conditions Générales du Producteur [lien]."
+      },
+      {
+        "term": "BC",
+        "definition": "désigne un Bon de Commande."
+      },
+      {
+        "term": "Prix",
+        "definition": "désigne le prix fixe par cent (100) kilogrammes de Produits convenu dans le Bon de Commande."
+      },
+      {
+        "term": "Normes de Méthode de Production",
+        "definition": "désigne les normes, procédures, instructions et lignes directrices de Complete Farmer concernant la préparation et la culture des Produits, y compris le labour, le désherbage, l’application d’intrants chimiques et d’engrais, la gestion des parasites et maladies, la récolte et la gestion post-récolte définies à l’Annexe C."
+      },
+      {
+        "term": "Bon de Commande",
+        "definition": "désigne le document de l’Annexe A décrivant la Commande, le travail à effectuer, les Produits à fournir et les Frais."
+      }
+    ],
+    "signContract": "Signer le contrat"
+  }
+}

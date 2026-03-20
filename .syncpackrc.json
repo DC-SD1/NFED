@@ -1,0 +1,122 @@
+{
+  "$schema": "https://unpkg.com/syncpack@latest/dist/schema.json",
+  "source": [
+    "package.json",
+    "apps/*/package.json",
+    "packages/*/package.json",
+    "tooling/*/package.json"
+  ],
+  "lintFormatting": false,
+  "lintVersions": false,
+  "versionGroups": [
+    {
+      "label": "Pin React ecosystem versions",
+      "dependencies": [
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom"
+      ],
+      "dependencyTypes": ["prod", "dev"],
+      "pinVersion": true
+    },
+    {
+      "label": "Ensure Next.js versions are consistent",
+      "dependencies": ["next", "@next/*"],
+      "dependencyTypes": ["prod", "dev"],
+      "policy": "sameRange"
+    },
+    {
+      "label": "Use workspace protocol for local packages",
+      "dependencies": ["@cf/*"],
+      "dependencyTypes": ["prod", "dev", "peer"],
+      "policy": "workspace"
+    },
+    {
+      "label": "Testing frameworks alignment",
+      "dependencies": ["vitest", "@vitest/*", "playwright", "@playwright/*"],
+      "dependencyTypes": ["dev"],
+      "policy": "sameRange"
+    },
+    {
+      "label": "Linting and formatting tools",
+      "dependencies": [
+        "eslint",
+        "eslint-*",
+        "prettier",
+        "@typescript-eslint/*",
+        "typescript"
+      ],
+      "dependencyTypes": ["dev"],
+      "policy": "sameRange"
+    },
+    {
+      "label": "Clerk authentication packages",
+      "dependencies": ["@clerk/*"],
+      "dependencyTypes": ["prod", "dev"],
+      "policy": "sameRange"
+    },
+    {
+      "label": "Sentry monitoring packages",
+      "dependencies": ["@sentry/*"],
+      "dependencyTypes": ["prod", "dev"],
+      "policy": "sameRange"
+    },
+    {
+      "label": "UI and styling libraries",
+      "dependencies": [
+        "tailwindcss",
+        "tailwind-*",
+        "@tailwindcss/*",
+        "lucide-react",
+        "class-variance-authority",
+        "clsx"
+      ],
+      "dependencyTypes": ["prod", "dev"],
+      "policy": "sameRange"
+    }
+  ],
+  "semverGroups": [
+    {
+      "label": "Prefer caret ranges for production dependencies",
+      "range": "^",
+      "dependencyTypes": ["prod"],
+      "dependencies": ["**"],
+      "exclude": [
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom",
+        "@cf/*",
+        "@radix-ui/*"
+      ]
+    },
+    {
+      "label": "Prefer caret ranges for dev dependencies",
+      "range": "^",
+      "dependencyTypes": ["dev"],
+      "dependencies": ["**"],
+      "exclude": ["@cf/*"]
+    }
+  ],
+  "sortFirst": [
+    "name",
+    "description",
+    "version",
+    "private",
+    "type",
+    "main",
+    "module",
+    "types",
+    "exports",
+    "files"
+  ],
+  "sortAz": [
+    "scripts",
+    "dependencies",
+    "devDependencies",
+    "peerDependencies",
+    "optionalDependencies",
+    "overrides"
+  ]
+}

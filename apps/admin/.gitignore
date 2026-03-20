@@ -1,0 +1,13 @@
+
+# clerk configuration (can include secrets)
+/.clerk/
+/.cursor/
+/.windsurf/
+
+# Build artifacts and caches
+.next/
+.turbo/
+*.tsbuildinfo
+
+# Netlify
+.netlify/

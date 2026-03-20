@@ -1,0 +1,1435 @@
+{
+  "common": {
+    "welcome": "Bienvenido a la Plataforma Grower",
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "signOut": "Cerrar Sesión",
+    "dashboard": "Panel de Control",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "back": "Atrás",
+    "skip": "Saltar",
+    "saveAndSend": "Guardar y enviar",
+    "deactivated": "Desactivado",
+    "deactivatedDescription": "Administrador de granja desactivado exitosamente. Puedes reactivar la granja asignando un administrador a la granja.",
+    "saveAsDraft": "Guardar como borrador",
+    "processing_invitation": "Procesando tu invitación...",
+    "errors": {
+      "oops_title": "Ups!",
+      "oops_message": "Algo salió mal.",
+      "unknown_error": "Ocurrió un error inesperado. Por favor intenta de nuevo.",
+      "network_error": "Error de conexión de red. Por favor verifica tu conexión a internet.",
+      "timeout": "La solicitud expiró. Por favor intenta de nuevo.",
+      "server_error": "Error del servidor. Por favor intenta más tarde.",
+      "required_field": "Este campo es obligatorio.",
+      "invalid_field": "Por favor ingresa un valor válido.",
+      "invalid_format": "Formato inválido. Por favor verifica tu entrada.",
+      "field_null": "Este campo no puede estar vacío.",
+      "field_too_large": "La entrada es demasiado grande. Por favor reduce el tamaño.",
+      "invalid_value": "Valor inválido. Por favor verifica tu entrada.",
+      "bad_request": "Solicitud incorrecta. Por favor verifica tu entrada e intenta de nuevo.",
+      "invalid_environment": "La solicitud no es válida para este entorno.",
+      "invalid_settings": "Configuración de autenticación inválida.",
+      "malformed_request": "La solicitud está mal formada y no se pudo procesar.",
+      "invalid_request_body": "Cuerpo de solicitud inválido. Por favor consulta la documentación de la API.",
+      "invalid_api_key": "Clave API inválida. Por favor verifica tu configuración.",
+      "missing_parameter": "Falta un parámetro requerido.",
+      "unsupported_content_type": "Tipo de contenido no soportado.",
+      "invalid_proxy_key": "Clave secreta de proxy inválida.",
+      "maintenance_mode": "El sistema está en mantenimiento. Por favor intenta más tarde.",
+      "not_found": "Recurso no encontrado.",
+      "forbidden": "Acceso prohibido.",
+      "user_quota_exceeded": "Ocurrió un error técnico. Nuestro equipo está resolviendo el problema, por favor intenta de nuevo más tarde.",
+      "invalid_url_scheme": "Esquema de URL inválido. Por favor proporciona una URL válida.",
+      "invalid_redirect_url": "Formato de URL de redirección inválido.",
+      "unauthorized": {
+        "title": "Acceso no autorizado",
+        "message": "No tienes permiso para acceder a esta página. Por favor contacta a tu administrador si crees que esto es un error.",
+        "goToDashboard": "Ir al Panel de Control",
+        "goToHome": "Ir a Inicio"
+      },
+      "notFound": {
+        "title": "Página no encontrada",
+        "message": "Lo sentimos, no pudimos encontrar la página que buscas. La página podría haber sido eliminada, renombrada o no existe.",
+        "goToDashboard": "Ir al Panel de Control",
+        "goToHome": "Ir a Inicio"
+      },
+      "error": {
+        "title": "¡Algo salió mal!",
+        "message": "Lo sentimos, pero algo inesperado sucedió. Por favor intenta de nuevo o contacta al soporte si el problema persiste.",
+        "tryAgain": "Intentar de nuevo",
+        "goToHome": "Ir a Inicio"
+      }
+    }
+  },
+  "farmPlan": {
+    "selectCrop": {
+      "saving": "Guardando...",
+      "view": "Ver",
+      "close": "Cerrar",
+      "errors": {
+        "planExistsTitle": "El plan de cultivo ya existe",
+        "planExistsDesc": "Ya existe un plan para esta granja, terreno y cultivo."
+      }
+    },
+    "productionPlan": {
+      "title": "Plan de producción",
+      "description": "Análisis integral de la granja con información sobre el clima, suelo, zona y producción",
+      "farmInformation": "Información de la granja",
+      "farmInformationSubtitle": "Ingrese los detalles de su granja para obtener un análisis completo",
+      "farmName": "Nombre de la granja",
+      "farmLandSize": "Tamaño del terreno de la granja",
+      "cropType": "Tipo de cultivo",
+      "cropVariety": "Variedad de cultivo",
+      "selectCropType": "Seleccionar tipo de cultivo",
+      "selectCropVariety": "Seleccionar variedad de cultivo",
+      "analyzingConditions": "Analizando las condiciones óptimas de siembra...",
+      "preferredStartDate": "Fecha de inicio preferida",
+      "useIrrigation": "¿Planea usar riego?",
+      "generateFarmPlan": "Generar plan agrícola",
+      "plantingRecommendation": "Recomendación de siembra",
+      "generating": "Generando plan agrícola...",
+      "loading": "Cargando...",
+      "errors": {
+        "loadFailed": "Error al cargar los detalles de la granja. Por favor intente de nuevo.",
+        "generateFailed": "Error al generar el plan agrícola. Por favor intente de nuevo.",
+        "missingRequiredData": "Falta información requerida",
+        "missingFarmId": "Falta información de la granja",
+        "missingLandId": "Falta información del terreno",
+        "missingCropId": "Falta información del cultivo",
+        "missingUserId": "Falta información del usuario",
+        "missingMultipleFields": "Falta información requerida: {fields}"
+      }
+    },
+    "planSummary": {
+      "title": "Resumen del plan",
+      "back": "Volver",
+      "nameFarmPlan": "Nombrar el plan agrícola",
+      "enterFarmPlanName": "Ingrese el nombre del plan agrícola",
+      "upcoming": "Próximo",
+      "active": "Activo",
+      "completed": "Completado",
+      "overdue": "Vencido",
+      "daysToGo": "Faltan {days} días",
+      "landSize": "Tamaño del terreno",
+      "crop": "Cultivo",
+      "farmingStartDate": "Fecha de inicio de cultivo",
+      "cropCalendar": "Calendario de cultivo",
+      "billOfMaterialsAndServices": "Lista de materiales y servicios",
+      "item": "Artículo",
+      "unit": "Unidad",
+      "costRange": "Rango de costos",
+      "viewFullMaterialsList": "Ver lista completa de materiales",
+      "productionActivities": "Actividades de producción",
+      "stage": "Etapa",
+      "activity": "Actividad",
+      "duration": "Duración",
+      "durationWeek": "Duración (Semana)",
+      "costRangeGHS": "Rango de costos (GHS)",
+      "startWeek": "Semana de inicio",
+      "endWeek": "Semana de finalización",
+      "week": "semana",
+      "activities": "actividades",
+      "start": "Inicio",
+      "end": "Fin",
+      "cost": "Costo",
+      "viewFullActivitiesList": "Ver lista completa de actividades",
+      "viewLess": "Ver menos",
+      "noItems": "No hay artículos disponibles",
+      "save": "Guardar",
+      "saving": "Guardando...",
+      "success": {
+        "planSaved": "Plan agrícola guardado exitosamente",
+        "title": "Plan agrícola agregado",
+        "description": "Su plan agrícola para la próxima temporada ha sido creado exitosamente.",
+        "done": "Hecho"
+      },
+      "errors": {
+        "nameFarmPlan": "Por favor ingrese un nombre para el plan agrícola",
+        "saveFailed": "Error al guardar el plan agrícola. Por favor intente de nuevo."
+      }
+    },
+    "planDetails": {
+      "loading": "Cargando...",
+      "notFound": "Plan agrícola no encontrado",
+      "untitledPlan": "Plan sin título",
+      "deletePlan": "Eliminar plan",
+      "deleting": "Eliminando...",
+      "confirmDelete": "¿Estás seguro de que quieres eliminar este plan agrícola?",
+      "cancelDelete": "Cancelar",
+      "confirmDeleteButton": "Sí, eliminar",
+      "success": {
+        "planDeleted": "Plan agrícola eliminado exitosamente"
+      },
+      "errors": {
+        "deleteFailed": "Error al eliminar el plan agrícola. Por favor, inténtalo de nuevo."
+      }
+    },
+    "summary": {
+      "title": "Plan de producción",
+      "description": "Análisis integral de la granja con información sobre el clima, suelo, zona y producción",
+      "dataAutoSaved": "Datos guardados automáticamente",
+      "lastUpdated": "Última actualización: {date}",
+      "editFarmData": "Editar datos de la granja",
+      "startNewPlan": "Iniciar nuevo plan",
+      "farmDashboard": "Panel de granja",
+      "farmThisPlan": "Cultivar este plan",
+      "savePlan": "Guardar el plan",
+      "soilAnalysis": "Análisis del suelo",
+      "currentConditions": "Condiciones actuales y recomendaciones agrícolas",
+      "planId": "ID del plan",
+      "daysLeft": "{days} días restantes",
+      "tabs": {
+        "overview": "Resumen",
+        "timelines": "Cronogramas",
+        "materials": "Materiales"
+      },
+      "metrics": {
+        "expectedYield": "Rendimiento esperado",
+        "totalCost": "Costo total",
+        "activities": "Actividades",
+        "materials": "Materiales",
+        "tons": "Toneladas",
+        "estimated": "Estimado",
+        "scheduledTasks": "Tareas programadas",
+        "requiredItems": "Artículos requeridos"
+      },
+      "fields": {
+        "cropType": "Tipo de cultivo",
+        "cropVariety": "Variedad de cultivo",
+        "landSize": "Tamaño del terreno",
+        "dateCreated": "Fecha de creación",
+        "crop": "Cultivo:",
+        "startDate": "Fecha de inicio:",
+        "area": "Área:",
+        "harvestDate": "Fecha de cosecha:"
+      },
+      "modal": {
+        "nameThePlan": "Nombrar el plan agrícola",
+        "giveNameSubtitle": "¡Dale un nombre a tu plan agrícola antes de guardarlo!",
+        "inputLabel": "Nombrar el plan agrícola",
+        "inputPlaceholder": "Ingrese el nombre",
+        "saveAndContinue": "Guardar y continuar",
+        "cancel": "Cancelar",
+        "successMessage": "¡Plan agrícola guardado exitosamente!"
+      }
+    },
+    "list": {
+      "title": "Planes agrícolas",
+      "farmThePlan": "Cultivar el plan",
+      "starting": "Iniciando...",
+      "headers": {
+        "planName": "Nombre del plan",
+        "farmName": "Nombre de la granja",
+        "dateCreated": "Fecha de creación",
+        "startDate": "Fecha de inicio",
+        "harvestDate": "Fecha de cosecha",
+        "status": "Estado",
+        "action": "Acción"
+      },
+      "mobile": {
+        "harvestTime": "TIEMPO DE COSECHA",
+        "status": "Estado",
+        "farmId": "ID de granja: {id}"
+      },
+      "empty": {
+        "title": "Sin plan agrícola",
+        "description": "Crea tu nuevo plan agrícola para comenzar tu viaje de cultivo.",
+        "createButton": "Crear plan agrícola"
+      }
+    }
+  },
+  "auth": {
+    "otpSent": "¡Se ha enviado el OTP a tu correo electrónico!",
+    "otpError": "No se ha podido enviar el OTP. Por favor intenta de nuevo o contacta con soporte.",
+    "otpFailed": "No se ha podido verificar el OTP. Por favor intenta de nuevo.",
+    "otpIncorrect": "Código de verificación inválido o el código ha expirado. Por favor verifica e intenta de nuevo.",
+    "otpNotFound": "No se ha encontrado un OTP para este correo electrónico. Por favor solicita un nuevo código.",
+    "updatePhoneError": "No se ha podido actualizar el número de teléfono. Por favor intenta de nuevo.",
+    "updateNumberSuccess": "Número de teléfono actualizado exitosamente!",
+    "ghanaNumberError": "Actualmente no se admiten números de teléfono de Ghana. Por favor contacta con soporte.",
+    "signInTitle": "Inicia sesión en tu cuenta",
+    "signUpTitle": "Crea tu cuenta de agricultor",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "orContinueWith": "O continuar con",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "phone": "Número de teléfono",
+    "enterFirstName": "Ingresa tu nombre",
+    "enterLastName": "Ingresa tu apellido",
+    "enterEmail": "Ingresa tu correo electrónico",
+    "creatingAccount": "Creando cuenta...",
+    "continue": "Continuar",
+    "or": "O",
+    "continueWithGoogle": "Continuar con Google",
+    "sessionSync": {
+      "welcomeBack": "¡Bienvenido de nuevo{comma} {name}! Sincronizando tu sesión…",
+      "readyRedirect": "Todo listo. Redirigiendo…",
+      "syncFailedSigningOut": "No pudimos sincronizar tu sesión. Cerrando sesión para restablecer."
+    },
+    "you": "",
+    "resetPasswordVerification": "Verificación para Restablecer Contraseña",
+    "loginVerification": "Verificación de Inicio de Sesión",
+    "otpVerification": "Verificación OTP",
+    "resetYourPassword": "Restablece tu contraseña",
+    "changeYourPassword": "Cambia tu contraseña",
+    "createPassword": "Crea una contraseña",
+    "enterNewPassword": "Ingresa una nueva contraseña para tu cuenta",
+    "chooseNewPassword": "Elige una nueva contraseña para tu cuenta",
+    "setNewPassword": "Establecer nueva contraseña",
+    "saveNewPassword": "Guardar nueva contraseña",
+    "next": "Siguiente",
+    "savePassword": "Guardar Contraseña",
+    "enterPassword": "Ingresa la contraseña",
+    "confirmPasswordPlaceholder": "Confirmar contraseña",
+    "processing": "Procesando...",
+    "enterCode": "Ingresa el código del correo electrónico que enviamos a",
+    "verifying": "Verificando...",
+    "apply": "Aplicar",
+    "didntReceiveOtp": "¿No recibiste el OTP?",
+    "sendAgain": "Enviar de nuevo",
+    "sending": "Enviando...",
+    "canResendCodeIn": "Puedes reenviar el código en",
+    "otpResendSuccess": "¡Código de verificación enviado exitosamente! Revisa tu correo electrónico.",
+    "otpAttemptsWarning": "{attempts} intentos restantes antes del bloqueo temporal",
+    "otpLastAttemptWarning": "Último intento antes del bloqueo temporal",
+    "otpMaxAttemptsReached": "Demasiados intentos. Por favor espera {minutes} minutos antes de intentarlo de nuevo.",
+    "passwordResetCodeSent": "¡Código de restablecimiento de contraseña enviado! Por favor revisa tu correo electrónico en {email}. Recuerda revisar tu carpeta de spam si no lo ves.",
+    "byCreatingAccount": "Al crear una cuenta aceptas nuestros",
+    "termsOfUse": "Términos de Uso",
+    "and": "y",
+    "privacyPolicy": "Política de Privacidad",
+    "welcomeBack": "¡Bienvenido de nuevo, {name}!",
+    "accountCreated": "¡Cuenta creada exitosamente!",
+    "reset_password_subtitle": "Por favor, proporciona el correo electrónico vinculado a tu cuenta y te enviaremos un enlace para restablecer tu contraseña.",
+    "create_new_password": "Crear nueva contraseña",
+    "password_updated": "Contraseña restablecida con éxito. Por favor, inicia sesión con tu nueva contraseña.",
+    "password_redirect": "Por favor espera, serás redirigido a la página de inicio de sesión.",
+    "send_reset_link": "Enviar enlace de restablecimiento",
+    "emailDoesNotExist": "No se encontró una cuenta con ese correo electrónico. Por favor, verifica e inténtalo de nuevo.",
+    "somethingWentWrong": "Algo salió mal. Por favor, inténtalo más tarde.",
+    "resetNotEnabled": "Este correo no permite restablecer la contraseña por email. Contacta al soporte si necesitas ayuda.",
+    "currentPassword": "Contraseña actual",
+    "enterCurrentPassword": "Ingresa tu contraseña",
+    "newPassword": "Nueva contraseña",
+    "updatePassword": "Actualizar contraseña",
+    "passwordRequirements": {
+      "atLeast": "Al menos",
+      "characters": "8 Caracteres",
+      "lowercase": "Una letra minúscula",
+      "uppercase": "Una letra mayúscula",
+      "special": "Un carácter especial",
+      "number": "Un número"
+    },
+    "errors": {
+      "oops": "Oops! Algo salió mal.",
+      "email_not_found": "Dirección de correo electrónico no encontrada para restablecer contraseña",
+      "auth_error": "No pudimos iniciar tu sesión. Verifica tus datos e inténtalo de nuevo.",
+      "start_error": "Hmm, no pudimos comenzar el proceso. Intentémoslo otra vez.",
+      "submit_error": "¡Ups! No pudimos guardar tus respuestas. Intenta nuevamente en un momento.",
+      "unknown_error": "Algo salió mal de nuestro lado. Por favor, intenta de nuevo en unos instantes.",
+      "invalid_credentials": "Email o contraseña inválidos. Por favor intenta de nuevo.",
+      "incorrect_password": "Nombre de usuario o contraseña inválidos. Por favor intenta de nuevo.",
+      "token_expired": "Tu sesión ha expirado. Por favor inicia sesión de nuevo.",
+      "token_invalid": "Token de autenticación inválido. Por favor inicia sesión de nuevo.",
+      "unauthorized": "No estás autorizado para acceder a este recurso.",
+      "session_expired": "Tu sesión ha expirado. Por favor inicia sesión de nuevo.",
+      "session_invalid": "Sesión inválida. Por favor inicia sesión de nuevo.",
+      "user_not_found": "No se encontró una cuenta con esta dirección de email.",
+      "no_password_set": "Esta cuenta usa inicio de sesión social. Por favor usa el botón 'Continuar con Google'.",
+      "email_already_exists": "Ya existe una cuenta con este email.",
+      "invalid_email": "Por favor ingresa una dirección de email válida.",
+      "invalid_password": "Por favor ingresa una contraseña válida.",
+      "password_too_weak": "La contraseña es muy débil. Por favor elige una contraseña más fuerte.",
+      "invalid_phone": "Por favor ingresa un número de teléfono válido.",
+      "user_already_exists": "Ya existe una cuenta con esta información.",
+      "account_locked": "Tu cuenta ha sido bloqueada. Por favor contacta soporte.",
+      "account_suspended": "Tu cuenta ha sido suspendida. Por favor contacta soporte.",
+      "too_many_attempts": "Demasiados intentos de inicio de sesión. Por favor intenta más tarde.",
+      "rate_limit_exceeded": "Demasiadas solicitudes. Por favor espera e intenta de nuevo.",
+      "otp_expired": "El código de verificación ha expirado. Por favor solicita uno nuevo.",
+      "otp_invalid": "Código de verificación inválido. Por favor verifica e intenta de nuevo.",
+      "otp_max_attempts": "Máximo número de intentos de verificación alcanzado. Por favor solicita un nuevo código.",
+      "password_compromised": "Esta contraseña es demasiado común y fácil de adivinar. Por favor, crea una contraseña más segura y única para una mejor seguridad.",
+      "password_too_short": "La contraseña es muy corta. Por favor elige una contraseña más larga.",
+      "strategy_mismatch": "Este correo está asociado con un método de inicio de sesión diferente. Por favor intenta iniciar sesión con Google o restablece tu contraseña.",
+      "mfa_not_supported": "La autenticación de dos factores (2FA) no está soportada actualmente. Por favor contacta soporte para ayudarte a deshabilitarla.",
+      "needs_new_password": "Por favor restablece tu contraseña para continuar.",
+      "oauthFailed": "Error al iniciar sesión con {provider}. Por favor, inténtalo de nuevo.",
+      "signin_incomplete": "No se pudo completar el inicio de sesión. Por favor intenta de nuevo o contacta soporte.",
+      "signed_out": "Has cerrado sesión. Por favor inicia sesión para continuar.",
+      "session_not_found": "Sesión no encontrada. Por favor inicia sesión de nuevo.",
+      "session_consumed": "Esta sesión ya ha sido utilizada. Por favor inicia sesión de nuevo.",
+      "session_too_old": "La sesión es muy antigua. Por favor inicia sesión de nuevo.",
+      "emailAlreadyExists": "Este correo electrónico ya está registrado. Por favor usa otro correo o inicia sesión.",
+      "phoneAlreadyExists": "Este número de teléfono ya está registrado. Por favor usa otro número o inicia sesión.",
+      "checkEmailFailed": "No se pudo verificar la disponibilidad del correo. Por favor intenta de nuevo.",
+      "checkPhoneFailed": "No se pudo verificar la disponibilidad del número. Por favor intenta de nuevo.",
+      "session_inactive": "La sesión ya no está activa. Por favor inicia sesión de nuevo.",
+      "session_ineligible": "La sesión no puede ser renovada. Por favor inicia sesión de nuevo.",
+      "request_origin_invalid": "Origen de solicitud inválido. Por favor intenta de nuevo.",
+      "feature_not_enabled": "Esta función no está habilitada para tu cuenta.",
+      "user_banned": "Tu cuenta ha sido baneada. Si crees que esto fue un error, por favor contacta soporte.",
+      "account_deprovisioned": "Tu cuenta ha sido desaprovisionada. Por favor contacta soporte.",
+      "organization_not_found": "Organización no encontrada o no tienes permiso para acceder a ella.",
+      "invitation_already_accepted": "Esta invitación ya ha sido aceptada.",
+      "invitation_user_not_found": "Usuario no encontrado. Por favor regístrate primero para aceptar esta invitación.",
+      "invitation_not_found": "Invitación no encontrada.",
+      "invitation_not_pending": "Esta invitación no está en estado pendiente.",
+      "invitation_duplicate": "Ya existe una invitación pendiente para esta dirección de email.",
+      "invitation_revoked": "Esta invitación ha sido revocada.",
+      "organization_deleted": "Esta organización ha sido eliminada.",
+      "invitation_email_exists": "Esta dirección de email ya existe. Por favor inicia sesión en su lugar.",
+      "invitation_number_exists": "Este número de teléfono ya existe. Por favor, inicie sesión.",
+      "invitation_expired": "Este enlace de invitación ha expirado. Por favor solicita uno nuevo.",
+      "invitation_token_expired": "El token de invitación ha expirado. Por favor solicita uno nuevo.",
+      "invitation_invalid_token_format": "El enlace de invitación no es válido. Por favor verifica el enlace e intenta de nuevo.",
+      "invitation_invalid_email_token": "La invitación contiene una dirección de email inválida.",
+      "invitation_malformed_email_token": "La invitación contiene una dirección de email con formato incorrecto.",
+      "invitation_invalid_date_token": "La invitación contiene una fecha inválida.",
+      "invitation_invalid_date_format": "El formato de fecha de la invitación es inválido.",
+      "invitation_missing_token": "Falta el token de invitación. Por favor usa el enlace completo de tu email.",
+      "invitation_invalid_email_for_token": "Dirección de email inválida proporcionada para la invitación.",
+      "invitation_invalid_email_format": "El formato de la dirección de email es inválido.",
+      "invitation_missing_params": "Enlace de invitación inválido. Faltan parámetros requeridos.",
+      "clerk_user_not_found": "Cuenta de usuario no encontrada. Por favor contacta soporte.",
+      "clerk_api_error": "Error al conectar con el servicio de autenticación. Por favor intenta de nuevo.",
+      "invitation_processing_failed": "No se pudo procesar la invitación. Por favor intenta de nuevo.",
+      "unknown_token_error": "Ocurrió un error al validar la invitación. Por favor intenta de nuevo.",
+      "invitation_generic_error": "Ocurrió un error con la invitación. Por favor contacta soporte.",
+      "invitation_invalid_token_data": "Los datos de la invitación son inválidos. Por favor solicita una nueva invitación.",
+      "domain_blocked": "Este dominio de email está bloqueado. Por favor usa una dirección de email diferente.",
+      "domain_common": "No se permiten proveedores de email comunes. Por favor usa tu email organizacional.",
+      "domain_mismatch": "La dirección de email no coincide con el dominio de la organización.",
+      "enrollment_mode_disabled": "Este modo de inscripción no está habilitado para tu organización.",
+      "domain_quota_exceeded": "Se alcanzó el número máximo de dominios para esta organización.",
+      "enterprise_connection_required": "No se puede eliminar la membresía vinculada a la conexión empresarial.",
+      "verification_not_sent": "Por favor envía un código de verificación antes de intentar verificar.",
+      "verification_failed": "Verificación fallida. Demasiados intentos incorrectos.",
+      "verification_rate_limit": "Demasiadas solicitudes de verificación. Por favor espera antes de intentar de nuevo.",
+      "totp_incorrect": "Código de autenticador incorrecto. Por favor intenta de nuevo.",
+      "totp_already_enabled": "La autenticación de dos factores ya está habilitada.",
+      "backup_codes_unavailable": "Habilita otro método 2FA para usar códigos de respaldo.",
+      "passkey_failed": "La autenticación con passkey falló. Por favor intenta de nuevo.",
+      "passkey_invalid": "Credencial de passkey inválida.",
+      "oauth_exchange_failed": "La autenticación OAuth falló. Por favor intenta de nuevo.",
+      "oauth_misconfigured": "El proveedor OAuth está mal configurado. Por favor contacta soporte.",
+      "captcha_required": "Por favor completa la verificación CAPTCHA.",
+      "captcha_invalid": "La verificación CAPTCHA falló. Por favor intenta de nuevo.",
+      "device_blocked": "Este dispositivo ha sido bloqueado debido a actividad sospechosa.",
+      "device_attestation_required": "Se requiere verificación del dispositivo.",
+      "device_attestation_failed": "La verificación del dispositivo falló.",
+      "device_attestation_not_configured": "La atestación del dispositivo no está configurada.",
+      "device_attestation_misconfigured": "La atestación del dispositivo está mal configurada.",
+      "device_attestation_unsupported": "La atestación del dispositivo no es compatible con esta plataforma.",
+      "device_attestation_mismatch": "Discrepancia en el desafío de atestación del dispositivo.",
+      "device_attestation_challenge_invalid": "Desafío de atestación del dispositivo inválido o expirado.",
+      "device_attestation_assertion_invalid": "Aserción de atestación del dispositivo inválida.",
+      "assertion_required": "Se requiere una aserción para verificar tu dispositivo.",
+      "ticket_expired": "Este ticket ha expirado.",
+      "ticket_invalid": "Ticket inválido. Por favor usa un ticket válido.",
+      "payment_failed": "El pago falló. Por favor intenta de nuevo.",
+      "card_declined": "Tu tarjeta fue rechazada.",
+      "payment_processing_error": "Error al procesar el pago. Por favor intenta de nuevo.",
+      "payer_not_found": "Pagador no encontrado.",
+      "payee_not_found": "Beneficiario no encontrado.",
+      "plan_not_found": "Plan no encontrado.",
+      "subscription_not_found": "Suscripción no encontrada.",
+      "too_many_unverified": "Demasiados contactos sin verificar. Por favor verifica los existentes primero.",
+      "country_not_supported": "Los números de teléfono de este país no están soportados.",
+      "identification_claimed": "Esta identificación ha sido reclamada por otro usuario.",
+      "enhanced_email_disabled": "La entrega mejorada de email requiere solo OTP de email.",
+      "waitlist_closed": "La lista de espera no está aceptando nuevas entradas en este momento.",
+      "saml_incomplete": "La conexión SAML no puede ser activada. Faltan campos requeridos.",
+      "saml_metadata_fetch_failed": "Error al obtener los metadatos SAML IdP.",
+      "saml_metadata_parse_failed": "Error al analizar los metadatos SAML IdP.",
+      "inviteFail": "No se pudo invitar al usuario. Por favor, inténtalo de nuevo.",
+      "draftFail": "No se pudo guardar la invitación borrador. Por favor, inténtalo de nuevo.",
+      "completeInvite": "Los datos de la invitación están incompletos. Por favor, regresa y completa el formulario de invitación.",
+      "completeContract": "Los datos del contrato están incompletos. Por favor, regresa y completa el formulario del contrato.",
+      "createContractFail": "No se pudo crear el contrato. Por favor, inténtalo de nuevo.",
+      "farmManagersFail": "No se pudo obtener la lista de gerentes de finca. Por favor, inténtalo de nuevo.",
+      "failedToUpdateContract": "No se pudo actualizar el contrato. Por favor, inténtalo de nuevo.",
+      "failToUpdateManagerDetails": "No se pudo actualizar la información del usuario. Por favor, inténtalo de nuevo.",
+      "farmManagerDeactivated": "El gerente de finca ya está desactivado",
+      "max_farm_lands": "Has alcanzado el límite: un propietario de finca solo puede gestionar dos terrenos de finca a la vez.",
+      "already_managing": "El gerente de finca ya está gestionando este terreno de finca",
+      "error_assigning_self": "Ocurrió un error al asignarte a ti mismo."
+    }
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "overview": "Resumen",
+    "farms": "Fincas",
+    "crops": "Cultivos",
+    "activities": "Actividades",
+    "analytics": "Análisis",
+    "reports": "Informes",
+    "welcomeCard": {
+      "title": "Bienvenido {userName}",
+      "subtitle": "Únete a más de 20000+ agricultores que utilizan Complete Farmer para cultivar sus cultivos",
+      "completedSteps": "Has completado {stepsComplete}/4 pasos",
+      "needHelp": "¿Necesitas ayuda con tu granja?",
+      "contactSupport": "Contacta soporte:"
+    },
+    "tasks": {
+      "title": "Tareas",
+      "tabAll": "Todas",
+      "tabPending": "Pendientes",
+      "tabUpcoming": "Próximas",
+      "tabToDo": "Por hacer",
+      "tabDone": "Hechas",
+      "status": "Estado",
+      "due": "Vencimiento",
+      "farmLabel": "Granja",
+      "assigneeLabel": "Responsable",
+      "markDone": "Marcar como completada",
+      "noTasksTitle": "No hay tareas nuevas",
+      "noTasksSubtitle": "¡Estás al día!",
+      "viewMore": "Ver más",
+      "close": "Cerrar panel de tareas",
+      "modalTitle": "Todas las tareas",
+      "statuses": {
+        "pending": "Pendiente",
+        "upcoming": "Próxima",
+        "notStarted": "Sin iniciar",
+        "completed": "Completada"
+      },
+      "emptyStates": {
+        "all": {
+          "title": "No hay tareas aún",
+          "subtitle": "¡Estás al día!",
+          "hint": ""
+        },
+        "pending": {
+          "title": "No hay tareas pendientes",
+          "subtitle": "Todas tus tareas urgentes están completadas",
+          "hint": "Prueba ver 'Todas' o 'Próximas' tareas"
+        },
+        "upcoming": {
+          "title": "No hay tareas próximas",
+          "subtitle": "No hay tareas programadas para más adelante",
+          "hint": "Verifica 'Pendientes' o 'Todas' para otras tareas"
+        },
+        "completed": {
+          "title": "No hay tareas completadas",
+          "subtitle": "Aún no has marcado tareas como completadas",
+          "hint": "Completa tareas pendientes para verlas aquí"
+        }
+      }
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "tabAll": "Todas",
+      "tabUnread": "No leídas",
+      "tabReminder": "Recordatorio",
+      "tabTask": "Tarea",
+      "tabAlert": "Alerta",
+      "today": "Hoy",
+      "yesterday": "Ayer",
+      "noNotificationsTitle": "No hay notificaciones nuevas",
+      "noNotificationsSubtitle": "¡Estás al día!",
+      "viewMore": "Ver más",
+      "modalTitle": "Todas las notificaciones",
+      "searchPlaceholder": "Buscar notificaciones",
+      "emptyDrawerTitle": "Tu bandeja está tranquila",
+      "emptyDrawerSubtitle": "Cuando tengamos novedades para ti, aparecerán aquí.",
+      "noResultsTitle": "No se encontraron notificaciones",
+      "noResultsSubtitle": "Prueba con otra palabra clave.",
+      "clearSearch": "Limpiar búsqueda",
+      "ctaProfile": "Revisar perfil",
+      "ctaFarmPlan": "Ver plan agrícola",
+      "ctaFarmManagers": "Revisar administradores",
+      "ctaDefault": "Ver detalles",
+      "noCtaLabel": "Sin acciones disponibles",
+      "deleteLabel": "Eliminar",
+      "unknownDate": "Fecha desconocida",
+      "toastTitle": "Nueva notificación",
+      "toastDismiss": "Descartar"
+    },
+    "learningResources": {
+      "title": "Recursos de aprendizaje",
+      "viewMore": "Ver más",
+      "modalTitle": "Todos los recursos de aprendizaje",
+      "drawerTitle": "Recursos de aprendizaje",
+      "ariaLabelPrefix": "Reproducir video",
+      "documentAriaLabelPrefix": "Descargar documento",
+      "errorLoadingResources": "Error al cargar los recursos de aprendizaje",
+      "errorDrawerTitle": "Error al cargar recursos",
+      "errorDrawerSubtitle": "Por favor, inténtelo de nuevo o contacte con el soporte si el problema persiste.",
+      "retry": "Reintentar",
+      "noResourcesAvailable": "No hay recursos de aprendizaje disponibles en este momento",
+      "emptyDrawerTitle": "No hay recursos disponibles",
+      "emptyDrawerSubtitle": "Vuelve más tarde para ver nuevo contenido de aprendizaje y recursos."
+    },
+    "emptyState": {
+      "title": "¡Vamos a empezar!",
+      "layoutTitle": "Administrador de granja",
+      "deactivateManager": "Desactivar administrador de granja",
+      "description": "¡Siente libre de invitar a alguien, enviar una solicitud para contratar o simplemente hazte cargo de la granja para empezar!",
+      "addFarmManager": "Agregar administrador de granja",
+      "select": "Selecciona la opción",
+      "inviteManager": "Invitar administrador de granja",
+      "assignYourself": "Asignarme a mí mismo",
+      "hireManager": "Solicitar contratación",
+      "totalManagers": "Total de administradores de granja",
+      "assignedManagers": "Asignados",
+      "unassignedManagers": "No asignados",
+      "removedManagers": "Desactivados",
+      "dashboardTitle": "Tu configuración está {progress}% completa",
+      "dashDescription": "Completa los pasos a continuación en cualquier orden. Cada paso te acerca a lanzar tu granja.",
+      "steps": {
+        "login": {
+          "title": "Configurar detalles de inicio de sesión",
+          "status": "Hecho"
+        },
+        "addLand": {
+          "title": "Añadir tu terreno agrícola"
+        },
+        "addManager": {
+          "title": "Añadir tu administrador de granja"
+        },
+        "start": {
+          "title": "Inicia tu viaje agrícola",
+          "action": "Comenzar a cultivar"
+        }
+      }
+    },
+    "farmLand": {
+      "planAdded": "Plan de granja agregado",
+      "moreDetails": "Más detalles"
+    },
+    "farmManager": {
+      "emptyState": {
+        "title": "Terrenos de granja",
+        "subtitle": "¡Vamos a empezar!",
+        "description": "¡Siente libre de invitar a alguien, enviar una solicitud para contratar o simplemente hazte cargo de la granja para empezar!",
+        "addFarmLand": "Agregar terreno de granja",
+        "totalFarmLands": "Total de terrenos de granja",
+        "plantingFarmLands": "Terrenos de granja en cultivo",
+        "harvestingFarmLands": "Terrenos de granja en cosecha",
+        "deactivatedFarmLands": "Terrenos de granja desactivados",
+        "noAssignedGrower": "No asignado a un cultivador",
+        "noGrowerDescription": "No has sido asignado a un cultivador, una vez que hayas recibido y aceptado la invitación, la granja que estás administrando aparecerá aquí.",
+        "filtered": {
+          "title": "No se encontraron granjas",
+          "subtitle": "No hay granjas que coincidan con el filtro \"{filter}\"",
+          "clearButton": "Limpiar filtro"
+        }
+      }
+    },
+    "inviteManager": {
+      "title": "Invitar administrador de granja",
+      "back": "Volver",
+      "header": "Administrador de granja",
+      "description": "Para invitar al administrador de granja, completa los detalles a continuación.",
+      "firstName": "Nombre",
+      "enterFirstName": "Ingrese el nombre",
+      "lastName": "Apellido",
+      "enterLastName": "Ingrese el apellido",
+      "yearsOfExperience": "Años de experiencia",
+      "phoneNumber": "Número de teléfono",
+      "email": "Correo electrónico",
+      "enterEmail": "Ingrese la dirección de correo electrónico del administrador",
+      "workType": "¿El administrador trabaja full-time o como contratista?",
+      "fullTime": "Tiempo completo",
+      "contractor": "Contratista",
+      "workPayType": "¿Cómo se paga al administrador?",
+      "payroll": "Pago mediante nómina",
+      "equityYield": "Participación en el rendimiento",
+      "hybrid": "Híbrido de pago en efectivo y participación en el rendimiento",
+      "inviteSuccess": "¡La invitación se envió con éxito!",
+      "inviteSuccessDescription": "La invitación se ha enviado al administrador de granja. ¡Solo espera su respuesta!",
+      "draftSuccess": "Guardado como borrador",
+      "draftSuccessDescription": "La invitación del administrador de granja se ha guardado en la lista de borradores"
+    },
+    "hireManager": {
+      "selectLand": "Selecciona el terreno de granja",
+      "selectLandSub": "Selecciona el terreno de granja que deseas asignar al administrador.",
+      "searchLand": "Buscar terrenos de granja",
+      "workConditions": "Mis condiciones de trabajo",
+      "workConditionsSub": "Establece tu rango de salario y oferta adicional",
+      "salaryRange": "Rango de salario",
+      "averageSalary": "El salario promedio en esta área es de {amount}",
+      "minSalary": "Salario mínimo",
+      "maxSalary": "Salario máximo",
+      "accommodationRequired": "¿Ofreces alojamiento?",
+      "submit": "Enviar",
+      "requestSent": "Solicitud enviada",
+      "sentDescription": "Tu solicitud para contratar un administrador de granja se ha enviado"
+    },
+    "assignSelf": {
+      "selectLand": "Selecciona el terreno de granja",
+      "selectLandSub": "Selecciona el terreno de granja que deseas administrar",
+      "searchLand": "Buscar terrenos de granja",
+      "submit": "Enviar",
+      "allSet": "¡Listo!",
+      "setDescription": "Ahora estás listo para administrar tu granja tú mismo. Aun puedes contratar o invitar a un administrador de granja en cualquier momento"
+    },
+    "nav": {
+      "dashboard": "Panel de Control",
+      "profile": "Perfil",
+      "farmer": {
+        "farms": "Mis Fincas",
+        "crops": "Cultivos",
+        "activities": "Actividades",
+        "analytics": "Análisis",
+        "equipment": "Equipos",
+        "marketplace": "Mercado"
+      },
+      "agent": {
+        "clients": "Clientes",
+        "territory": "Territorio",
+        "performance": "Rendimiento",
+        "training": "Capacitación",
+        "communications": "Comunicaciones",
+        "reports": "Informes"
+      }
+    },
+    "profile": {
+      "updateDetails": "Actualizar detalles",
+      "updateDetailsSub": "Para actualizar tus detalles, completa el formulario a continuación",
+      "kycStatus": {
+        "nonCompliantTitle": "Estado de la cuenta",
+        "nonCompliantMessage": "Actualiza tu KYC y presenta los documentos necesarios para que tu cuenta esté totalmente conforme",
+        "nonCompliantButtonText": "Enviar KYC",
+        "compliantTitle": "Estado de la cuenta",
+        "partiallyCompliantButtonText": "Editar",
+        "personalDocumentsTitle": "Documentos personales",
+        "certificateDocumentsTitle": "Documentos del certificado",
+        "noCertificateUploaded": "Ningún certificado cargado",
+        "noCertificateUploadButtonText": "Subir certificado",
+        "status": {
+          "nonCompliant": "No conforme",
+          "partiallyCompliant": "Parcialmente conforme",
+          "compliant": "Conforme"
+        }
+      }
+    },
+    "kyc": {
+      "kycTitle": "Tipo de residente",
+      "kycSub": "¿Eres un individuo local o internacional?",
+      "localTitle": "Individuo/residente local",
+      "internationalTitle": "Individuo internacional",
+      "localSub": "Necesitarás presentar la tarjeta de Ghana y prueba de dirección.",
+      "internationalSub": "Necesitarás presentar pasaporte válido, visa y prueba de dirección.",
+      "uploadTitle": "Subir documentos",
+      "uploadSub": "Sube documentos de apoyo para verificar tu identidad",
+      "save": "Guardar y enviar",
+      "saveDraft": "Guardar como borrador",
+      "saveAsDraft": "Guardar como borrador",
+      "successTitle": "KYC enviado",
+      "successTitleDraft": "KYC guardado como borrador",
+      "successSub": "¡Tus documentos han sido enviados con éxito!",
+      "successSubDraft": "¡Tus documentos han sido guardados como borrador con éxito!",
+      "uploadError": "Error al subir el documento.",
+      "submit": "Enviando...",
+      "saveUpdate": "Guardar y actualizar",
+      "residentType": {
+        "uploadId": "Subir tarjeta de identificación válida de Ghana",
+        "uploadPassport": "Identificación de votante o pasaporte (Esto es opcional si no hay identificación válida disponible)",
+        "expiryDate": "Fecha de expiración de la identificación o pasaporte",
+        "proofOfAddress": "Prueba de dirección",
+        "formatAccepted": "Formato aceptado jpeg, png y PDF y tamaño máximo del archivo 2 MB",
+        "editTitle": "Documentos de KYC",
+        "editSubTitle": "A continuación se muestran los documentos que has subido.",
+        "replaceDoc": "Reemplazar documentos",
+        "replaceDocSub": "Sube el archivo para reemplazar el archivo actual.",
+        "upload": "Subir",
+        "cancel": "Cancelar"
+      },
+      "international": {
+        "editTitle": "Documentos KYC",
+        "editSubTitle": "A continuación se encuentran los documentos que has subido.",
+        "replaceDoc": "Reemplazar documentos",
+        "replaceDocSub": "Sube el archivo para reemplazar el archivo actual.",
+        "upload": "Subir",
+        "cancel": "Cancelar",
+        "uploadPassport": "Subir pasaporte válido",
+        "passExpiry": "Fecha de vencimiento del pasaporte",
+        "uploadVisa": "Subir visa válida",
+        "visaExpiry": "Fecha de vencimiento del visa"
+      },
+      "certification": {
+        "title": "Seleccionar certificación",
+        "description": "Selecciona el certificado que deseas subir.",
+        "selectPlaceholder": "Seleccionar certificado",
+        "options": {
+          "pprsd": "PPRSD",
+          "globalGap": "Global G.A.P (cumplimiento total GRASP)",
+          "euOrganic": "Orgánico UE",
+          "asta": "ASTA",
+          "smeta": "SMETA",
+          "fairTrade": "FairTrade"
+        },
+        "uploadLabel": "Subir certificado"
+      },
+      "accountSettings": {
+        "title": "Ajustes de la cuenta"
+      }
+    },
+    "grow": {
+      "available": "Disponible",
+      "preferredCropTitle": "Ou cultiver la culture préférée",
+      "noCrops": "Aucune culture trouvée",
+      "noBuyers": "Aucune commande d'acheteur disponible, nous vous informerons lorsqu'une commande sera disponible ou vous pouvez continuer à cultiver votre culture préférée ci-dessous.",
+      "selectTitle": "Sélectionner une option de culture",
+      "selectSub": "Vous pouvez choisir comment démarrer votre aventure agricole — que vous souhaitiez vous lancer dans la culture de plantes ou vous concentrer sur la satisfaction des commandes des acheteurs.",
+      "buyerTitle": "Commandes des acheteurs",
+      "buyerSub": "Cultiver pour répondre à une demande spécifique d'un acheteur",
+      "focusTitle": "Cultures principales des agriculteurs",
+      "focusSub": "Cultivez l'une de nos cultures clés avec une demande d'acheteurs prouvée.",
+      "buyer-order": {
+        "title": "Sélectionner une culture",
+        "searchCrops": "Rechercher des cultures"
+      },
+      "order-details": {
+        "title": "Detalles del pedido",
+        "farm": "Cultiva este pedido"
+      },
+      "contract": {
+        "title": "Firma el contrato",
+        "sign": "Firma el contrato",
+        "description": "Tu firma electrónica será legalmente vinculante. El contrato será almacenado de manera segura."
+      },
+      "signing": {
+        "title": "Firma",
+        "instruction": "Dibuja tu firma debajo",
+        "description": "Acepto que la firma y las iniciales serán la representación electrónica de mi firma y mis iniciales para todos los propósitos cuando yo (o mi agente) las utilicen en documentos, incluyendo contratos legalmente vinculantes - justo lo mismo que una firma de pluma y papel.",
+        "draw": "Dibuja firma",
+        "upload": "Subir firma",
+        "confirm": "Confirmar firma",
+        "cancel": "Cancelar",
+        "clear": "Borrar firma"
+      },
+      "success": {
+        "title": "Solicitud enviada!",
+        "message": "Tu solicitud para arrendar tierra ha sido enviada con éxito",
+        "download": "Descargar contrato"
+      }
+    }
+  },
+  "api": {
+    "errors": {
+      "bad_request": "Solicitud inválida. Por favor verifica tu información e intenta de nuevo.",
+      "unauthorized": "No estás autorizado para realizar esta acción.",
+      "forbidden": "Acceso denegado. No tienes permiso para acceder a este recurso.",
+      "not_found": "El recurso solicitado no fue encontrado.",
+      "timeout": "La solicitud expiró. Por favor intenta de nuevo.",
+      "conflict": "Hubo un conflicto con tu solicitud. Por favor intenta de nuevo.",
+      "validation_error": "Por favor verifica tu información y corrige cualquier error.",
+      "rate_limit": "Demasiadas solicitudes. Por favor espera e intenta de nuevo.",
+      "internal_server_error": "Error interno del servidor. Por favor intenta más tarde.",
+      "bad_gateway": "Servicio temporalmente no disponible. Por favor intenta de nuevo.",
+      "service_unavailable": "El servicio no está disponible actualmente. Por favor intenta más tarde.",
+      "gateway_timeout": "Tiempo de espera agotado. Por favor intenta de nuevo.",
+      "validation_failed": "La validación falló. Por favor verifica tu información.",
+      "rate_limit_exceeded": "Límite de velocidad excedido. Por favor espera e intenta de nuevo."
+    }
+  },
+  "landing": {
+    "hero": {
+      "title": "Agricultura Moderna Simplificada",
+      "subtitle": "Rastrea, gestiona y optimiza tus operaciones agrícolas con la plataforma digital de Complete Farmer",
+      "cta": "Comenzar",
+      "learnMore": "Más Información"
+    },
+    "features": {
+      "title": "Todo lo que necesitas para cultivar",
+      "farmManagement": {
+        "title": "Gestión de Fincas",
+        "description": "Administra múltiples fincas, campos y cultivos en un solo lugar"
+      },
+      "cropTracking": {
+        "title": "Seguimiento de Cultivos",
+        "description": "Monitorea la salud de los cultivos, etapas de crecimiento y predicciones de rendimiento"
+      },
+      "analytics": {
+        "title": "Análisis Inteligente",
+        "description": "Información basada en datos para optimizar tus operaciones agrícolas"
+      }
+    },
+    "carousel": {
+      "slide1": {
+        "title": "Inicia una granja. Visita tus granjas.",
+        "subtitle": "Cultiva desde cualquier lugar. Todo lo que necesitas en un solo lugar"
+      },
+      "slide2": {
+        "title": "Haz crecer tu negocio. Rastrea tu progreso.",
+        "subtitle": "Monitorea tus cultivos y optimiza tus operaciones agrícolas"
+      },
+      "slide3": {
+        "title": "Conéctate con agricultores. Comparte conocimientos.",
+        "subtitle": "Únete a una comunidad de agricultores y expertos agrícolas"
+      },
+      "slide4": {
+        "title": "Escala tus operaciones. Maximiza la eficiencia.",
+        "subtitle": "Herramientas avanzadas e información para la agricultura profesional"
+      }
+    }
+  },
+  "metadata": {
+    "signUpTitle": "Registrarse - CF Grower",
+    "signUpDescription": "Únete a miles de agricultores que cultivan de manera más inteligente con Complete Farmer",
+    "signInTitle": "Iniciar Sesión - CF Grower",
+    "signInDescription": "Inicia sesión en tu cuenta para continuar"
+  },
+  "alt": {
+    "cf": "CF",
+    "cfGrowerLogo": "Logo de CF Grower",
+    "mailIcon": "Icono de correo"
+  },
+  "onboarding": {
+    "marketing": {
+      "start": "Comenzar",
+      "next": "Siguiente",
+      "title": "Primero lo primero, ¿cómo te enteraste de nosotros?",
+      "subtitle": "(¡Esto nos ayuda a llegar a más agricultores como tú!)",
+      "options": {
+        "friends-family": "Amigos o familia",
+        "cf-agent-representative": "Un agente o representante de CF",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "google-search": "Búsqueda en Google",
+        "radio-newspaper": "Radio o periódico",
+        "event-trade-fair": "Evento o feria comercial",
+        "other": "Otro"
+      }
+    },
+    "segmentation": {
+      "title": "Estado de experiencia",
+      "subtitle": "¿Has trabajado en la agricultura antes o es tu primera vez?",
+      "new-label": "Principiante",
+      "new-description": "Soy nuevo en la agricultura",
+      "experienced-label": "Con experiencia",
+      "experienced-description": "Ya he cultivado antes"
+    },
+    "newbie": {
+      "preference": {
+        "title": "Preferencia de cultivo",
+        "title2": "Método de cultivo",
+        "subtitle": "¡Bienvenido a bordo! Estamos emocionados de ayudarte a comenzar.",
+        "question": "¿Te gustaría:",
+        "farmSelf": "Cultivar por tu cuenta",
+        "farmManager": "Trabajar con un administrador de finca"
+      },
+      "land-availability": {
+        "greatChoice": "¡Buena elección! Puedes contratar un administrador de finca calificado directamente en la plataforma para guiar tu camino.",
+        "question": "¿Tienes tierras que planeas usar?",
+        "yes": "Sí",
+        "no": "No, necesitaré tierras"
+      },
+      "need-land": {
+        "subtitle1": "No hay problema—te tenemos cubierto. Puedes arrendar tierras verificadas fácilmente aquí en la plataforma.",
+        "subtitle2": "Te ayudaremos a encontrar una que se ajuste a tu cultivo y ubicación.",
+        "next": "Siguiente"
+      },
+      "farming-method": {
+        "question": "¿Qué tipo de cultivo te interesa?",
+        "greenhouse": "Agricultura en invernadero",
+        "openField": "Agricultura a campo abierto",
+        "notSure": "Aún no estoy seguro",
+        "coming-soon": "Próximamente"
+      },
+      "goals": {
+        "title": "Objetivo agrícola",
+        "description": "Y solo para asegurarnos de ofrecerte la mejor experiencia",
+        "mainQuestion": "¿Cuál es tu objetivo principal en CF Grower?",
+        "options": {
+          "startGuidance": "Quiero comenzar a cultivar y necesito orientación",
+          "betterYields": "Ya cultivo y quiero mejores rendimientos",
+          "export": "Quiero cultivar para exportación",
+          "investment": "Estoy explorando la agricultura como inversión"
+        },
+        "errors": {
+          "selectAtLeastOne": "Por favor selecciona al menos un objetivo"
+        }
+      },
+      "commitment": {
+        "title": "¡Casi terminamos! Hagámoslo oficial.",
+        "description": " Usaré CF Grower para...",
+        "start": "Iniciar y gestionar mi cultivo para alcanzar mis objetivos con éxito.",
+        "slide": "Desliza para abrir la puerta de tu finca y comprometerte con tu viaje.",
+        "swipe": "Deslizar para abrir"
+      },
+      "complete": {
+        "done": "¡Todo listo!",
+        "title": "Con base en tus respuestas, personalizaremos tu panel con herramientas y consejos para ayudarte a tener éxito.",
+        "start": "Empezar a cultivar"
+      }
+    },
+    "experienced": {
+      "farming-level": {
+        "title": "Nivel de experiencia agrícola",
+        "subtitle": "¡Eso es genial! La experiencia siempre es valiosa.",
+        "question": "¿Cuánto tiempo llevas cultivando?",
+        "options": {
+          "less_than_1_year": "Menos de 1 año",
+          "1-3_years": "1 a 3 años",
+          "4-7_years": "4 a 7 años",
+          "5-10_years": "5 a 10 años",
+          "8+_years": "Más de 8 años"
+        }
+      },
+      "current-crops": {
+        "title": "Cultivos cultivados",
+        "subtitle": "¿Qué cultivos has cultivado?",
+        "instruction": "Selecciona todos los que correspondan o escribe el tuyo:",
+        "options": {
+          "chilli-pepper": "Ají picante",
+          "maize": "Maíz",
+          "soybean": "Soya",
+          "sweet-potatoes": "Batatas",
+          "ginger": "Jengibre",
+          "cowpea": "Cáñamo",
+          "pineapple": "Piña",
+          "mango": "Mango",
+          "cassava": "Yuca",
+          "sesame": "Sésamo",
+          "groundnut": "Maní",
+          "other": "Otro"
+        },
+        "errors": {
+          "selectAtLeastOne": "Por favor selecciona al menos un cultivo que estés cultivando actualmente"
+        },
+        "next": "Siguiente"
+      },
+      "preference": {
+        "title": "Preferencia agrícola",
+        "question": "¿Te gustaría:",
+        "farmSelf": "Cultivar por tu cuenta",
+        "farmManager": "Trabajar con un administrador de finca"
+      },
+      "land-availability": {
+        "title": "Preferencia agrícola",
+        "greatChoice": "¡Excelente elección! Puedes invitar a tu propio administrador de finca o contratar uno calificado en la plataforma cuando lo necesites.",
+        "question": "¿Tienes tierras que planeas usar?",
+        "yes": "Sí",
+        "no": "No, necesito tierras"
+      },
+      "farming-method": {
+        "title": "Métodos de cultivo",
+        "subtitle": "No hay problema—te tenemos cubierto. Puedes arrendar tierras verificadas directamente desde la plataforma. Te ayudaremos a encontrar una que se ajuste a tu cultivo y ubicación.",
+        "question": "¿Qué tipo de agricultura te interesa?",
+        "greenhouse": "Agricultura en invernadero",
+        "openField": "Agricultura a campo abierto",
+        "notSure": "Aún no estoy seguro",
+        "coming-soon": "Próximamente"
+      }
+    }
+  },
+  "FarmLands": {
+    "title": "Agregando terreno de granja",
+    "subtitle": "¿Cómo te gustaría agregar tu terreno?",
+    "mapFarmLand": {
+      "title": "Mapea tu terreno de granja",
+      "description": "Muévete alrededor de tu terreno de granja para registrar los límites."
+    },
+    "uploadCoordinates": {
+      "title": "Subir coordenadas del terreno",
+      "description": "Sube el archivo con las coordenadas de tu terreno",
+      "modal": {
+        "title": "Seleccionar tipo de archivo",
+        "subtitle": "Selecciona el tipo de archivo que deseas subir",
+        "uploadCsv": "Subir archivo .CSV",
+        "uploadKml": "Subir archivo .KML"
+      }
+    },
+    "requestAssistance": {
+      "title": "Solicitar asistencia de un agente",
+      "description": "Pide a un agente que te ayude a mapear tu terreno de granja"
+    },
+    "confirm": {
+      "question": "¿La imagen muestra correctamente tu granja y tamaño?",
+      "yesContinue": "Sí, continuar",
+      "reUpload": "Volver a subir archivo",
+      "farmLandSize": "Tamaño del terreno de granja",
+      "back": "Volver"
+    },
+    "additionalDetails": {
+      "title": "Detalles adicionales",
+      "farmName": "Nombre de la granja",
+      "farmNamePlaceholder": "Ingresa el nombre de la granja",
+      "region": "Región",
+      "regionPlaceholder": "Ingresa la región donde se encuentra el terreno",
+      "villageLocation": "Pueblo / Ubicación",
+      "villagePlaceholder": "Ingresa el pueblo donde se encuentra el terreno",
+      "landOwnershipType": "¿Tipo de propiedad del terreno? (Opcional)",
+      "landTitle": "Título de propiedad",
+      "contractualAgreements": "Acuerdos contractuales",
+      "uploadLandTitle": "Subir documentos del título de propiedad",
+      "uploadContractual": "Subir documentos de acuerdo contractual",
+      "uploadLabel": "Subir",
+      "uploadDescription": "Formato aceptado jpeg, pdf, png",
+      "next": "Siguiente",
+      "back": "Volver",
+      "uploading": "Subiendo...",
+      "farmNameRequiredForUpload": "Por favor, ingrese el nombre de la granja antes de cargar documentos"
+    },
+    "upload": {
+      "title": "Subir archivo",
+      "infoBanner": {
+        "csv": "Si está subiendo un archivo CSV, utilice nuestra plantilla estándar para garantizar el formato correcto.",
+        "kml": "Si está subiendo un archivo KML, utilice nuestra plantilla estándar para garantizar el formato correcto."
+      },
+      "downloadTemplate": {
+        "csv": "Descargar plantilla CSV",
+        "kml": "Descargar plantilla KML"
+      },
+      "dropzone": {
+        "title": "Subir",
+        "description": "Formato aceptado .CSV (excel) y .KML",
+        "descriptionCsv": "Formato aceptado .CSV",
+        "descriptionKml": "Formato aceptado .KML"
+      },
+      "continue": "Continuar",
+      "errors": {
+        "invalid_csv": "Formato CSV inválido. Por favor, verifique que la estructura del archivo coincida con la plantilla.",
+        "invalid_kml": "Formato KML inválido. Por favor, asegúrese de que el archivo contenga coordenadas válidas.",
+        "invalid_csv_format": "El formato del archivo CSV es incorrecto. Por favor, use la plantilla proporcionada.",
+        "invalid_kml_format": "El formato del archivo KML es incorrecto. Por favor, verifique la estructura del archivo.",
+        "csv_missing_columns": "El archivo CSV no tiene las columnas requeridas. Por favor, use la plantilla.",
+        "csv_invalid_data": "El CSV contiene datos inválidos. Por favor, verifique que todos los valores sean correctos.",
+        "kml_invalid_structure": "El archivo KML tiene una estructura inválida. Por favor, verifique el archivo.",
+        "file_too_large": "El archivo es demasiado grande. Por favor, reduzca el tamaño del archivo.",
+        "file_empty": "El archivo subido está vacío. Por favor, seleccione un archivo con contenido.",
+        "invalid_coordinates": "El archivo contiene valores de coordenadas inválidas.",
+        "coordinates_out_of_bounds": "Las coordenadas están fuera del rango geográfico válido.",
+        "polygon_not_closed": "El polígono no está cerrado correctamente. El primer y último punto deben coincidir.",
+        "insufficient_points": "No hay suficientes puntos de coordenadas para formar un polígono válido."
+      },
+      "errorModal": {
+        "default": {
+          "title": "Error de Carga",
+          "description": "Por favor, verifica tu archivo e inténtalo de nuevo."
+        },
+        "invalidCsv": {
+          "title": "Formato CSV Inválido",
+          "description": "Por favor, asegúrate de que tu archivo CSV coincida con el formato de la plantilla."
+        },
+        "invalidXlsx": {
+          "title": "Formato Excel Inválido",
+          "description": "Por favor, asegúrate de que tu archivo Excel coincida con el formato de la plantilla."
+        },
+        "invalidKml": {
+          "title": "Formato KML Inválido",
+          "description": "Por favor, asegúrate de que tu archivo KML contenga coordenadas válidas."
+        },
+        "invalidCoordinates": {
+          "title": "Coordenadas Inválidas",
+          "description": "Las coordenadas en tu archivo parecen ser inválidas o están fuera de los límites."
+        },
+        "missingColumns": {
+          "title": "Faltan Columnas Requeridas",
+          "csvDescription": "Tu archivo CSV no tiene las columnas requeridas. Por favor, usa la plantilla.",
+          "xlsxDescription": "Tu archivo Excel no tiene las columnas requeridas. Por favor, usa la plantilla."
+        },
+        "invalidData": {
+          "title": "Datos Inválidos",
+          "description": "El archivo contiene datos inválidos. Por favor, verifica que todos los valores sean correctos."
+        },
+        "fileEmpty": {
+          "title": "Archivo Vacío",
+          "subtitle": "El archivo cargado parece estar vacío.",
+          "description": "Por favor, selecciona un archivo con contenido."
+        },
+        "fileTooLarge": {
+          "title": "Archivo Demasiado Grande",
+          "description": "El archivo excede el tamaño máximo permitido. Por favor, reduce el tamaño del archivo."
+        },
+        "polygonNotClosed": {
+          "title": "Polígono No Cerrado",
+          "description": "El polígono no está cerrado correctamente. Los puntos de coordenadas inicial y final deben coincidir."
+        },
+        "insufficientPoints": {
+          "title": "Puntos Insuficientes",
+          "description": "No hay suficientes puntos de coordenadas para formar un polígono válido. Se requieren al menos 3 puntos."
+        }
+      }
+    },
+    "confirmation": {
+      "farmLandSize": "Tamaño del terreno de granja",
+      "farmName": "Nombre de la granja",
+      "cropRecommendations": "Recomendaciones de cultivos",
+      "region": "Región",
+      "village": "Pueblo",
+      "soilProfile": "Perfil del suelo",
+      "fulfilmentCenter": "Centro de cumplimiento",
+      "confirmAndSave": "Confirmar y Guardar",
+      "pending": "Pendiente..."
+    },
+    "success": {
+      "title": "¡Terreno de granja agregado exitosamente!",
+      "subtitle": "Tu granja \"{farmName}\" se ha guardado exitosamente.",
+      "subtitleContinue": "Continúa a tu panel de control para configurar tu granja",
+      "goToDashboard": "Ir a tu panel de control",
+      "addFarmManager": "Proceder a agregar un administrador de granja"
+    },
+    "farmDetails": {
+      "soilProfileTitle": "Perfil del suelo",
+      "nameTitle": "Nombre de la granja",
+      "managerTitle": "Administrador de la granja",
+      "landSizeTitle": "Tamaño del terreno de la granja",
+      "dateTitle": "Fecha de añadido",
+      "landSplitTitle": "División del terreno",
+      "locationTitle": "Ubicación",
+      "villageTitle": "Pueblo",
+      "fertilitySummary": "Resumen de fertilidad del suelo",
+      "regionTitle": "Región",
+      "fulfilmentCenterTitle": "Centro de cumplimiento",
+      "cropRecommendationsTitle": "Recomendaciones de cultivos",
+      "soilFertilityStatus": "El estado de fertilidad de tu suelo",
+      "fertilityDescription": "Tu suelo tiene o carece de los siguientes elementos.",
+      "suitabilityNotes": "Notas de Idoneidad"
+    }
+  },
+  "MobileAppPrompt": {
+    "appName": "Aplicación CF Grower",
+    "title": "Continúa en la aplicación móvil CF Grower",
+    "description": "El mapeo de granjas solo está disponible en nuestra aplicación móvil. Descarga la aplicación para mapear tu terreno, acceder a herramientas agrícolas y obtener soporte en tiempo real sobre la marcha.",
+    "downloadApp": "Descargar aplicación",
+    "alreadyHaveApp": "¿Ya tienes la aplicación?",
+    "continue": "Continuar"
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "email": {
+      "invalid": "Por favor, introduce una dirección de correo electrónico válida"
+    },
+    "phone": {
+      "required": "El número de teléfono es obligatorio",
+      "invalid": "Por favor, introduce un número de teléfono válido"
+    },
+    "firstName": {
+      "min": "El nombre debe tener al menos 2 caracteres",
+      "max": "El nombre no debe exceder los 50 caracteres",
+      "invalid": "El nombre solo puede contener letras, espacios, guiones y apóstrofes"
+    },
+    "lastName": {
+      "min": "El apellido debe tener al menos 2 caracteres",
+      "max": "El apellido no debe exceder los 50 caracteres",
+      "invalid": "El apellido solo puede contener letras, espacios, guiones y apóstrofes"
+    },
+    "password": {
+      "min": "La contraseña debe tener al menos 8 caracteres",
+      "uppercase": "La contraseña debe contener al menos una letra mayúscula",
+      "lowercase": "La contraseña debe contener al menos una letra minúscula",
+      "number": "La contraseña debe contener al menos un número",
+      "special": "La contraseña debe contener al menos un carácter especial",
+      "mismatch": "Las contraseñas no coinciden",
+      "passwordsDifferent": "La nueva contraseña debe ser diferente a la actual."
+    },
+    "otp": {
+      "length": "El OTP debe tener exactamente 6 dígitos",
+      "invalid": "El OTP debe contener solo números"
+    },
+    "farmName": {
+      "min": "El nombre de la granja debe tener al menos 2 caracteres",
+      "max": "El nombre de la granja no debe exceder los 100 caracteres",
+      "invalid": "El nombre de la granja solo puede contener letras, números, espacios, guiones y apóstrofes"
+    },
+    "region": {
+      "min": "La región debe tener al menos 2 caracteres",
+      "max": "La región no debe exceder los 100 caracteres"
+    },
+    "village": {
+      "min": "El pueblo/ubicación debe tener al menos 2 caracteres",
+      "max": "El pueblo/ubicación no debe exceder los 100 caracteres"
+    },
+    "documentUrl": {
+      "invalid": "Por favor proporcione una URL de documento válida",
+      "required": "La carga del documento es requerida cuando se selecciona el tipo de propiedad de la tierra"
+    }
+  },
+  "comingSoon": {
+    "notifications": {
+      "overlay": "PRÓXIMAMENTE",
+      "title": "Configuración de notificaciones",
+      "subtitle": "Podríamos seguir enviándote notificaciones importantes sobre tus detalles de cuenta fuera de tus configuración de notificaciones",
+      "comments": {
+        "title": "Comentarios",
+        "desc": "Estas son notificaciones para comentarios en tus actividades y tareas de cultivo."
+      },
+      "tags": {
+        "title": "Etiquetas",
+        "desc": "Estas son notificaciones para cuando alguien te etiqueta en un comentario en tus actividades y tareas de cultivo."
+      },
+      "channels": {
+        "push": "Push",
+        "email": "Email",
+        "sms": "SMS"
+      },
+      "comingSoon": "PRÓXIMAMENTE"
+    }
+  },
+  "plans": {
+    "status": {
+      "completed": "Completado",
+      "overdue": "Vencido",
+      "inProgress": "En curso",
+      "cancelled": "Cancelado",
+      "paused": "Pausado",
+      "unknown": "Desconocido"
+    },
+    "statusLine": {
+      "dueToday": "Vence hoy",
+      "daysToGo": "Faltan {days} días",
+      "monthsToGo": "Faltan {months} meses",
+      "startDatePassed": "Fecha de inicio pasada"
+    }
+  },
+  "termsAndConditions": {
+    "title": "Acuerdo de Productor de Granja Simple de Complete Farmer (\"Acuerdo\")",
+    "sections": [
+      {
+        "id": 1,
+        "title": "Partes y Alcance",
+        "content": "Complete Farmer LTD, una Sociedad de Responsabilidad Limitada ghanesa ubicada en 11 Molade – Akiwumi Street, Airport West, Accra (\"Complete Farmer\") y (Michael Essien), ubicado en (Haatso) con (Idon'tknow) teniendo (Ialsodon'tknow) número y (Idon'tknow) (IDK). El Productor y Complete Farmer se denominan en lo sucesivo colectivamente las \"Partes\" e individualmente como una \"Parte\". Este Acuerdo se relaciona únicamente con los Productos enumerados en el Anexo A, cultivados en la Tierra utilizando los Estándares del Método de Producción en el Anexo C, y el Productor declara y garantiza que tiene todos los títulos necesarios bajo las leyes de Ghana para cultivar y preparar los Productos."
+      },
+      {
+        "id": 2,
+        "title": "Duración/Plazo",
+        "content": "Este Acuerdo comenzará el (23 de octubre de 2023), que será el primer día del Período de Cultivo, (23 de octubre), y permanecerá en vigor hasta el último día del Período de Cultivo a menos que este Acuerdo haya sido terminado antes de acuerdo con sus términos."
+      },
+      {
+        "id": 3,
+        "title": "Especificaciones de Calidad",
+        "content": "El Productor se compromete a cumplir estrictamente con las Especificaciones y estándares de calidad de los Productos según lo detallado en el Anexo B. Complete Farmer podrá verificar y controlar la calidad a su cargo. Las Partes acuerdan que solo los Productos que cumplan con las Especificaciones se venderán en la Plataforma Complete Farmer. El Productor deberá cumplir estrictamente con los Estándares del Método de Producción descritos en el Anexo C de este Acuerdo. Una infracción de los Estándares del Método de Producción se considerará un incumplimiento material que permitirá a Complete Farmer rescindir este Acuerdo sin previo aviso."
+      },
+      {
+        "id": 4,
+        "title": "Obligaciones de Complete Farmer",
+        "content": "Complete Farmer podrá proporcionar los siguientes servicios al Productor:\n\ni) Capacitación para facilitar la capacidad del Productor de producir la calidad y cantidad de Productos requeridos\n\nii) Servicios de extensión y supervisión\n\niii) Centro de Cumplimiento para los productos\n\niv) Material de embalaje para los productos\n\nv) Préstamo de Insumos en condiciones\n\nvi) Cualquier otro servicio que Complete Farmer, a su entera discreción, decida proporcionar."
+      },
+      {
+        "id": 5,
+        "title": "Obligaciones del Productor",
+        "content": "El Productor deberá:\n\ni. Pagar a Complete Farmer las Tarifas por los servicios bajo este Acuerdo.\n\nii. Cultivar los cultivos de acuerdo con los Estándares del Método de Producción.\n\niii. Permitir que Complete Farmer o un tercero autorizado por Complete Farmer inspeccione los Productos en el lugar de Entrega.\n\niv. Describir la calidad y cantidad de los Productos a Complete Farmer en la Entrega.\n\nv. Entregar los Productos en el embalaje prescrito por Complete Farmer.\n\nvi. Cualquier otro servicio que Complete Farmer pueda requerir razonablemente que el Productor realice para este Acuerdo."
+      },
+      {
+        "id": 6,
+        "title": "Obligaciones del Productor",
+        "content": "Al final del Período de Cultivo, Complete Farmer notificará al Productor la fecha de cosecha y manejará el embalaje y la entrega de los Productos de acuerdo con este Acuerdo.\n\nEl Productor debe entregar los Productos a un Centro de Cumplimiento designado dentro de los tres (3) días posteriores a la cosecha. El Productor podrá solicitar la recogida desde su finca por parte de Complete Farmer por una tarifa adicional que se deducirá de las Tarifas acordadas para el Productor en la Orden de Compra (PO).\n\nTras la cosecha, el Productor tendrá tres (3) días para transportar los Productos a un centro de cosecha/(centro de cumplimiento) designado. El Productor podrá pedir a Complete Farmer que recoja los Productos por una tarifa.\n\nEl Productor deberá describir por escrito la calidad y cantidad de los Productos a Complete Farmer en la Entrega para demostrar su conformidad con las Especificaciones.\n\nComplete Farmer o un auditor externo a su solicitud inspeccionará los Productos con el Productor presente en el lugar de Entrega dentro de los tres (3) días posteriores a la Entrega. Complete Farmer asumirá el costo de la inspección.\n\nComplete Farmer indemnizará al Productor por cualquier pérdida resultante de una inspección retrasada después de haber notificado la intención de realizar una inspección. Si los Productos se deterioran debido a la demora en la inspección, la indemnización del Productor no excederá el Precio.\n\nEl Productor podrá supervisar la inspección y recibir una copia de los resultados en la Plataforma Complete Farmer y en el Centro de Cumplimiento si está disponible.\n\nSi existe un desacuerdo sobre los resultados de las pruebas durante una inspección, ambas Partes realizarán pruebas adicionales sobre otras muestras. Los resultados de la segunda inspección serán definitivos y la Parte que disputó los primeros resultados pagará el costo de las pruebas adicionales.\n\nComplete Farmer rechazará los Productos que no cumplan con las Especificaciones tras la inspección.\n\nEl Productor podrá presentar nuevamente los Productos rechazados dentro de los dos días posteriores al rechazo. El Productor entiende que Complete Farmer podrá rechazar los Productos en la segunda presentación si no cumplen con los estándares de calidad acordados.\n\nSi Complete Farmer rechaza cualquier Producto que cumpla con las Especificaciones, el Productor podrá venderlo a un tercero.\n\nComplete Farmer pagará por cualquier Producto rechazado que pierda calidad debido a retrasos causados por su rechazo.\n\nSi el Productor utiliza los Productos rechazados para alimentación animal u otros fines, el monto recibido por el Productor se deducirá del Precio.\n\nComplete Farmer podrá rechazar Productos sin penalización ni pago si el Productor viola los Estándares del Método de Producción o no cumple con las Especificaciones.\n\nComplete Farmer aceptará la Entrega de los Productos, siempre que cumplan con las Especificaciones acordadas y los Estándares del Método de Producción, y las pruebas de inspección.\n\nEl título y el riesgo de los Productos pasan a Complete Farmer una vez aceptada la Entrega.\n\nComplete Farmer entiende que los eventos de Fuerza Mayor pueden afectar la cantidad de Productos (y aceptará la cantidad que cumpla con las Especificaciones a un Precio prorrateado).\n\nSi el Productor entrega menos de la cantidad mínima acordada de Productos por cualquier motivo distinto a un evento de Fuerza Mayor, Complete Farmer tendrá derecho a una compensación por parte del Productor."
+      },
+      {
+        "id": 7,
+        "title": "Precio, Condiciones y Forma de Pago",
+        "content": "Complete Farmer pagará al Productor el Precio por todos los Productos aceptados bajo este Acuerdo dentro de los tres (3) días hábiles siguientes a la aceptación de los Productos mediante (i) cartas de crédito, (ii) cheques posfechados o (iii) transferencia bancaria/móvil directa dentro de diez (10) días hábiles. Ambas partes prepararán un informe para confirmar los productos entregados y los servicios prestados. Complete Farmer y el Productor firmarán los documentos correspondientes. Ambas Partes crearán un informe para confirmar los Productos Entregados y los Servicios de Complete Farmer. Complete Farmer y el Productor firmarán este informe y el recibo de pago como reconocimiento de la recepción. Si Complete Farmer realiza un pago tardío al Productor, el pago retrasado atraerá un interés del 5% por cada semana de retraso y Complete Farmer reembolsará al Productor todos los costos y pérdidas relacionados con el pago atrasado. A efectos de esta cláusula, una semana se considerará de lunes a viernes."
+      },
+      {
+        "id": 8,
+        "title": "Seguro",
+        "content": "Ambas Partes acuerdan que el Productor obtendrá un seguro para cualquier posible pérdida y riesgos, incluyendo incumplimiento, clima, plagas/enfermedades y guerra. La prima del seguro será pagada por el Productor y será reembolsada por Complete Farmer tras la finalización de la venta de los Productos."
+      },
+      {
+        "id": 9,
+        "title": "Terminación",
+        "content": "Complete Farmer podrá rescindir este Acuerdo si el Productor incurre en un Incumplimiento Material de cualquier término de este Acuerdo y, cuando dicho incumplimiento sea remediable, no lo remedie dentro de los treinta (30) días posteriores a la notificación por escrito. El Productor podrá rescindir este Acuerdo durante un Período de Cultivo si Complete Farmer no cumple con sus obligaciones bajo este Acuerdo dentro de los treinta (30) días posteriores a la notificación por escrito. Cualquiera de las Partes podrá rescindir este Acuerdo dando al menos treinta (30) días de preaviso, en cualquier momento distinto al Período de Cultivo. No se reembolsarán fondos por terminación fuera del Período de Cultivo."
+      },
+      {
+        "id": 10,
+        "title": "Obligaciones de Complete Farmer",
+        "content": "Complete Farmer podrá proporcionar los siguientes servicios al Productor:\n\ni) Capacitación para facilitar la capacidad del Productor de producir la calidad y cantidad de Productos requeridos\n\nii) Servicios de extensión y supervisión\n\niii) Centro de Cumplimiento para los productos\n\niv) Material de embalaje para los productos\n\nv) Préstamo de Insumos en condiciones\n\nvi) Cualquier otro servicio que Complete Farmer, a su entera discreción, decida proporcionar."
+      },
+      {
+        "id": 11,
+        "title": "Indemnización",
+        "content": "Ambas Partes acuerdan indemnizar, defender y mantener indemne a la otra contra cualquier reclamación de terceros, gastos, responsabilidades y daños que surjan de su desempeño o incumplimiento de este Acuerdo. Esta obligación sobrevivirá a la terminación de este Acuerdo."
+      },
+      {
+        "id": 12,
+        "title": "Resolución de Conflictos",
+        "content": "En caso de Conflicto, cualquiera de las Partes deberá proporcionar notificación por escrito con detalles y documentos de respaldo a la otra Parte y ambas Partes se esforzarán en resolver el Conflicto de manera amistosa. Si ambas Partes no pueden resolver el Conflicto de forma amistosa dentro de los sesenta (60) días posteriores a la notificación del Conflicto, este será resuelto finalmente por un árbitro designado de acuerdo con la Ley de Resolución Alternativa de Conflictos, 2010 (Ley 798). El idioma del arbitraje será el inglés y el lugar será Accra, Ghana. Las Partes podrán, mediante acuerdo escrito, renunciar al arbitraje para que el conflicto pueda ser juzgado por un tribunal competente o un mediador."
+      },
+      {
+        "id": 13,
+        "title": "Limitación de Responsabilidad",
+        "content": "Ambas Partes acuerdan que no serán responsables por diversos tipos de pérdidas o daños sufridos por la otra Parte excepto en circunstancias específicas como fraude, mala conducta intencional, muerte, daño a la propiedad, lesiones corporales, infracción de propiedad intelectual, obligaciones de indemnización o incumplimiento de confidencialidad. Para la responsabilidad general, salvo las circunstancias mencionadas, el monto máximo por el que una Parte podrá ser responsable estará limitado a una vez (1x) el monto total pagado o pagadero bajo el Acuerdo en los doce meses anteriores al evento que originó la responsabilidad."
+      },
+      {
+        "id": 14,
+        "title": "Aceptación",
+        "content": "El Productor reconoce y declara que ha leído, entendido y acepta estar obligado por los Términos en Línea que se incorporan a este Acuerdo por referencia. En caso de conflicto entre este Acuerdo y los Términos en Línea, prevalecerá este Acuerdo. Al abrir una cuenta en la Plataforma Complete Farmer, el Productor reconoce que entiende completamente los términos de este Acuerdo."
+      },
+      {
+        "id": 15,
+        "title": "Ley Aplicable",
+        "content": "Las notificaciones deben ser por escrito y podrán entregarse en mano, por correo o por correo electrónico a la dirección indicada en este Acuerdo. La entrega en mano se considera recibida al momento de la recepción, mientras que las notificaciones por correo electrónico se consideran recibidas 24 horas después de su envío."
+      }
+    ],
+    "definitions": [
+      {
+        "term": "Información Confidencial",
+        "definition": "significa cualquier información divulgada por la Parte divulgadora a la Parte receptora, que, (i) si está en forma escrita, gráfica, legible por máquina u otra forma tangible esté marcada como \"Confidencial\" o \"Propietaria\" o que, si se divulga oralmente o mediante demostración, se identifique en el momento de la divulgación como confidencial; o (ii) por la naturaleza de las circunstancias que rodean la divulgación, deba de buena fe ser tratada como confidencial, incluyendo cualquier dato comercial, financiero, de marketing, operativo, de ventas, técnico y similar de la Parte divulgadora que no sea generalmente conocido ni esté disponible fuera de ella, ya sea que dichos datos estén marcados o divulgados como confidenciales."
+      },
+      {
+        "term": "Conflicto",
+        "definition": "significa cualquier disputa, controversia, malentendido o reclamación que surja de o en relación con este Acuerdo o con su cumplimiento, validez o ejecutabilidad."
+      },
+      {
+        "term": "Notificación de Conflicto",
+        "definition": "significa una notificación escrita del Conflicto, estableciendo su naturaleza y todos sus detalles."
+      },
+      {
+        "term": "Tarifas",
+        "definition": "significa las tarifas establecidas en la Orden de Compra."
+      },
+      {
+        "term": "Fuerza Mayor",
+        "definition": "significa circunstancias fuera del control de una parte incluyendo, entre otras, actos de Dios, peligros del aire, incendio, inundación, sequía, pandemias, epidemias, explosión, sabotaje de cultivos o almacenamiento y transporte de productos, accidentes, disturbios, guerra, golpe de estado, conmoción civil o avería de equipos, que impidan directamente que una parte cumpla con sus obligaciones bajo este Acuerdo."
+      },
+      {
+        "term": "Cumplimiento",
+        "definition": "significa un lugar designado por Complete Farmer para recibir, inspeccionar y empaquetar Productos."
+      },
+      {
+        "term": "Período de Cultivo",
+        "definition": "significa el período de [fecha a fecha]"
+      },
+      {
+        "term": "Insumo",
+        "definition": "significa semillas, plántulas, agroquímicos y fertilizantes."
+      },
+      {
+        "term": "Tierra",
+        "definition": "significa la parcela de tierra ubicada en [insertar longitud y latitud de la ubicación de la tierra], en [Pueblo/Ciudad] en la [Región] de la República de Ghana."
+      },
+      {
+        "term": "Incumplimiento Material",
+        "definition": "significa un incumplimiento (incluido un incumplimiento anticipado) que sea grave en el sentido más amplio de tener un efecto serio sobre el beneficio que la parte que rescinde obtendría de una parte sustancial de este Acuerdo."
+      },
+      {
+        "term": "Orden",
+        "definition": "significa orden de Productos."
+      },
+      {
+        "term": "Términos en Línea",
+        "definition": "significa la Política de Privacidad de Complete Farmer, disponible en [enlace], y (ii) los Términos de Servicio del Productor, disponibles en [enlace]."
+      },
+      {
+        "term": "PO",
+        "definition": "significa una Orden de Compra."
+      },
+      {
+        "term": "Precio",
+        "definition": "significa el precio fijo por cada cien (100) kilogramos de productos basado en el monto acordado en la Orden de Compra."
+      },
+      {
+        "term": "Estándares del Método de Producción",
+        "definition": "significa los estándares, procedimientos, instrucciones y directrices de Complete Farmer para la preparación y cultivo de Productos, incluyendo, entre otros, modos de labranza, control de malezas, aplicación de productos químicos y fertilizantes, manejo de plagas y enfermedades, cosecha y manejo poscosecha descritos en el Anexo C de este Acuerdo."
+      },
+      {
+        "term": "Orden de Compra",
+        "definition": "significa el documento en el Anexo A que describirá la Orden, el trabajo a realizar, los Productos a suministrar y las Tarifas para dicha Orden."
+      }
+    ],
+    "signContract": "Firmar el contrato"
+  }
+}

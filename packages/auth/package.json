@@ -1,0 +1,51 @@
+{
+  "name": "@cf/auth",
+  "version": "0.1.0",
+  "private": true,
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "default": "./index.ts"
+    },
+    "./clerk": {
+      "types": "./clerk.ts",
+      "default": "./clerk.ts"
+    },
+    "./env": {
+      "types": "./env.mjs",
+      "default": "./env.mjs"
+    }
+  },
+  "dependencies": {
+    "@t3-oss/env-nextjs": "^0.8.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@cf/eslint-config": "workspace:*",
+    "@cf/prettier-config": "workspace:*",
+    "@cf/typescript-config": "workspace:*",
+    "eslint": "^10.0.3",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@cf/eslint-config/base"
+    ]
+  },
+  "peerDependencies": {
+    "@clerk/nextjs": ">=5.0.0",
+    "next": "^15.1.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "prettier": "@cf/prettier-config",
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --check '**/*.{mjs,ts,json}' ",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  }
+}

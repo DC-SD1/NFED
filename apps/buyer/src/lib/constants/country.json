@@ -1,0 +1,1564 @@
+{
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "code": "AF",
+      "iso3": "AFG",
+      "capital": "Kabul",
+      "region": "Asia",
+      "subregion": "Southern Asia"
+    },
+    {
+      "name": "Albania",
+      "code": "AL",
+      "iso3": "ALB",
+      "capital": "Tirana",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Algeria",
+      "code": "DZ",
+      "iso3": "DZA",
+      "capital": "Algiers",
+      "region": "Africa",
+      "subregion": "Northern Africa"
+    },
+    {
+      "name": "Andorra",
+      "code": "AD",
+      "iso3": "AND",
+      "capital": "Andorra la Vella",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Angola",
+      "code": "AO",
+      "iso3": "AGO",
+      "capital": "Luanda",
+      "region": "Africa",
+      "subregion": "Central Africa"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "code": "AG",
+      "iso3": "ATG",
+      "capital": "Saint John's",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Argentina",
+      "code": "AR",
+      "iso3": "ARG",
+      "capital": "Buenos Aires",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Armenia",
+      "code": "AM",
+      "iso3": "ARM",
+      "capital": "Yerevan",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Australia",
+      "code": "AU",
+      "iso3": "AUS",
+      "capital": "Canberra",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand"
+    },
+    {
+      "name": "Austria",
+      "code": "AT",
+      "iso3": "AUT",
+      "capital": "Vienna",
+      "region": "Europe",
+      "subregion": "Central Europe"
+    },
+    {
+      "name": "Azerbaijan",
+      "code": "AZ",
+      "iso3": "AZE",
+      "capital": "Baku",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Bahamas",
+      "code": "BS",
+      "iso3": "BHS",
+      "capital": "Nassau",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Bahrain",
+      "code": "BH",
+      "iso3": "BHR",
+      "capital": "Manama",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Bangladesh",
+      "code": "BD",
+      "iso3": "BGD",
+      "capital": "Dhaka",
+      "region": "Asia",
+      "subregion": "Southern Asia"
+    },
+    {
+      "name": "Barbados",
+      "code": "BB",
+      "iso3": "BRB",
+      "capital": "Bridgetown",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Belarus",
+      "code": "BY",
+      "iso3": "BLR",
+      "capital": "Minsk",
+      "region": "Europe",
+      "subregion": "Eastern Europe"
+    },
+    {
+      "name": "Belgium",
+      "code": "BE",
+      "iso3": "BEL",
+      "capital": "Brussels",
+      "region": "Europe",
+      "subregion": "Western Europe"
+    },
+    {
+      "name": "Belize",
+      "code": "BZ",
+      "iso3": "BLZ",
+      "capital": "Belmopan",
+      "region": "Americas",
+      "subregion": "Central America"
+    },
+    {
+      "name": "Benin",
+      "code": "BJ",
+      "iso3": "BEN",
+      "capital": "Porto-Novo",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Bhutan",
+      "code": "BT",
+      "iso3": "BTN",
+      "capital": "Thimphu",
+      "region": "Asia",
+      "subregion": "Southern Asia"
+    },
+    {
+      "name": "Bolivia",
+      "code": "BO",
+      "iso3": "BOL",
+      "capital": "Sucre",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "code": "BA",
+      "iso3": "BIH",
+      "capital": "Sarajevo",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Botswana",
+      "code": "BW",
+      "iso3": "BWA",
+      "capital": "Gaborone",
+      "region": "Africa",
+      "subregion": "Southern Africa"
+    },
+    {
+      "name": "Brazil",
+      "code": "BR",
+      "iso3": "BRA",
+      "capital": "Brasília",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Brunei",
+      "code": "BN",
+      "iso3": "BRN",
+      "capital": "Bandar Seri Begawan",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Bulgaria",
+      "code": "BG",
+      "iso3": "BGR",
+      "capital": "Sofia",
+      "region": "Europe",
+      "subregion": "Eastern Europe"
+    },
+    {
+      "name": "Burkina Faso",
+      "code": "BF",
+      "iso3": "BFA",
+      "capital": "Ouagadougou",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Burundi",
+      "code": "BI",
+      "iso3": "BDI",
+      "capital": "Gitega",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Cabo Verde",
+      "code": "CV",
+      "iso3": "CPV",
+      "capital": "Praia",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Cambodia",
+      "code": "KH",
+      "iso3": "KHM",
+      "capital": "Phnom Penh",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Cameroon",
+      "code": "CM",
+      "iso3": "CMR",
+      "capital": "Yaoundé",
+      "region": "Africa",
+      "subregion": "Central Africa"
+    },
+    {
+      "name": "Canada",
+      "code": "CA",
+      "iso3": "CAN",
+      "capital": "Ottawa",
+      "region": "Americas",
+      "subregion": "Northern America"
+    },
+    {
+      "name": "Central African Republic",
+      "code": "CF",
+      "iso3": "CAF",
+      "capital": "Bangui",
+      "region": "Africa",
+      "subregion": "Central Africa"
+    },
+    {
+      "name": "Chad",
+      "code": "TD",
+      "iso3": "TCD",
+      "capital": "N'Djamena",
+      "region": "Africa",
+      "subregion": "Central Africa"
+    },
+    {
+      "name": "Chile",
+      "code": "CL",
+      "iso3": "CHL",
+      "capital": "Santiago",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "China",
+      "code": "CN",
+      "iso3": "CHN",
+      "capital": "Beijing",
+      "region": "Asia",
+      "subregion": "Eastern Asia"
+    },
+    {
+      "name": "Colombia",
+      "code": "CO",
+      "iso3": "COL",
+      "capital": "Bogotá",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Comoros",
+      "code": "KM",
+      "iso3": "COM",
+      "capital": "Moroni",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Congo",
+      "code": "CG",
+      "iso3": "COG",
+      "capital": "Brazzaville",
+      "region": "Africa",
+      "subregion": "Central Africa"
+    },
+    {
+      "name": "Costa Rica",
+      "code": "CR",
+      "iso3": "CRI",
+      "capital": "San José",
+      "region": "Americas",
+      "subregion": "Central America"
+    },
+    {
+      "name": "Croatia",
+      "code": "HR",
+      "iso3": "HRV",
+      "capital": "Zagreb",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Cuba",
+      "code": "CU",
+      "iso3": "CUB",
+      "capital": "Havana",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Cyprus",
+      "code": "CY",
+      "iso3": "CYP",
+      "capital": "Nicosia",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Czech Republic",
+      "code": "CZ",
+      "iso3": "CZE",
+      "capital": "Prague",
+      "region": "Europe",
+      "subregion": "Central Europe"
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "code": "CD",
+      "iso3": "COD",
+      "capital": "Kinshasa",
+      "region": "Africa",
+      "subregion": "Central Africa"
+    },
+    {
+      "name": "Denmark",
+      "code": "DK",
+      "iso3": "DNK",
+      "capital": "Copenhagen",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "Djibouti",
+      "code": "DJ",
+      "iso3": "DJI",
+      "capital": "Djibouti",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Dominica",
+      "code": "DM",
+      "iso3": "DMA",
+      "capital": "Roseau",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Dominican Republic",
+      "code": "DO",
+      "iso3": "DOM",
+      "capital": "Santo Domingo",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Ecuador",
+      "code": "EC",
+      "iso3": "ECU",
+      "capital": "Quito",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Egypt",
+      "code": "EG",
+      "iso3": "EGY",
+      "capital": "Cairo",
+      "region": "Africa",
+      "subregion": "Northern Africa"
+    },
+    {
+      "name": "El Salvador",
+      "code": "SV",
+      "iso3": "SLV",
+      "capital": "San Salvador",
+      "region": "Americas",
+      "subregion": "Central America"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "code": "GQ",
+      "iso3": "GNQ",
+      "capital": "Malabo",
+      "region": "Africa",
+      "subregion": "Central Africa"
+    },
+    {
+      "name": "Eritrea",
+      "code": "ER",
+      "iso3": "ERI",
+      "capital": "Asmara",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Estonia",
+      "code": "EE",
+      "iso3": "EST",
+      "capital": "Tallinn",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "Eswatini",
+      "code": "SZ",
+      "iso3": "SWZ",
+      "capital": "Mbabane",
+      "region": "Africa",
+      "subregion": "Southern Africa"
+    },
+    {
+      "name": "Ethiopia",
+      "code": "ET",
+      "iso3": "ETH",
+      "capital": "Addis Ababa",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Fiji",
+      "code": "FJ",
+      "iso3": "FJI",
+      "capital": "Suva",
+      "region": "Oceania",
+      "subregion": "Melanesia"
+    },
+    {
+      "name": "Finland",
+      "code": "FI",
+      "iso3": "FIN",
+      "capital": "Helsinki",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "France",
+      "code": "FR",
+      "iso3": "FRA",
+      "capital": "Paris",
+      "region": "Europe",
+      "subregion": "Western Europe"
+    },
+    {
+      "name": "Gabon",
+      "code": "GA",
+      "iso3": "GAB",
+      "capital": "Libreville",
+      "region": "Africa",
+      "subregion": "Central Africa"
+    },
+    {
+      "name": "Gambia",
+      "code": "GM",
+      "iso3": "GMB",
+      "capital": "Banjul",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Georgia",
+      "code": "GE",
+      "iso3": "GEO",
+      "capital": "Tbilisi",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Germany",
+      "code": "DE",
+      "iso3": "DEU",
+      "capital": "Berlin",
+      "region": "Europe",
+      "subregion": "Central Europe"
+    },
+    {
+      "name": "Ghana",
+      "code": "GH",
+      "iso3": "GHA",
+      "capital": "Accra",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Greece",
+      "code": "GR",
+      "iso3": "GRC",
+      "capital": "Athens",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Grenada",
+      "code": "GD",
+      "iso3": "GRD",
+      "capital": "Saint George's",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Guatemala",
+      "code": "GT",
+      "iso3": "GTM",
+      "capital": "Guatemala City",
+      "region": "Americas",
+      "subregion": "Central America"
+    },
+    {
+      "name": "Guinea",
+      "code": "GN",
+      "iso3": "GIN",
+      "capital": "Conakry",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "code": "GW",
+      "iso3": "GNB",
+      "capital": "Bissau",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Guyana",
+      "code": "GY",
+      "iso3": "GUY",
+      "capital": "Georgetown",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Haiti",
+      "code": "HT",
+      "iso3": "HTI",
+      "capital": "Port-au-Prince",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Honduras",
+      "code": "HN",
+      "iso3": "HND",
+      "capital": "Tegucigalpa",
+      "region": "Americas",
+      "subregion": "Central America"
+    },
+    {
+      "name": "Hungary",
+      "code": "HU",
+      "iso3": "HUN",
+      "capital": "Budapest",
+      "region": "Europe",
+      "subregion": "Central Europe"
+    },
+    {
+      "name": "Iceland",
+      "code": "IS",
+      "iso3": "ISL",
+      "capital": "Reykjavik",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "India",
+      "code": "IN",
+      "iso3": "IND",
+      "capital": "New Delhi",
+      "region": "Asia",
+      "subregion": "Southern Asia"
+    },
+    {
+      "name": "Indonesia",
+      "code": "ID",
+      "iso3": "IDN",
+      "capital": "Jakarta",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Iran",
+      "code": "IR",
+      "iso3": "IRN",
+      "capital": "Tehran",
+      "region": "Asia",
+      "subregion": "Southern Asia"
+    },
+    {
+      "name": "Iraq",
+      "code": "IQ",
+      "iso3": "IRQ",
+      "capital": "Baghdad",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Ireland",
+      "code": "IE",
+      "iso3": "IRL",
+      "capital": "Dublin",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "Israel",
+      "code": "IL",
+      "iso3": "ISR",
+      "capital": "Jerusalem",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Italy",
+      "code": "IT",
+      "iso3": "ITA",
+      "capital": "Rome",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Ivory Coast",
+      "code": "CI",
+      "iso3": "CIV",
+      "capital": "Yamoussoukro",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Jamaica",
+      "code": "JM",
+      "iso3": "JAM",
+      "capital": "Kingston",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Japan",
+      "code": "JP",
+      "iso3": "JPN",
+      "capital": "Tokyo",
+      "region": "Asia",
+      "subregion": "Eastern Asia"
+    },
+    {
+      "name": "Jordan",
+      "code": "JO",
+      "iso3": "JOR",
+      "capital": "Amman",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Kazakhstan",
+      "code": "KZ",
+      "iso3": "KAZ",
+      "capital": "Nur-Sultan",
+      "region": "Asia",
+      "subregion": "Central Asia"
+    },
+    {
+      "name": "Kenya",
+      "code": "KE",
+      "iso3": "KEN",
+      "capital": "Nairobi",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Kiribati",
+      "code": "KI",
+      "iso3": "KIR",
+      "capital": "Tarawa",
+      "region": "Oceania",
+      "subregion": "Micronesia"
+    },
+    {
+      "name": "Kuwait",
+      "code": "KW",
+      "iso3": "KWT",
+      "capital": "Kuwait City",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "code": "KG",
+      "iso3": "KGZ",
+      "capital": "Bishkek",
+      "region": "Asia",
+      "subregion": "Central Asia"
+    },
+    {
+      "name": "Laos",
+      "code": "LA",
+      "iso3": "LAO",
+      "capital": "Vientiane",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Latvia",
+      "code": "LV",
+      "iso3": "LVA",
+      "capital": "Riga",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "Lebanon",
+      "code": "LB",
+      "iso3": "LBN",
+      "capital": "Beirut",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Lesotho",
+      "code": "LS",
+      "iso3": "LSO",
+      "capital": "Maseru",
+      "region": "Africa",
+      "subregion": "Southern Africa"
+    },
+    {
+      "name": "Liberia",
+      "code": "LR",
+      "iso3": "LBR",
+      "capital": "Monrovia",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Libya",
+      "code": "LY",
+      "iso3": "LBY",
+      "capital": "Tripoli",
+      "region": "Africa",
+      "subregion": "Northern Africa"
+    },
+    {
+      "name": "Liechtenstein",
+      "code": "LI",
+      "iso3": "LIE",
+      "capital": "Vaduz",
+      "region": "Europe",
+      "subregion": "Central Europe"
+    },
+    {
+      "name": "Lithuania",
+      "code": "LT",
+      "iso3": "LTU",
+      "capital": "Vilnius",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "Luxembourg",
+      "code": "LU",
+      "iso3": "LUX",
+      "capital": "Luxembourg",
+      "region": "Europe",
+      "subregion": "Western Europe"
+    },
+    {
+      "name": "Madagascar",
+      "code": "MG",
+      "iso3": "MDG",
+      "capital": "Antananarivo",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Malawi",
+      "code": "MW",
+      "iso3": "MWI",
+      "capital": "Lilongwe",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Malaysia",
+      "code": "MY",
+      "iso3": "MYS",
+      "capital": "Kuala Lumpur",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Maldives",
+      "code": "MV",
+      "iso3": "MDV",
+      "capital": "Malé",
+      "region": "Asia",
+      "subregion": "Southern Asia"
+    },
+    {
+      "name": "Mali",
+      "code": "ML",
+      "iso3": "MLI",
+      "capital": "Bamako",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Malta",
+      "code": "MT",
+      "iso3": "MLT",
+      "capital": "Valletta",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Marshall Islands",
+      "code": "MH",
+      "iso3": "MHL",
+      "capital": "Majuro",
+      "region": "Oceania",
+      "subregion": "Micronesia"
+    },
+    {
+      "name": "Mauritania",
+      "code": "MR",
+      "iso3": "MRT",
+      "capital": "Nouakchott",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Mauritius",
+      "code": "MU",
+      "iso3": "MUS",
+      "capital": "Port Louis",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Mexico",
+      "code": "MX",
+      "iso3": "MEX",
+      "capital": "Mexico City",
+      "region": "Americas",
+      "subregion": "Central America"
+    },
+    {
+      "name": "Micronesia",
+      "code": "FM",
+      "iso3": "FSM",
+      "capital": "Palikir",
+      "region": "Oceania",
+      "subregion": "Micronesia"
+    },
+    {
+      "name": "Moldova",
+      "code": "MD",
+      "iso3": "MDA",
+      "capital": "Chișinău",
+      "region": "Europe",
+      "subregion": "Eastern Europe"
+    },
+    {
+      "name": "Monaco",
+      "code": "MC",
+      "iso3": "MCO",
+      "capital": "Monaco",
+      "region": "Europe",
+      "subregion": "Western Europe"
+    },
+    {
+      "name": "Mongolia",
+      "code": "MN",
+      "iso3": "MNG",
+      "capital": "Ulaanbaatar",
+      "region": "Asia",
+      "subregion": "Eastern Asia"
+    },
+    {
+      "name": "Montenegro",
+      "code": "ME",
+      "iso3": "MNE",
+      "capital": "Podgorica",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Morocco",
+      "code": "MA",
+      "iso3": "MAR",
+      "capital": "Rabat",
+      "region": "Africa",
+      "subregion": "Northern Africa"
+    },
+    {
+      "name": "Mozambique",
+      "code": "MZ",
+      "iso3": "MOZ",
+      "capital": "Maputo",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Myanmar",
+      "code": "MM",
+      "iso3": "MMR",
+      "capital": "Naypyidaw",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Namibia",
+      "code": "NA",
+      "iso3": "NAM",
+      "capital": "Windhoek",
+      "region": "Africa",
+      "subregion": "Southern Africa"
+    },
+    {
+      "name": "Nauru",
+      "code": "NR",
+      "iso3": "NRU",
+      "capital": "Yaren",
+      "region": "Oceania",
+      "subregion": "Micronesia"
+    },
+    {
+      "name": "Nepal",
+      "code": "NP",
+      "iso3": "NPL",
+      "capital": "Kathmandu",
+      "region": "Asia",
+      "subregion": "Southern Asia"
+    },
+    {
+      "name": "Netherlands",
+      "code": "NL",
+      "iso3": "NLD",
+      "capital": "Amsterdam",
+      "region": "Europe",
+      "subregion": "Western Europe"
+    },
+    {
+      "name": "New Zealand",
+      "code": "NZ",
+      "iso3": "NZL",
+      "capital": "Wellington",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand"
+    },
+    {
+      "name": "Nicaragua",
+      "code": "NI",
+      "iso3": "NIC",
+      "capital": "Managua",
+      "region": "Americas",
+      "subregion": "Central America"
+    },
+    {
+      "name": "Niger",
+      "code": "NE",
+      "iso3": "NER",
+      "capital": "Niamey",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Nigeria",
+      "code": "NG",
+      "iso3": "NGA",
+      "capital": "Abuja",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "North Korea",
+      "code": "KP",
+      "iso3": "PRK",
+      "capital": "Pyongyang",
+      "region": "Asia",
+      "subregion": "Eastern Asia"
+    },
+    {
+      "name": "North Macedonia",
+      "code": "MK",
+      "iso3": "MKD",
+      "capital": "Skopje",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Norway",
+      "code": "NO",
+      "iso3": "NOR",
+      "capital": "Oslo",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "Oman",
+      "code": "OM",
+      "iso3": "OMN",
+      "capital": "Muscat",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Pakistan",
+      "code": "PK",
+      "iso3": "PAK",
+      "capital": "Islamabad",
+      "region": "Asia",
+      "subregion": "Southern Asia"
+    },
+    {
+      "name": "Palau",
+      "code": "PW",
+      "iso3": "PLW",
+      "capital": "Ngerulmud",
+      "region": "Oceania",
+      "subregion": "Micronesia"
+    },
+    {
+      "name": "Palestine",
+      "code": "PS",
+      "iso3": "PSE",
+      "capital": "East Jerusalem",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Panama",
+      "code": "PA",
+      "iso3": "PAN",
+      "capital": "Panama City",
+      "region": "Americas",
+      "subregion": "Central America"
+    },
+    {
+      "name": "Papua New Guinea",
+      "code": "PG",
+      "iso3": "PNG",
+      "capital": "Port Moresby",
+      "region": "Oceania",
+      "subregion": "Melanesia"
+    },
+    {
+      "name": "Paraguay",
+      "code": "PY",
+      "iso3": "PRY",
+      "capital": "Asunción",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Peru",
+      "code": "PE",
+      "iso3": "PER",
+      "capital": "Lima",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Philippines",
+      "code": "PH",
+      "iso3": "PHL",
+      "capital": "Manila",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Poland",
+      "code": "PL",
+      "iso3": "POL",
+      "capital": "Warsaw",
+      "region": "Europe",
+      "subregion": "Central Europe"
+    },
+    {
+      "name": "Portugal",
+      "code": "PT",
+      "iso3": "PRT",
+      "capital": "Lisbon",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Qatar",
+      "code": "QA",
+      "iso3": "QAT",
+      "capital": "Doha",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Romania",
+      "code": "RO",
+      "iso3": "ROU",
+      "capital": "Bucharest",
+      "region": "Europe",
+      "subregion": "Eastern Europe"
+    },
+    {
+      "name": "Russia",
+      "code": "RU",
+      "iso3": "RUS",
+      "capital": "Moscow",
+      "region": "Europe",
+      "subregion": "Eastern Europe"
+    },
+    {
+      "name": "Rwanda",
+      "code": "RW",
+      "iso3": "RWA",
+      "capital": "Kigali",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "code": "KN",
+      "iso3": "KNA",
+      "capital": "Basseterre",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Saint Lucia",
+      "code": "LC",
+      "iso3": "LCA",
+      "capital": "Castries",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "code": "VC",
+      "iso3": "VCT",
+      "capital": "Kingstown",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Samoa",
+      "code": "WS",
+      "iso3": "WSM",
+      "capital": "Apia",
+      "region": "Oceania",
+      "subregion": "Polynesia"
+    },
+    {
+      "name": "San Marino",
+      "code": "SM",
+      "iso3": "SMR",
+      "capital": "San Marino",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "code": "ST",
+      "iso3": "STP",
+      "capital": "São Tomé",
+      "region": "Africa",
+      "subregion": "Central Africa"
+    },
+    {
+      "name": "Saudi Arabia",
+      "code": "SA",
+      "iso3": "SAU",
+      "capital": "Riyadh",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Senegal",
+      "code": "SN",
+      "iso3": "SEN",
+      "capital": "Dakar",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Serbia",
+      "code": "RS",
+      "iso3": "SRB",
+      "capital": "Belgrade",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Seychelles",
+      "code": "SC",
+      "iso3": "SYC",
+      "capital": "Victoria",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Sierra Leone",
+      "code": "SL",
+      "iso3": "SLE",
+      "capital": "Freetown",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Singapore",
+      "code": "SG",
+      "iso3": "SGP",
+      "capital": "Singapore",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Slovakia",
+      "code": "SK",
+      "iso3": "SVK",
+      "capital": "Bratislava",
+      "region": "Europe",
+      "subregion": "Central Europe"
+    },
+    {
+      "name": "Slovenia",
+      "code": "SI",
+      "iso3": "SVN",
+      "capital": "Ljubljana",
+      "region": "Europe",
+      "subregion": "Central Europe"
+    },
+    {
+      "name": "Solomon Islands",
+      "code": "SB",
+      "iso3": "SLB",
+      "capital": "Honiara",
+      "region": "Oceania",
+      "subregion": "Melanesia"
+    },
+    {
+      "name": "Somalia",
+      "code": "SO",
+      "iso3": "SOM",
+      "capital": "Mogadishu",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "South Africa",
+      "code": "ZA",
+      "iso3": "ZAF",
+      "capital": "Cape Town",
+      "region": "Africa",
+      "subregion": "Southern Africa"
+    },
+    {
+      "name": "South Korea",
+      "code": "KR",
+      "iso3": "KOR",
+      "capital": "Seoul",
+      "region": "Asia",
+      "subregion": "Eastern Asia"
+    },
+    {
+      "name": "South Sudan",
+      "code": "SS",
+      "iso3": "SSD",
+      "capital": "Juba",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Spain",
+      "code": "ES",
+      "iso3": "ESP",
+      "capital": "Madrid",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Sri Lanka",
+      "code": "LK",
+      "iso3": "LKA",
+      "capital": "Colombo",
+      "region": "Asia",
+      "subregion": "Southern Asia"
+    },
+    {
+      "name": "Sudan",
+      "code": "SD",
+      "iso3": "SDN",
+      "capital": "Khartoum",
+      "region": "Africa",
+      "subregion": "Northern Africa"
+    },
+    {
+      "name": "Suriname",
+      "code": "SR",
+      "iso3": "SUR",
+      "capital": "Paramaribo",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Sweden",
+      "code": "SE",
+      "iso3": "SWE",
+      "capital": "Stockholm",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "Switzerland",
+      "code": "CH",
+      "iso3": "CHE",
+      "capital": "Bern",
+      "region": "Europe",
+      "subregion": "Central Europe"
+    },
+    {
+      "name": "Syria",
+      "code": "SY",
+      "iso3": "SYR",
+      "capital": "Damascus",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Tajikistan",
+      "code": "TJ",
+      "iso3": "TJK",
+      "capital": "Dushanbe",
+      "region": "Asia",
+      "subregion": "Central Asia"
+    },
+    {
+      "name": "Tanzania",
+      "code": "TZ",
+      "iso3": "TZA",
+      "capital": "Dodoma",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Thailand",
+      "code": "TH",
+      "iso3": "THA",
+      "capital": "Bangkok",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Timor-Leste",
+      "code": "TL",
+      "iso3": "TLS",
+      "capital": "Dili",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Togo",
+      "code": "TG",
+      "iso3": "TGO",
+      "capital": "Lomé",
+      "region": "Africa",
+      "subregion": "Western Africa"
+    },
+    {
+      "name": "Tonga",
+      "code": "TO",
+      "iso3": "TON",
+      "capital": "Nuku'alofa",
+      "region": "Oceania",
+      "subregion": "Polynesia"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "code": "TT",
+      "iso3": "TTO",
+      "capital": "Port of Spain",
+      "region": "Americas",
+      "subregion": "Caribbean"
+    },
+    {
+      "name": "Tunisia",
+      "code": "TN",
+      "iso3": "TUN",
+      "capital": "Tunis",
+      "region": "Africa",
+      "subregion": "Northern Africa"
+    },
+    {
+      "name": "Turkey",
+      "code": "TR",
+      "iso3": "TUR",
+      "capital": "Ankara",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Turkmenistan",
+      "code": "TM",
+      "iso3": "TKM",
+      "capital": "Ashgabat",
+      "region": "Asia",
+      "subregion": "Central Asia"
+    },
+    {
+      "name": "Tuvalu",
+      "code": "TV",
+      "iso3": "TUV",
+      "capital": "Funafuti",
+      "region": "Oceania",
+      "subregion": "Polynesia"
+    },
+    {
+      "name": "Uganda",
+      "code": "UG",
+      "iso3": "UGA",
+      "capital": "Kampala",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Ukraine",
+      "code": "UA",
+      "iso3": "UKR",
+      "capital": "Kyiv",
+      "region": "Europe",
+      "subregion": "Eastern Europe"
+    },
+    {
+      "name": "United Arab Emirates",
+      "code": "AE",
+      "iso3": "ARE",
+      "capital": "Abu Dhabi",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "United Kingdom",
+      "code": "GB",
+      "iso3": "GBR",
+      "capital": "London",
+      "region": "Europe",
+      "subregion": "Northern Europe"
+    },
+    {
+      "name": "United States",
+      "code": "US",
+      "iso3": "USA",
+      "capital": "Washington, D.C.",
+      "region": "Americas",
+      "subregion": "Northern America"
+    },
+    {
+      "name": "Uruguay",
+      "code": "UY",
+      "iso3": "URY",
+      "capital": "Montevideo",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Uzbekistan",
+      "code": "UZ",
+      "iso3": "UZB",
+      "capital": "Tashkent",
+      "region": "Asia",
+      "subregion": "Central Asia"
+    },
+    {
+      "name": "Vanuatu",
+      "code": "VU",
+      "iso3": "VUT",
+      "capital": "Port Vila",
+      "region": "Oceania",
+      "subregion": "Melanesia"
+    },
+    {
+      "name": "Vatican City",
+      "code": "VA",
+      "iso3": "VAT",
+      "capital": "Vatican City",
+      "region": "Europe",
+      "subregion": "Southern Europe"
+    },
+    {
+      "name": "Venezuela",
+      "code": "VE",
+      "iso3": "VEN",
+      "capital": "Caracas",
+      "region": "Americas",
+      "subregion": "South America"
+    },
+    {
+      "name": "Vietnam",
+      "code": "VN",
+      "iso3": "VNM",
+      "capital": "Hanoi",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "name": "Yemen",
+      "code": "YE",
+      "iso3": "YEM",
+      "capital": "Sana'a",
+      "region": "Asia",
+      "subregion": "Western Asia"
+    },
+    {
+      "name": "Zambia",
+      "code": "ZM",
+      "iso3": "ZMB",
+      "capital": "Lusaka",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    },
+    {
+      "name": "Zimbabwe",
+      "code": "ZW",
+      "iso3": "ZWE",
+      "capital": "Harare",
+      "region": "Africa",
+      "subregion": "Eastern Africa"
+    }
+  ]
+}

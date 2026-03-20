@@ -1,0 +1,62 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "globalEnv": [
+    "CLERK_SECRET_KEY"
+  ],
+  "globalDependencies": [
+    "**/.env"
+  ],
+  "tasks": {
+    "topo": {
+      "dependsOn": [
+        "^topo"
+      ]
+    },
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        ".env.*"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "next-env.d.ts"
+      ],
+      "env": [
+        "CLERK_SECRET_KEY"
+      ],
+      "cache": true
+    },
+    "dev": {
+      "persistent": true,
+      "cache": false
+    },
+    "format": {
+      "outputs": [
+        "node_modules/.cache/.prettiercache"
+      ]
+    },
+    "lint": {
+      "dependsOn": [
+        "^topo"
+      ],
+      "outputs": [
+        "node_modules/.cache/.eslintcache"
+      ]
+    },
+    "typecheck": {
+      "dependsOn": [
+        "^topo"
+      ],
+      "outputs": [
+        "node_modules/.cache/tsbuildinfo.json"
+      ]
+    },
+    "clean": {
+      "cache": true
+    }
+  }
+}

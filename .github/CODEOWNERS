@@ -1,0 +1,24 @@
+# Global owners
+* @ab
+
+# Apps
+/apps/grower/ @ab
+/apps/auth-proxy/ @ab
+
+# Packages
+/packages/ui/ @ab
+/packages/api/ @ab
+/packages/auth/ @ab
+/packages/common/ @ab
+
+# Tooling
+/tooling/ @ab
+
+# CI/CD
+/.github/ @ab
+
+# Configuration files
+/*.json @ab
+/*.js @ab
+/*.ts @ab
+/*.mjs @ab

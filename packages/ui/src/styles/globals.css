@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 107 18% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    /* CF Grower green as primary - #3FB648 */
+    --primary: 125 49% 48%;
+    --primary-foreground: 0 0% 100%;
+    /* Add lighter and darker variants of primary green */
+    /* --primary-light: 122 39% 91%; 
+    --primary-dark: 158 25% 32%; */
+    --primary-light: 78 19% 90%;
+    --primary-bright: 156 100% 90%; /* #CEFFEB */
+    --primary-dark: 113 46% 29%;
+    --primary-semi: 150 100% 26%;
+    --primary-darkest: 162 44% 24%; /* #235C4B - Darkest green */
+    --primary-lightest: 130 33% 93%; /* #E6F4E8 - Very light green */
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    /* Green accent */
+    --accent: 142 71% 45%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 75% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 5.9% 90%;
+    /* --border: 80 9% 82% */
+    /* Update input to use light green instead of gray */
+    /* --input: 240 5.9% 90%; */
+    --input: 78 19% 90%;
+
+    --ring: 142 71% 45%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Tab bar colors - matching Figma design */
+    --tab-bar-background: 0 0% 96%; /* #F5F5F5 - Light gray background */
+    --tab-bar-active-background: 108 50% 68%; /* Dark green active state */
+    --tab-bar-active-text: 117 60% 33%; /* #2D7C2B - Dark green text */
+    --tab-bar-inactive-text: 0 0% 40%; /* #666666 - Gray text */
+
+    /* Container */
+    /* --container: 78 19% 90%; */
+    --container: 117 24% 96%;
+
+    /* User dropdown */
+    --user-dropdown-background: 117 16% 96%;
+    --card-light-background: 120 20% 95%;
+
+    --gray-light: 72 18% 91%; /* #E8EBE1 */
+    --gray-semi-dark: 80 9% 82%; /*  #D3D6CE */
+    --gray-dark: 84 6% 45%; /* #71786C */
+    /* Custom red */
+    --red-light: 6 100% 91%; /* #FFDAD6 */
+    --red-dark: 358 100% 28%; /* #8F0004 */
+
+    /* Blue colors */
+    --blue-light: 217 78% 91%; /* #D5E6FD */
+    --blue-dark: 217 100% 31%; /* #00439E */
+    --blue-semi: 215 100% 46%; /* #0063EA */
+
+    /* yellow */
+    --yellow-dark: 38 96% 61%;
+    --yellow-light: 38 95% 92%;
+
+    /* Background colors */
+    --background-light: 111 29% 96%; /* #F3F7F2 - Light green background */
+
+    --input-border: 98 7% 45%; /* #73796E */
+    --input-placeholder: 103 8% 33%; /* #525c4e */
+
+    /* very very light gray/white */
+    --empty-state-background: 0 0% 98%;
+
+    --primary-icon-light: 167 79% 89%;
+    --primary-icon-bright: 107 82% 80%;
+    --orange-light-warning: 30 74% 35%;
+    --orange-dark-warning: 43 100% 15%;
+
+    /* Subtitle text color #161D14 */
+    --subtitle-text: 100 25% 10%;
+  }
+  .dark {
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+
+  .container {
+    @apply max-sm:px-4;
+  }
+}
+
+@layer utilities {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

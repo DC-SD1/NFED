@@ -1,0 +1,599 @@
+{
+  "air": {
+    "EXW": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 2,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": ["Photo of packaged crops", "Photo of samples crops"]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 4,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Non-GMO declaration"
+          ]
+        }
+      }
+    ],
+    "FCA": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 3,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Photo of packaged crops",
+            "Photo of samples crops",
+            "Photo of loaded crops"
+          ]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 4,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Non-GMO declaration",
+            "Cargo Waybill"
+          ]
+        }
+      }
+    ]
+  },
+  "land": {
+    "EXW": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 2,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": ["Photo of packaged crops", "Photo of samples crops"]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 4,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Non-GMO declaration"
+          ]
+        }
+      }
+    ],
+    "FCA": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 3,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Photo of packaged crops",
+            "Photo of samples crops",
+            "Photo of loaded crops"
+          ]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 4,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Non-GMO declaration",
+            "Cargo Waybill"
+          ]
+        }
+      }
+    ]
+  },
+  "sea": {
+    "EXW": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 2,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": ["Photo of packaged crops", "Photo of samples crops"]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 4,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Non-GMO declaration"
+          ]
+        }
+      }
+    ],
+    "FCA": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 3,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Photo of packaged crops",
+            "Photo of samples crops",
+            "Photo of loaded crops"
+          ]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 4,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Non-GMO declaration",
+            "Cargo Waybill"
+          ]
+        }
+      }
+    ],
+    "FAS": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 8,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Photo of packaged crops",
+            "Photo of samples crops",
+            "Photo of loaded crops",
+            "Photo of empty container",
+            "Photo of container during loading",
+            "Photo of full container",
+            "Photo of container with one door open (Cargo and Container No. should be visible) ",
+            "Photo of closed container including seal (Seal No. Should be visible) "
+          ]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 19,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Master Bill of Lading / Air waybill",
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Fumigation Certificate stating method and material used",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Health Certificate by official authority",
+            "Container Cleanliness Certificate",
+            "Customs Value Declaration",
+            "Non-GMO declaration",
+            "Packing Lists",
+            "Shipper's Letter of Instruction",
+            "Forwarding Instruction",
+            "Verified Gross Mass (VGM)",
+            "Certificate of Origin (COO)",
+            "Packing Declaration (ISPM15)",
+            "Importer Security Filing (ISF) (for US export only)",
+            "Manufacturer's Declaration",
+            "GSP Form A Certificate",
+            "Cargo Waybill"
+          ]
+        }
+      }
+    ],
+    "FOB": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 8,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Photo of packaged crops",
+            "Photo of samples crops",
+            "Photo of loaded crops",
+            "Photo of empty container",
+            "Photo of container during loading",
+            "Photo of full container",
+            "Photo of container with one door open (Cargo and Container No. should be visible) ",
+            "Photo of closed container including seal (Seal No. Should be visible) "
+          ]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 19,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Master Bill of Lading / Air waybill",
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Fumigation Certificate stating method and material used",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Health Certificate by official authority",
+            "Container Cleanliness Certificate",
+            "Customs Value Declaration",
+            "Non-GMO declaration",
+            "Packing Lists",
+            "Shipper's Letter of Instruction",
+            "Forwarding Instruction",
+            "Verified Gross Mass (VGM)",
+            "Certificate of Origin (COO)",
+            "Packing Declaration (ISPM15)",
+            "Importer Security Filing (ISF) (for US export only)",
+            "Manufacturer's Declaration",
+            "GSP Form A Certificate",
+            "Cargo Waybill"
+          ]
+        }
+      }
+    ],
+    "CFR": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 8,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Photo of packaged crops",
+            "Photo of samples crops",
+            "Photo of loaded crops",
+            "Photo of empty container",
+            "Photo of container during loading",
+            "Photo of full container",
+            "Photo of container with one door open (Cargo and Container No. should be visible) ",
+            "Photo of closed container including seal (Seal No. Should be visible) "
+          ]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 19,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Master Bill of Lading / Air waybill",
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Fumigation Certificate stating method and material used",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Health Certificate by official authority",
+            "Container Cleanliness Certificate",
+            "Customs Value Declaration",
+            "Non-GMO declaration",
+            "Packing Lists",
+            "Shipper's Letter of Instruction",
+            "Forwarding Instruction",
+            "Verified Gross Mass (VGM)",
+            "Certificate of Origin (COO)",
+            "Packing Declaration (ISPM15)",
+            "Importer Security Filing (ISF) (for US export only)",
+            "Manufacturer's Declaration",
+            "GSP Form A Certificate",
+            "Cargo Waybill"
+          ]
+        }
+      }
+    ],
+    "CIF": [
+      {
+        "title": "View documents you will receive with your order",
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Order documents",
+          "description": "These are the documents you will receive with your order",
+          "optionType": "icon",
+          "items": [
+            "Sales Contract",
+            "Quotation",
+            "Purchase order",
+            "Pro Forma Invoice",
+            "Commercial Invoices",
+            "Evidence of payment of: export duty, taxes and customs clearance.",
+            "Insurance on request",
+            "Evidence of payment of origin terminal charges"
+          ]
+        }
+      },
+      {
+        "title": "View supporting photos",
+        "selectedCount": 8,
+        "type": "photos",
+        "sheetOptions": {
+          "title": "Supporting photos",
+          "description": "Here are some photos available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Photo of packaged crops",
+            "Photo of samples crops",
+            "Photo of loaded crops",
+            "Photo of empty container",
+            "Photo of container during loading",
+            "Photo of full container",
+            "Photo of container with one door open (Cargo and Container No. should be visible) ",
+            "Photo of closed container including seal (Seal No. Should be visible) "
+          ]
+        }
+      },
+      {
+        "title": "View supporting documents",
+        "selectedCount": 19,
+        "type": "documents",
+        "sheetOptions": {
+          "title": "Supporting documents",
+          "description": "Here are some other documents available for your order. Please choose the ones you'd like us to provide.",
+          "optionType": "checkbox",
+          "items": [
+            "Master Bill of Lading / Air waybill",
+            "Quality, Weight & Packing Certificate by Quality Assurance",
+            "Phytosanitary Certificate",
+            "Fumigation Certificate stating method and material used",
+            "Certificate of Analysis by SGS (or equivalent)",
+            "Health Certificate by official authority",
+            "Container Cleanliness Certificate",
+            "Customs Value Declaration",
+            "Non-GMO declaration",
+            "Packing Lists",
+            "Shipper's Letter of Instruction",
+            "Forwarding Instruction",
+            "Verified Gross Mass (VGM)",
+            "Certificate of Origin (COO)",
+            "Packing Declaration (ISPM15)",
+            "Importer Security Filing (ISF) (for US export only)",
+            "Manufacturer's Declaration",
+            "GSP Form A Certificate",
+            "Cargo Waybill"
+          ]
+        }
+      }
+    ]
+  }
+}

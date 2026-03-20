@@ -1,0 +1,942 @@
+{
+  "common": {
+    "welcome": "Bienvenido a la Plataforma Grower",
+    "signIn": "Iniciar sesión",
+    "signUp": "Crear una cuenta",
+    "signOut": "Cerrar Sesión",
+    "dashboard": "Panel de Control",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "back": "Atrás",
+    "skip": "Saltar",
+    "saveAndSend": "Guardar y enviar",
+    "saveAsDraft": "Guardar como borrador",
+    "save_as_draft": "Guardar como borrador",
+    "submit": "Enviar",
+    "resubmit": "Reenviar",
+    "processing_invitation": "Procesando tu invitación...",
+    "errors": {
+      "oops_title": "Ups!",
+      "oops_message": "Algo salió mal.",
+      "unknown_error": "Ocurrió un error inesperado. Por favor intenta de nuevo.",
+      "network_error": "Error de conexión de red. Por favor verifica tu conexión a internet.",
+      "timeout": "La solicitud expiró. Por favor intenta de nuevo.",
+      "server_error": "Error del servidor. Por favor intenta más tarde.",
+      "required_field": "Este campo es obligatorio.",
+      "invalid_field": "Por favor ingresa un valor válido.",
+      "invalid_format": "Formato inválido. Por favor verifica tu entrada.",
+      "field_null": "Este campo no puede estar vacío.",
+      "field_too_large": "La entrada es demasiado grande. Por favor reduce el tamaño.",
+      "invalid_value": "Valor inválido. Por favor verifica tu entrada.",
+      "bad_request": "Solicitud incorrecta. Por favor verifica tu entrada e intenta de nuevo.",
+      "invalid_environment": "La solicitud no es válida para este entorno.",
+      "invalid_settings": "Configuración de autenticación inválida.",
+      "malformed_request": "La solicitud está mal formada y no se pudo procesar.",
+      "invalid_request_body": "Cuerpo de solicitud inválido. Por favor consulta la documentación de la API.",
+      "invalid_api_key": "Clave API inválida. Por favor verifica tu configuración.",
+      "missing_parameter": "Falta un parámetro requerido.",
+      "unsupported_content_type": "Tipo de contenido no soportado.",
+      "invalid_proxy_key": "Clave secreta de proxy inválida.",
+      "maintenance_mode": "El sistema está en mantenimiento. Por favor intenta más tarde.",
+      "not_found": "Recurso no encontrado.",
+      "forbidden": "Acceso prohibido.",
+      "user_quota_exceeded": "Ocurrió un error técnico. Nuestro equipo está resolviendo el problema, por favor intenta de nuevo más tarde.",
+      "invalid_url_scheme": "Esquema de URL inválido. Por favor proporciona una URL válida.",
+      "invalid_redirect_url": "Formato de URL de redirección inválido.",
+      "unauthorized": {
+        "title": "Acceso no autorizado",
+        "message": "No tienes permiso para acceder a esta página. Por favor contacta a tu administrador si crees que esto es un error.",
+        "goToDashboard": "Ir al Panel de Control",
+        "goToHome": "Ir a Inicio"
+      },
+      "notFound": {
+        "title": "Página no encontrada",
+        "message": "Lo sentimos, no pudimos encontrar la página que buscas. La página podría haber sido eliminada, renombrada o no existe.",
+        "goToDashboard": "Ir al Panel de Control",
+        "goToHome": "Ir a Inicio"
+      },
+      "error": {
+        "title": "¡Algo salió mal!",
+        "message": "Lo sentimos, pero algo inesperado sucedió. Por favor intenta de nuevo o contacta al soporte si el problema persiste.",
+        "tryAgain": "Intentar de nuevo",
+        "goToHome": "Ir a Inicio"
+      }
+    }
+  },
+  "auth": {
+    "otpSent": "¡Se ha enviado el OTP a tu correo electrónico!",
+    "otpError": "No se ha podido enviar el OTP. Por favor intenta de nuevo o contacta con soporte.",
+    "signInTitle": "Inicia sesión en tu cuenta",
+    "signUpTitle": "Crea tu cuenta de agricultor",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "recoverPassword": "Recupérala ahora",
+    "recoverPasswordTitle": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "haveAccount": "Iniciar sesión",
+    "orContinueWith": "O continuar con",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "phone": "Número de teléfono",
+    "country": "País",
+    "selectCountry": "Selecciona un país",
+    "enterFirstName": "Ingresa tu nombre",
+    "enterLastName": "Ingresa tu apellido",
+    "enterEmail": "Ingresa tu correo electrónico",
+    "creatingAccount": "Creando cuenta...",
+    "continue": "Continuar",
+    "or": "O",
+    "continueWithGoogle": "Continuar con Google",
+    "sessionSync": {
+      "welcomeBack": "¡Bienvenido de nuevo{comma} {name}! Sincronizando tu sesión…",
+      "readyRedirect": "Todo listo. Redirigiendo…",
+      "syncFailedSigningOut": "No pudimos sincronizar tu sesión. Cerrando sesión para restablecer."
+    },
+    "you": "",
+    "resetPasswordVerification": "Verificación para Restablecer Contraseña",
+    "loginVerification": "Verificación de Inicio de Sesión",
+    "otpVerification": "Verificación OTP",
+    "resetYourPassword": "Restablece tu contraseña",
+    "changeYourPassword": "Cambia tu contraseña",
+    "createPassword": "Crea una contraseña",
+    "createAccount": "Crear una cuenta",
+    "enterNewPassword": "Ingresa una nueva contraseña para tu cuenta",
+    "chooseNewPassword": "Elige una nueva contraseña para tu cuenta",
+    "setNewPassword": "Establecer nueva contraseña",
+    "saveNewPassword": "Guardar nueva contraseña",
+    "next": "Siguiente",
+    "savePassword": "Guardar Contraseña",
+    "enterPassword": "Ingresa la contraseña",
+    "confirmPasswordPlaceholder": "Confirmar contraseña",
+    "processing": "Procesando...",
+    "enterCode": "Ingresa el código del correo electrónico que enviamos a",
+    "verifying": "Verificando...",
+    "apply": "Aplicar",
+    "didntReceiveOtp": "¿No recibiste el OTP?",
+    "sendAgain": "Enviar de nuevo",
+    "sending": "Enviando...",
+    "canResendCodeIn": "Puedes reenviar el código en",
+    "otpResendSuccess": "¡Código de verificación enviado exitosamente! Revisa tu correo electrónico.",
+    "otpAttemptsWarning": "{attempts} intentos restantes antes del bloqueo temporal",
+    "otpLastAttemptWarning": "Último intento antes del bloqueo temporal",
+    "otpMaxAttemptsReached": "Demasiados intentos. Por favor espera {minutes} minutos antes de intentarlo de nuevo.",
+    "passwordResetCodeSent": "¡Código de restablecimiento de contraseña enviado! Por favor revisa tu correo electrónico en {email}. Recuerda revisar tu carpeta de spam si no lo ves.",
+    "byCreatingAccount": "Al crear una cuenta aceptas nuestros",
+    "termsOfUse": "Términos de Uso",
+    "termsAndConditions": "Términos y Condiciones",
+    "and": "y",
+    "privacyPolicy": "Política de Privacidad",
+    "agreeTo": "Acepto los",
+    "welcomeBack": "¡Bienvenido de nuevo, {name}!",
+    "accountCreated": "¡Cuenta creada exitosamente!",
+    "reset_password_subtitle": "Ingresa la dirección de correo electrónico asociada a tu cuenta y te enviaremos un enlace para restablecer tu contraseña.",
+    "create_new_password": "Crear nueva contraseña",
+    "password_updated": "Contraseña restablecida con éxito. Por favor, inicia sesión con tu nueva contraseña.",
+    "password_redirect": "Por favor espera, serás redirigido a la página de inicio de sesión.",
+    "send_reset_link": "Enviar enlace de restablecimiento",
+    "emailDoesNotExist": "No se encontró una cuenta con ese correo electrónico. Por favor, verifica e inténtalo de nuevo.",
+    "somethingWentWrong": "Algo salió mal. Por favor, inténtalo más tarde.",
+    "resetNotEnabled": "Este correo no permite restablecer la contraseña por email. Contacta al soporte si necesitas ayuda.",
+    "noUserFound": "Email no registrado?",
+    "passwordRequirements": {
+      "atLeast": "Al menos",
+      "characters": "8 Caracteres",
+      "lowercase": "Una letra minúscula",
+      "uppercase": "Una letra mayúscula",
+      "special": "Un carácter especial",
+      "number": "Un número"
+    },
+    "errors": {
+      "oops": "Oops! Algo salió mal.",
+      "email_not_found": "Dirección de correo electrónico no encontrada para restablecer contraseña",
+      "auth_error": "No pudimos iniciar tu sesión. Verifica tus datos e inténtalo de nuevo.",
+      "start_error": "Hmm, no pudimos comenzar el proceso. Intentémoslo otra vez.",
+      "submit_error": "¡Ups! No pudimos guardar tus respuestas. Intenta nuevamente en un momento.",
+      "unknown_error": "Algo salió mal de nuestro lado. Por favor, intenta de nuevo en unos instantes.",
+      "invalid_credentials": "Email o contraseña inválidos. Por favor intenta de nuevo.",
+      "incorrect_password": "Nombre de usuario o contraseña inválidos. Por favor intenta de nuevo.",
+      "token_expired": "Tu sesión ha expirado. Por favor inicia sesión de nuevo.",
+      "token_invalid": "Token de autenticación inválido. Por favor inicia sesión de nuevo.",
+      "unauthorized": "No estás autorizado para acceder a este recurso.",
+      "session_expired": "Tu sesión ha expirado. Por favor inicia sesión de nuevo.",
+      "session_invalid": "Sesión inválida. Por favor inicia sesión de nuevo.",
+      "user_not_found": "No se encontró una cuenta con esta dirección de email.",
+      "no_password_set": "Esta cuenta usa inicio de sesión social. Por favor usa el botón 'Continuar con Google'.",
+      "email_already_exists": "Ya existe una cuenta con este email.",
+      "invalid_email": "Por favor ingresa una dirección de email válida.",
+      "invalid_password": "Por favor ingresa una contraseña válida.",
+      "password_too_weak": "La contraseña es muy débil. Por favor elige una contraseña más fuerte.",
+      "invalid_phone": "Por favor ingresa un número de teléfono válido.",
+      "user_already_exists": "Ya existe una cuenta con esta información.",
+      "account_locked": "Tu cuenta ha sido bloqueada. Por favor contacta soporte.",
+      "account_suspended": "Tu cuenta ha sido suspendida. Por favor contacta soporte.",
+      "too_many_attempts": "Demasiados intentos de inicio de sesión. Por favor intenta más tarde.",
+      "rate_limit_exceeded": "Demasiadas solicitudes. Por favor espera e intenta de nuevo.",
+      "otp_expired": "El código de verificación ha expirado. Por favor solicita uno nuevo.",
+      "otp_invalid": "Código de verificación inválido. Por favor verifica e intenta de nuevo.",
+      "otp_max_attempts": "Máximo número de intentos de verificación alcanzado. Por favor solicita un nuevo código.",
+      "password_compromised": "Esta contraseña es demasiado común y fácil de adivinar. Por favor, crea una contraseña más segura y única para una mejor seguridad.",
+      "password_too_short": "La contraseña es muy corta. Por favor elige una contraseña más larga.",
+      "strategy_mismatch": "Este correo está asociado con un método de inicio de sesión diferente. Por favor intenta iniciar sesión con Google o restablece tu contraseña.",
+      "mfa_not_supported": "La autenticación de dos factores (2FA) no está soportada actualmente. Por favor contacta soporte para ayudarte a deshabilitarla.",
+      "needs_new_password": "Por favor restablece tu contraseña para continuar.",
+      "oauthFailed": "Error al iniciar sesión con {provider}. Por favor, inténtalo de nuevo.",
+      "signin_incomplete": "No se pudo completar el inicio de sesión. Por favor intenta de nuevo o contacta soporte.",
+      "signed_out": "Has cerrado sesión. Por favor inicia sesión para continuar.",
+      "session_not_found": "Sesión no encontrada. Por favor inicia sesión de nuevo.",
+      "session_consumed": "Esta sesión ya ha sido utilizada. Por favor inicia sesión de nuevo.",
+      "session_too_old": "La sesión es muy antigua. Por favor inicia sesión de nuevo.",
+      "emailAlreadyExists": "Este correo electrónico ya está registrado. Por favor usa otro correo o inicia sesión.",
+      "phoneAlreadyExists": "Este número de teléfono ya está registrado. Por favor usa otro número o inicia sesión.",
+      "checkEmailFailed": "No se pudo verificar la disponibilidad del correo. Por favor intenta de nuevo.",
+      "checkPhoneFailed": "No se pudo verificar la disponibilidad del número. Por favor intenta de nuevo.",
+      "session_inactive": "La sesión ya no está activa. Por favor inicia sesión de nuevo.",
+      "session_ineligible": "La sesión no puede ser renovada. Por favor inicia sesión de nuevo.",
+      "request_origin_invalid": "Origen de solicitud inválido. Por favor intenta de nuevo.",
+      "feature_not_enabled": "Esta función no está habilitada para tu cuenta.",
+      "user_banned": "Tu cuenta ha sido baneada. Si crees que esto fue un error, por favor contacta soporte.",
+      "account_deprovisioned": "Tu cuenta ha sido desaprovisionada. Por favor contacta soporte.",
+      "organization_not_found": "Organización no encontrada o no tienes permiso para acceder a ella.",
+      "invitation_already_accepted": "Esta invitación ya ha sido aceptada.",
+      "invitation_user_not_found": "Usuario no encontrado. Por favor regístrate primero para aceptar esta invitación.",
+      "invitation_not_found": "Invitación no encontrada.",
+      "invitation_not_pending": "Esta invitación no está en estado pendiente.",
+      "invitation_duplicate": "Ya existe una invitación pendiente para esta dirección de email.",
+      "invitation_revoked": "Esta invitación ha sido revocada.",
+      "organization_deleted": "Esta organización ha sido eliminada.",
+      "invitation_email_exists": "Esta dirección de email ya existe. Por favor inicia sesión en su lugar.",
+      "invitation_number_exists": "Este número de teléfono ya existe. Por favor, inicie sesión.",
+      "domain_blocked": "Este dominio de email está bloqueado. Por favor usa una dirección de email diferente.",
+      "domain_common": "No se permiten proveedores de email comunes. Por favor usa tu email organizacional.",
+      "domain_mismatch": "La dirección de email no coincide con el dominio de la organización.",
+      "enrollment_mode_disabled": "Este modo de inscripción no está habilitado para tu organización.",
+      "domain_quota_exceeded": "Se alcanzó el número máximo de dominios para esta organización.",
+      "enterprise_connection_required": "No se puede eliminar la membresía vinculada a la conexión empresarial.",
+      "verification_not_sent": "Por favor envía un código de verificación antes de intentar verificar.",
+      "verification_failed": "Verificación fallida. Demasiados intentos incorrectos.",
+      "verification_rate_limit": "Demasiadas solicitudes de verificación. Por favor espera antes de intentar de nuevo.",
+      "totp_incorrect": "Código de autenticador incorrecto. Por favor intenta de nuevo.",
+      "totp_already_enabled": "La autenticación de dos factores ya está habilitada.",
+      "backup_codes_unavailable": "Habilita otro método 2FA para usar códigos de respaldo.",
+      "passkey_failed": "La autenticación con passkey falló. Por favor intenta de nuevo.",
+      "passkey_invalid": "Credencial de passkey inválida.",
+      "oauth_exchange_failed": "La autenticación OAuth falló. Por favor intenta de nuevo.",
+      "oauth_misconfigured": "El proveedor OAuth está mal configurado. Por favor contacta soporte.",
+      "captcha_required": "Por favor completa la verificación CAPTCHA.",
+      "captcha_invalid": "La verificación CAPTCHA falló. Por favor intenta de nuevo.",
+      "device_blocked": "Este dispositivo ha sido bloqueado debido a actividad sospechosa.",
+      "device_attestation_required": "Se requiere verificación del dispositivo.",
+      "device_attestation_failed": "La verificación del dispositivo falló.",
+      "device_attestation_not_configured": "La atestación del dispositivo no está configurada.",
+      "device_attestation_misconfigured": "La atestación del dispositivo está mal configurada.",
+      "device_attestation_unsupported": "La atestación del dispositivo no es compatible con esta plataforma.",
+      "device_attestation_mismatch": "Discrepancia en el desafío de atestación del dispositivo.",
+      "device_attestation_challenge_invalid": "Desafío de atestación del dispositivo inválido o expirado.",
+      "device_attestation_assertion_invalid": "Aserción de atestación del dispositivo inválida.",
+      "assertion_required": "Se requiere una aserción para verificar tu dispositivo.",
+      "ticket_expired": "Este ticket ha expirado.",
+      "ticket_invalid": "Ticket inválido. Por favor usa un ticket válido.",
+      "payment_failed": "El pago falló. Por favor intenta de nuevo.",
+      "card_declined": "Tu tarjeta fue rechazada.",
+      "payment_processing_error": "Error al procesar el pago. Por favor intenta de nuevo.",
+      "payer_not_found": "Pagador no encontrado.",
+      "payee_not_found": "Beneficiario no encontrado.",
+      "plan_not_found": "Plan no encontrado.",
+      "subscription_not_found": "Suscripción no encontrada.",
+      "too_many_unverified": "Demasiados contactos sin verificar. Por favor verifica los existentes primero.",
+      "country_not_supported": "Los números de teléfono de este país no están soportados.",
+      "identification_claimed": "Esta identificación ha sido reclamada por otro usuario.",
+      "enhanced_email_disabled": "La entrega mejorada de email requiere solo OTP de email.",
+      "waitlist_closed": "La lista de espera no está aceptando nuevas entradas en este momento.",
+      "saml_incomplete": "La conexión SAML no puede ser activada. Faltan campos requeridos.",
+      "saml_metadata_fetch_failed": "Error al obtener los metadatos SAML IdP.",
+      "saml_metadata_parse_failed": "Error al analizar los metadatos SAML IdP.",
+      "inviteFail": "No se pudo invitar al usuario. Por favor, inténtalo de nuevo.",
+      "completeInvite": "Los datos de la invitación están incompletos. Por favor, regresa y completa el formulario de invitación.",
+      "completeContract": "Los datos del contrato están incompletos. Por favor, regresa y completa el formulario del contrato.",
+      "createContractFail": "No se pudo crear el contrato. Por favor, inténtalo de nuevo."
+    }
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "overview": "Resumen",
+    "farms": "Fincas",
+    "crops": "Cultivos",
+    "activities": "Actividades",
+    "analytics": "Análisis",
+    "reports": "Informes",
+    "nav": {
+      "dashboard": "Panel de Control",
+      "profile": "Perfil",
+      "farmer": {
+        "farms": "Mis Fincas",
+        "crops": "Cultivos",
+        "activities": "Actividades",
+        "analytics": "Análisis",
+        "equipment": "Equipos",
+        "marketplace": "Mercado"
+      },
+      "agent": {
+        "clients": "Clientes",
+        "territory": "Territorio",
+        "performance": "Rendimiento",
+        "training": "Capacitación",
+        "communications": "Comunicaciones",
+        "reports": "Informes"
+      }
+    }
+  },
+  "api": {
+    "errors": {
+      "bad_request": "Solicitud inválida. Por favor verifica tu información e intenta de nuevo.",
+      "unauthorized": "No estás autorizado para realizar esta acción.",
+      "forbidden": "Acceso denegado. No tienes permiso para acceder a este recurso.",
+      "not_found": "El recurso solicitado no fue encontrado.",
+      "timeout": "La solicitud expiró. Por favor intenta de nuevo.",
+      "conflict": "Hubo un conflicto con tu solicitud. Por favor intenta de nuevo.",
+      "validation_error": "Por favor verifica tu información y corrige cualquier error.",
+      "rate_limit": "Demasiadas solicitudes. Por favor espera e intenta de nuevo.",
+      "internal_server_error": "Error interno del servidor. Por favor intenta más tarde.",
+      "bad_gateway": "Servicio temporalmente no disponible. Por favor intenta de nuevo.",
+      "service_unavailable": "El servicio no está disponible actualmente. Por favor intenta más tarde.",
+      "gateway_timeout": "Tiempo de espera agotado. Por favor intenta de nuevo.",
+      "validation_failed": "La validación falló. Por favor verifica tu información.",
+      "rate_limit_exceeded": "Límite de velocidad excedido. Por favor espera e intenta de nuevo."
+    }
+  },
+  "authFlow": {
+    "title": "Tu Sourcing, Simplificado.",
+    "description": "Obtén tu próxima partida de cultivos de alta calidad con menos esfuerzo y más control desde la cotización hasta el embarque."
+  },
+  "landing": {
+    "hero": {
+      "title": "Agricultura Moderna Simplificada",
+      "subtitle": "Rastrea, gestiona y optimiza tus operaciones agrícolas con la plataforma digital de Complete Farmer",
+      "cta": "Comenzar",
+      "learnMore": "Más Información"
+    },
+    "features": {
+      "title": "Todo lo que necesitas para cultivar",
+      "farmManagement": {
+        "title": "Gestión de Fincas",
+        "description": "Administra múltiples fincas, campos y cultivos en un solo lugar"
+      },
+      "cropTracking": {
+        "title": "Seguimiento de Cultivos",
+        "description": "Monitorea la salud de los cultivos, etapas de crecimiento y predicciones de rendimiento"
+      },
+      "analytics": {
+        "title": "Análisis Inteligente",
+        "description": "Información basada en datos para optimizar tus operaciones agrícolas"
+      }
+    },
+    "carousel": {
+      "slide1": {
+        "title": "Inicia una granja. Visita tus granjas.",
+        "subtitle": "Cultiva desde cualquier lugar. Todo lo que necesitas en un solo lugar"
+      },
+      "slide2": {
+        "title": "Haz crecer tu negocio. Rastrea tu progreso.",
+        "subtitle": "Monitorea tus cultivos y optimiza tus operaciones agrícolas"
+      },
+      "slide3": {
+        "title": "Conéctate con agricultores. Comparte conocimientos.",
+        "subtitle": "Únete a una comunidad de agricultores y expertos agrícolas"
+      },
+      "slide4": {
+        "title": "Escala tus operaciones. Maximiza la eficiencia.",
+        "subtitle": "Herramientas avanzadas e información para la agricultura profesional"
+      }
+    }
+  },
+  "metadata": {
+    "signUpTitle": "Registrarse - CF Grower",
+    "signUpDescription": "Únete a miles de agricultores que cultivan de manera más inteligente con Complete Farmer",
+    "signInTitle": "Iniciar Sesión - CF Grower",
+    "signInDescription": "Inicia sesión en tu cuenta para continuar"
+  },
+  "alt": {
+    "cf": "CF",
+    "cfGrowerLogo": "Logo de CF Grower",
+    "mailIcon": "Icono de correo"
+  },
+  "onboarding": {
+    "marketing": {
+      "start": "Comenzar",
+      "next": "Siguiente",
+      "title": "Primero lo primero, ¿cómo te enteraste de nosotros?",
+      "subtitle": "(¡Esto nos ayuda a llegar a más agricultores como tú!)",
+      "options": {
+        "friends-family": "Amigos o familia",
+        "cf-agent-representative": "Un agente o representante de CF",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "google-search": "Búsqueda en Google",
+        "radio-newspaper": "Radio o periódico",
+        "event-trade-fair": "Evento o feria comercial",
+        "other": "Otro"
+      }
+    },
+    "segmentation": {
+      "title": "Estado de experiencia",
+      "subtitle": "¿Has trabajado en la agricultura antes o es tu primera vez?",
+      "new-label": "Principiante",
+      "new-description": "Soy nuevo en la agricultura",
+      "experienced-label": "Con experiencia",
+      "experienced-description": "Ya he cultivado antes"
+    },
+    "newbie": {
+      "preference": {
+        "title": "Preferencia de cultivo",
+        "title2": "Método de cultivo",
+        "subtitle": "¡Bienvenido a bordo! Estamos emocionados de ayudarte a comenzar.",
+        "question": "¿Te gustaría:",
+        "farmSelf": "Cultivar por tu cuenta",
+        "farmManager": "Trabajar con un administrador de finca"
+      },
+      "land-availability": {
+        "greatChoice": "¡Buena elección! Puedes contratar un administrador de finca calificado directamente en la plataforma para guiar tu camino.",
+        "question": "¿Tienes tierras que planeas usar?",
+        "yes": "Sí",
+        "no": "No, necesitaré tierras"
+      },
+      "need-land": {
+        "subtitle1": "No hay problema—te tenemos cubierto. Puedes arrendar tierras verificadas fácilmente aquí en la plataforma.",
+        "subtitle2": "Te ayudaremos a encontrar una que se ajuste a tu cultivo y ubicación.",
+        "next": "Siguiente"
+      },
+      "farming-method": {
+        "question": "¿Qué tipo de cultivo te interesa?",
+        "greenhouse": "Agricultura en invernadero",
+        "openField": "Agricultura a campo abierto",
+        "notSure": "Aún no estoy seguro",
+        "coming-soon": "Próximamente"
+      },
+      "goals": {
+        "title": "Objetivo agrícola",
+        "description": "Y solo para asegurarnos de ofrecerte la mejor experiencia",
+        "mainQuestion": "¿Cuál es tu objetivo principal en CF Grower?",
+        "options": {
+          "startGuidance": "Quiero comenzar a cultivar y necesito orientación",
+          "betterYields": "Ya cultivo y quiero mejores rendimientos",
+          "export": "Quiero cultivar para exportación",
+          "investment": "Estoy explorando la agricultura como inversión"
+        },
+        "errors": {
+          "selectAtLeastOne": "Por favor selecciona al menos un objetivo"
+        }
+      },
+      "commitment": {
+        "title": "¡Casi terminamos! Hagámoslo oficial.",
+        "description": " Usaré CF Grower para...",
+        "start": "Iniciar y gestionar mi cultivo para alcanzar mis objetivos con éxito.",
+        "slide": "Desliza para abrir la puerta de tu finca y comprometerte con tu viaje.",
+        "swipe": "Deslizar para abrir"
+      },
+      "complete": {
+        "done": "¡Todo listo!",
+        "title": "Con base en tus respuestas, personalizaremos tu panel con herramientas y consejos para ayudarte a tener éxito.",
+        "start": "Empezar a cultivar"
+      }
+    },
+    "experienced": {
+      "farming-level": {
+        "title": "Nivel de experiencia agrícola",
+        "subtitle": "¡Eso es genial! La experiencia siempre es valiosa.",
+        "question": "¿Cuánto tiempo llevas cultivando?",
+        "options": {
+          "less_than_1_year": "Menos de 1 año",
+          "1-3_years": "1 a 3 años",
+          "4-7_years": "4 a 7 años",
+          "5-10_years": "5 a 10 años",
+          "8+_years": "Más de 8 años"
+        }
+      },
+      "current-crops": {
+        "title": "Cultivos cultivados",
+        "subtitle": "¿Qué cultivos has cultivado?",
+        "instruction": "Selecciona todos los que correspondan o escribe el tuyo:",
+        "options": {
+          "chilli-pepper": "Ají picante",
+          "maize": "Maíz",
+          "soybean": "Soya",
+          "sweet-potatoes": "Batatas",
+          "other": "Otro"
+        },
+        "errors": {
+          "selectAtLeastOne": "Por favor selecciona al menos un cultivo que estés cultivando actualmente"
+        },
+        "next": "Siguiente"
+      },
+      "preference": {
+        "title": "Preferencia agrícola",
+        "question": "¿Te gustaría:",
+        "farmSelf": "Cultivar por tu cuenta",
+        "farmManager": "Trabajar con un administrador de finca"
+      },
+      "land-availability": {
+        "title": "Preferencia agrícola",
+        "greatChoice": "¡Excelente elección! Puedes invitar a tu propio administrador de finca o contratar uno calificado en la plataforma cuando lo necesites.",
+        "question": "¿Tienes tierras que planeas usar?",
+        "yes": "Sí",
+        "no": "No, necesito tierras"
+      },
+      "farming-method": {
+        "title": "Métodos de cultivo",
+        "subtitle": "No hay problema—te tenemos cubierto. Puedes arrendar tierras verificadas directamente desde la plataforma. Te ayudaremos a encontrar una que se ajuste a tu cultivo y ubicación.",
+        "question": "¿Qué tipo de agricultura te interesa?",
+        "greenhouse": "Agricultura en invernadero",
+        "openField": "Agricultura a campo abierto",
+        "notSure": "Aún no estoy seguro",
+        "coming-soon": "Próximamente"
+      }
+    }
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "email": {
+      "invalid": "Por favor, introduce una dirección de correo electrónico válida"
+    },
+    "phone": {
+      "required": "El número de teléfono es obligatorio",
+      "invalid": "Por favor, introduce un número de teléfono válido"
+    },
+    "firstName": {
+      "min": "El nombre debe tener al menos 2 caracteres",
+      "max": "El nombre no debe exceder los 50 caracteres",
+      "invalid": "El nombre solo puede contener letras, espacios, guiones y apóstrofes"
+    },
+    "lastName": {
+      "min": "El apellido debe tener al menos 2 caracteres",
+      "max": "El apellido no debe exceder los 50 caracteres",
+      "invalid": "El apellido solo puede contener letras, espacios, guiones y apóstrofes"
+    },
+    "organizationName": {
+      "required": "El nombre de la organización es obligatorio"
+    },
+    "companySize": {
+      "required": "El tamaño de la empresa es obligatorio"
+    },
+    "revenueRange": {
+      "required": "El rango de ingresos es obligatorio"
+    },
+    "password": {
+      "min": "La contraseña debe tener al menos 8 caracteres",
+      "uppercase": "La contraseña debe contener al menos una letra mayúscula",
+      "lowercase": "La contraseña debe contener al menos una letra minúscula",
+      "number": "La contraseña debe contener al menos un número",
+      "special": "La contraseña debe contener al menos un carácter especial",
+      "mismatch": "Las contraseñas no coinciden"
+    },
+    "otp": {
+      "length": "El OTP debe tener exactamente 6 dígitos",
+      "invalid": "El OTP debe contener solo números"
+    },
+    "country": {
+      "required": "El país es obligatorio"
+    }
+  },
+  "buyerOnboarding": {
+    "basicInfo": {
+      "organisationInfo": {
+        "title": "Ingresa la información de tu organización",
+        "subtitle": "Por favor completa el formulario a continuación con los detalles requeridos.",
+        "organizationName": "Nombre de la Organización",
+        "organizationNamePlaceholder": "Ingresa el nombre de tu organización",
+        "companySize": "Tamaño de la empresa por personas",
+        "companySizePlaceholder": "Selecciona el tamaño de tu empresa",
+        "revenueRange": "Rango de ingresos",
+        "revenueRangePlaceholder": "Selecciona tu rango de ingresos",
+        "saveAndContinue": "Guardar y continuar",
+        "companySizeOptions": {
+          "0-49": "0 - 49 personas",
+          "50-249": "50 - 249 personas",
+          "250-999": "250 - 999 personas",
+          "1000+": "1000 personas y más"
+        },
+        "revenueRangeOptions": {
+          "< $999": "< $999",
+          "$1,000 - $9,999": "$1,000 - $9,999",
+          "$10,000 - $99,999": "$10,000 - $99,999",
+          "> $100,000": "> $100,000",
+          "< GHS 9,999": "< GHS 9,999",
+          "GHS 10,000 - GHS 99,999": "GHS 10,000 - GHS 99,999",
+          "GHS 100,000 - GHS 999,999": "GHS 100,000 - GHS 999,999",
+          "> GHS 1,000,000": "> GHS 1,000,000"
+        }
+      }
+    },
+    "cropInterest": {
+      "title": "Selecciona tu interés en cultivos",
+      "subtitle": "Por favor selecciona todos los cultivos que te interesen.",
+      "otherCrops": "Otros cultivos",
+      "otherCropsPlaceholder": "¿No encontraste un cultivo que te interese? Escríbelos aquí y sepáralos con una coma (,)",
+      "back": "Atrás",
+      "saveAndContinue": "Guardar y continuar",
+      "crops": {
+        "chili-pepper": {
+          "label": "Ají picante",
+          "category": "Frutas y verduras"
+        },
+        "sheanut": {
+          "label": "Nuez de karité",
+          "category": "Frutas y verduras"
+        },
+        "pineapple": {
+          "label": "Piñas",
+          "category": "Frutas y verduras"
+        },
+        "avocado": {
+          "label": "Aguacates",
+          "category": "Frutas y verduras"
+        },
+        "cassava": {
+          "label": "Yuca",
+          "category": "Raíces y tubérculos"
+        },
+        "soybean": {
+          "label": "Soya",
+          "category": "Frutas y verduras"
+        },
+        "sweet-potatoes": {
+          "label": "Batatas",
+          "category": "Raíces y tubérculos"
+        },
+        "ginger": {
+          "label": "Jengibre",
+          "category": "Raíces y tubérculos"
+        }
+      },
+      "categories": {
+        "fruitsAndVegetables": "Frutas y verduras",
+        "rootsAndTubers": "Raíces y tubérculos"
+      },
+      "validation": {
+        "selectAtLeastOneCrop": "Por favor selecciona al menos un cultivo"
+      }
+    },
+    "corporateIdentity": {
+      "title": "Subir documentos de identidad corporativa",
+      "subtitle": "Por favor sube los documentos necesarios a continuación.",
+      "label": "Documentos de incorporación corporativa",
+      "labelDescription": "PDF, JPEG, o PNG menor a 10MB",
+      "proofOfBusinessAddress": "Prueba de dirección comercial (opcional)",
+      "corporateProfileOrBrochure": "Perfil corporativo/ folleto (opcional)",
+      "back": "Atrás",
+      "saveAndContinue": "Guardar y continuar",
+      "validation": {
+        "selectAtLeastOneBusinessDoc": "Por favor selecciona al menos un documento de incorporación comercial"
+      }
+    },
+    "authorizedRepresentative": {
+      "title": "Sube los documentos de tu representante autorizado",
+      "subtitle": "Por favor sube los documentos necesarios a continuación.",
+      "idOfApplicant": "ID del solicitante",
+      "idOfShareholders": "IDs de los accionistas",
+      "certificateOfIncorporation": "Resolución de la Junta o Poder Notarial (opcional)",
+      "labelDescription": "PDF, JPEG, o PNG menor a 10MB",
+      "back": "Atrás",
+      "saveAndContinue": "Guardar y continuar",
+      "validation": {
+        "selectAtLeastOneDoc": "Por favor selecciona al menos un documento"
+      }
+    },
+    "financialStanding": {
+      "title": "Sube tus documentos financieros",
+      "subtitle": "Por favor sube los documentos necesarios a continuación.",
+      "auditedFinancialStatements": "Estados financieros auditados (últimos 2 años)",
+      "bankReferenceLetter": "Carta de referencia bancaria",
+      "creditRatingReport": "Informe de calificación crediticia (si está disponible)",
+      "proofOfFunds": "Prueba de fondos (estado de cuenta bancario o confirmación de depósito en garantía)",
+      "shippingRecords": "Registros de envío",
+      "labelDescription": "PDF, JPEG, o PNG menor a 10MB",
+      "back": "Atrás",
+      "saveAndContinue": "Guardar y continuar",
+      "validation": {
+        "selectAtLeastOneFinancialStatement": "Por favor selecciona al menos un estado financiero"
+      }
+    },
+    "sidebar": {
+      "basicInformation": "Información básica",
+      "organizationInformation": "Información de la organización",
+      "cropInterest": "Interés en cultivos",
+      "companyDocuments": "Documentos de la empresa",
+      "corporateIdentity": "Identidad corporativa",
+      "authorizedRepresentative": "Representante autorizado",
+      "financialStanding": "Situación financiera y liquidez",
+      "reviewAndSubmit": "Revisar y enviar"
+    }
+  },
+  "kycBanner": {
+    "continueOnboarding": "Continúa tu incorporación",
+    "draftMessage": "El acceso ha sido restringido temporalmente. ¡Continúa tu incorporación KYC ahora para desbloquear todas las funciones de tu panel!",
+    "underReview": "Tus documentos KYC están en revisión y generalmente tardan alrededor de 48 horas. Te enviaremos un correo electrónico una vez que sean aprobados. ¡Gracias por tu paciencia!",
+    "contactSupport": "Contactar soporte",
+    "resubmissionRequired": "Tus documentos KYC han tenido algunos problemas y requieren atención inmediata. Por favor, revísalos y vuelve a enviarlos.",
+    "updateDocuments": "Actualizar documentos KYC",
+    "noStatusMessage": "El acceso ha sido restringido temporalmente. ¡Comienza tu proceso de KYC ahora para desbloquear todas las funciones de tu panel!",
+    "noStatusButton": "Iniciar incorporación"
+  },
+  "sourcing": {
+    "sourcingPopup": {
+      "cancel": "Cancelar abastecimiento",
+      "saveAndExit": "Guardar y salir"
+    },
+    "cancelSourcing": {
+      "title": "Cancelar abastecimiento",
+      "description": "¿Estás seguro de que deseas cancelar este abastecimiento? Todo el progreso se perderá.",
+      "form": {
+        "reason": "Motivo de la cancelación",
+        "reasonPlaceholder": "Indica el motivo aquí",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      }
+    },
+    "saveAndExit": {
+      "title": "Guardar como borrador",
+      "description": "¿Estás seguro de que deseas guardar este abastecimiento como borrador y continuar más tarde?",
+      "cancel": "Cancelar",
+      "confirm": "Confirmar"
+    },
+    "availableCrops": {
+      "cropSpecification": {
+        "page": {
+          "title": "Selecciona la cantidad",
+          "subtitle": "Por favor, rellena el formulario a continuación con los datos requeridos."
+        }
+      },
+      "quantitySelector": {
+        "title": "Seleccionar cantidad (en toneladas métricas)",
+        "available": "30,000 MT Disponible",
+        "placeholder": "10,000"
+      },
+      "form": {
+        "validation": {
+          "quantityRequired": "La cantidad es obligatoria"
+        },
+        "sections": {
+          "cropSpecification": "Especificación del cultivo",
+          "otherSpecification": "Otra especificación",
+          "certificates": "Certificados",
+          "testingType": "Tipo de prueba"
+        },
+        "labels": {
+          "cropSpecification": {
+            "variety": "Variedad",
+            "condition": "Condición",
+            "grade": "Calidad",
+            "cultivationType": "Tipo de cultivo",
+            "packagingType": "Tipo de embalaje"
+          }
+        }
+      }
+    },
+    "sourcingReview": {
+      "page": {
+        "title": "Resumen de selección",
+        "subtitle": "Tómate un momento para revisar y confirmar tu elección.",
+        "submitForProcessingButton": "Enviar para su procesamiento"
+      }
+    },
+    "offerReview": {
+      "signing": {
+        "title": "Firma",
+        "instruction": "Dibuja tu firma a continuación",
+        "description": "Acepto que la firma y las iniciales serán la representación electrónica de mi firma e iniciales para todos los fines cuando yo (o mi representante) las use en documentos, incluidos contratos legalmente vinculantes, igual que una firma o inicial con bolígrafo y papel.",
+        "draw": "Dibujar firma",
+        "upload": "Subir firma",
+        "confirm": "Confirmar firma",
+        "cancel": "Cancelar",
+        "clear": "Borrar firma"
+      },
+      "title": "Revisión de oferta",
+      "description": "Por favor revisa los detalles de la cotización a continuación.",
+      "viewInvoice": "Ver factura",
+      "downloadSuccessful": "Descarga completada",
+      "summary": {
+        "farmgatePrice": "Precio en finca",
+        "warehouseServices": "Servicios de almacén",
+        "tests": "Pruebas",
+        "packagaing": "Empaque",
+        "freightCost": "Costo de flete/logística",
+        "taxImplication": "Implicación fiscal",
+        "totalCost": "Costo total"
+      },
+      "footer": {
+        "decline": "Rechazar",
+        "renegotiate": "Renegociar",
+        "accept": "Aceptar"
+      },
+      "generateContract": {
+        "title": "Generar contrato",
+        "description": "Acepta esta cotización para confirmar la oferta y proceder a la firma del contrato.",
+        "cancel": "Cancelar",
+        "continue": "Continuar"
+      },
+      "declineOffer": {
+        "title": "Rechazar oferta",
+        "description": "Por favor indica la razón por la cual rechazas esta oferta.",
+        "form": {
+          "reason": "Motivo del rechazo",
+          "reasonPlaceholder": "Indica el motivo aquí",
+          "cancel": "Cancelar",
+          "confirm": "Confirmar"
+        }
+      },
+      "renegotiateOffer": {
+        "title": "Renegociar oferta",
+        "description": "Por favor ingresa tus términos preferidos para la renegociación.",
+        "form": {
+          "renegotiateTerms": "Términos de renegociación",
+          "renegotiateTermsPlaceholder": "Indica los términos aquí",
+          "cancel": "Cancelar",
+          "submit": "Enviar"
+        }
+      }
+    },
+    "orderDeclined": {
+      "title": "Este pedido ha sido rechazado",
+      "description": "Esta es la descripción y debe ser simple, breve y directa para facilitar la comprensión.",
+      "returnToHome": "Volver al inicio"
+    },
+    "submitForProcessing": {
+      "title": "Confirmar envío",
+      "description": "¿Deseas enviar este pedido para su procesamiento?",
+      "no": "No, cancelar",
+      "yes": "Sí, enviar"
+    },
+    "documentProcessing": {
+      "title": "Procesamiento de documentos en curso",
+      "description": "Estamos procesando tu pedido en este momento. Debería estar listo en 48 horas."
+    },
+    "navigation": {
+      "title": "Aprovisionamiento de cultivos"
+    },
+    "steps": {
+      "cropSpecification": "Especificación de cultivos",
+      "shippingMethod": "Método de envío",
+      "paymentDetails": "Detalles de pago",
+      "sourcingReview": "Revisión de aprovisionamiento",
+      "documentProcessing": "Procesamiento de documentos",
+      "offerReview": "Revisión de ofertas",
+      "salesContract": "Contrato de venta"
+    },
+    "estimator": {
+      "title": "Estimador de costos",
+      "description": "Vista previa de una estimación de tus costos de aprovisionamiento a continuación. Para guiar tus decisiones.",
+      "placeholder": "Proporcionar especificaciones requeridas de cultivos"
+    },
+    "footer": {
+      "back": "Atrás",
+      "continue": "Continuar"
+    },
+    "cropSpecification": {
+      "page": {
+        "title": "Seleccionar especificación de cultivos",
+        "subtitle": "Por favor completa el formulario a continuación con los detalles requeridos."
+      },
+      "quantitySelector": {
+        "title": "Seleccionar cantidad (en toneladas métricas)",
+        "available": "30,000 MT Disponible",
+        "placeholder": "10,000"
+      },
+      "form": {
+        "labels": {
+          "variety": "Variedad",
+          "cultivationType": "Tipo de cultivo",
+          "grade": "Grado",
+          "processingStyle": "Estilo de procesamiento",
+          "packagingStyle": "Estilo de empaque",
+          "certificationType": "Tipo de certificación",
+          "testingType": "Tipo de prueba"
+        },
+        "placeholders": {
+          "selectVariety": "Seleccionar variedad",
+          "selectCultivationType": "Seleccionar tipo de cultivo",
+          "selectGrade": "Seleccionar grado",
+          "selectProcessingStyle": "Seleccionar estilo de procesamiento",
+          "selectPackagingStyle": "Seleccionar estilo de empaque",
+          "selectCertificationType": "Seleccionar tipo de certificación",
+          "selectTestingType": "Seleccionar tipo de prueba"
+        }
+      },
+      "validation": {
+        "quantityRequired": "La cantidad es requerida",
+        "varietyRequired": "La variedad es requerida",
+        "cultivationTypeRequired": "El tipo de cultivo es requerido",
+        "gradeRequired": "El grado es requerido",
+        "processingStyleRequired": "El estilo de procesamiento es requerido",
+        "packagingStyleRequired": "El estilo de empaque es requerido",
+        "certificationTypeRequired": "El tipo de certificación es requerido",
+        "testingTypeRequired": "El tipo de prueba es requerido"
+      }
+    },
+    "shippingMethod": {
+      "page": {
+        "title": "Información de envío",
+        "subtitle": "Por favor selecciona uno de los métodos de envío y proporciona los detalles adicionales."
+      }
+    },
+    "paymentDetails": {
+      "page": {
+        "title": "Información de pago",
+        "subtitle": "Por favor selecciona uno de los métodos de envío y proporciona los detalles adicionales."
+      }
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "Administra tus preferencias y ajustes de cuenta aquí",
+    "cards": {
+      "profile": {
+        "title": "Configuración de perfil",
+        "description": "Actualiza tus datos personales, información de contacto y avatar."
+      },
+      "notifications": {
+        "title": "Configuración de notificaciones",
+        "description": "Elige cómo y cuándo deseas recibir alertas de Complete Farmer."
+      },
+      "account": {
+        "title": "Configuración de la cuenta",
+        "description": "Gestiona la autenticación, los proveedores conectados y los controles de seguridad."
+      }
+    },
+    "profile": {
+      "title": "Configuración de perfil",
+      "subtitle": "Mantén tu información personal actualizada para reflejar tu cuenta.",
+      "empty": "Las preferencias de perfil estarán disponibles pronto.",
+      "breadcrumb": {
+        "settings": "Configuración",
+        "profileSettings": "Configuración de perfil"
+      },
+      "tabs": {
+        "profileDetails": "Detalles del perfil",
+        "staffDetails": "Detalles del personal"
+      },
+      "completionCard": {
+        "title": "¡El detalle de tu perfil está {percentage}% completo!",
+        "doLater": "Hacer esto más tarde",
+        "completeNow": "Completar ahora"
+      },
+      "buttons": {
+        "edit": "Editar",
+        "view": "Ver"
+      }
+    },
+    "notifications": {
+      "title": "Configuración de notificaciones",
+      "subtitle": "Define qué alertas recibes y cómo te notificamos.",
+      "empty": "Las preferencias de notificaciones estarán disponibles pronto."
+    },
+    "account": {
+      "title": "Configuración de la cuenta",
+      "subtitle": "Controla la contraseña, el multifactor y las preferencias de cuentas conectadas.",
+      "empty": "Los controles de cuenta estarán disponibles pronto."
+    }
+  }
+}
